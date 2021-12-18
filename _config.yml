@@ -21,13 +21,13 @@
 title: Deeply Learning Spatial Modelling
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site! Everyday I will post some stuff I learn about 
+  Welcome to my blog site! Everyday I will post some stuff I learned about 
   spatial modelling, spatial econometrics, and spatial-optimization. This blog is mainly for myself
   to make notes, but I will be very happy if it might be useful to other people as well. 
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://hengshan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: hengshanli
+github_username:  hengshan
 
 # Build settings
 theme: minima
