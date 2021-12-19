@@ -1,18 +1,10 @@
 ---
 layout: page
 title: About
+display-title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, everyone! Welcome to my blog site! I'm Hengshan, a technical mananger in Singapore Land Authority. Everyday I will post some stuff that I learned about spatial modelling, optimization, statistics, and VR. This blog is mainly for myself to make notes, but I will be more than happy if it is useful to others as well. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Disclaimer: All opinions on this blog are my own and not that of my employer.

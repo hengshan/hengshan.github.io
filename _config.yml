@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Deeply Learning Spatial Modelling
+title: Deeply Learning Spatial Data Science in Metaverse
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog site! Everyday I will post some stuff that I learned about 
-  spatial modelling, spatial econometrics, and spatial-optimization. This blog is mainly for myself
+  spatial modelling, optimization, statistics, and VR. This blog is mainly for myself
   to make notes, but I will be more than happy if it is useful to others as well. 
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "https://hengshan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,8 +34,17 @@ linkedin_username: lihengshan
 author: Hengshan Li
 
 #new fields not defined by minima
-copyright: "DLSM"
+copyright: "DLSDSM"
 title-logo: images/title-logo.svg
+
+header_pages:
+  - blog-spatial-modelling/index.markdown
+  - blog-spatial-optimization/index.markdown
+  - blog-spatial-finance/index.markdown
+  - blog-spatial-tool/index.markdown
+  - blog-spatial-metaverse/index.markdown
+  - about.markdown
+
 
 # Build settings
 # theme: minima
