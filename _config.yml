@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Deeply Learning Spatial Data Science in Metaverse
+title: Learning Spatial Data Science
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog site! Everyday I will post some stuff that I learned about 
@@ -34,7 +34,7 @@ linkedin_username: lihengshan
 author: Hengshan Li
 
 #new fields not defined by minima
-copyright: "DLSDSM"
+copyright: "LSDC"
 title-logo: images/title-logo.svg
 
 header_pages:
