@@ -9,7 +9,7 @@ category: Modelling
 provides a shared blueprint for peace and prosperity for our people and our planet. One of its vision is:
 >we envisage a world in which every country enjoys sustained, inclusive and sustainable economic growth and decent work for all. A world in which consumption and production patterns and use of all natural resources – from air to land, from rivers, lakes and aquifers to oceans and seas - are sustainable. One in which democracy, good governance and the rule of law as well as an enabling environment at national and international levels, are essential for sustainable development, including sustained and inclusive economic growth, social development, environmental protection and the eradication of poverty and hunger. One in which development and the application of technology are climate-sensitive, respect biodiversity and are resilient. One in which humanity lives in harmony with nature and in which wildlife and other living species are protected. This sounds fantastic! But some may doubt whether and when we can get there and how to get there? Frankly, I have no idea as well. Some may think this is too good to be true and therefore do nothing. Some may think this is irrelevant to them and therefore do nothing. However, I do know that a lot of people have been working on this no matter what. 
 
-<iframe width="100%" src="https://www.youtube.com/embed/A9iRBVEU72c" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/A9iRBVEU72c" frameborder="0" allowfullscreen></iframe>
 
 I remember Will Smith once said:
 > Siddhartha Gautama — the Buddha — he said that ‘good people have to get out of the bed every day and try to empty the ocean with a ladle.’
@@ -24,7 +24,7 @@ I prefer to working for a mission or vision(something meaningful) rather than wo
 of course, to get there, all of us need to work together. Even though one day in future we may enjoy more living in the Metaverse or Mars,
 I'd like to do something now, because I love the earth.
 
-<iframe width="100%" src="https://www.youtube.com/embed/pvuN_WvF1to" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/pvuN_WvF1to" frameborder="0" allowfullscreen></iframe>
 
 ---
 <br/>
@@ -40,7 +40,7 @@ Another example is that we can watch the Earth breathe (averaged atmospheric car
 With spatial modeling, we can analyze the spatial temporal pattern of the "breath" and provide data-driven
 insights to facilitate policy decision-making [(here)](https://spacetimewithr.org/).
 
-<iframe width="100%" src="https://www.youtube.com/embed/NMbsszZ6zhc" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%"  height="400" src="https://www.youtube.com/embed/NMbsszZ6zhc" frameborder="0" allowfullscreen></iframe>
 
 Apart from nature phenomena, the book [Spatio-Temporal Statistics with R](https://spacetimewithr.org/Spatio-Temporal%20Statistics%20with%20R.pdf) has considered 
 other spatial temporal phenomena and events such as "describe the growth and decline of populations,
