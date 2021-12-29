@@ -21,7 +21,7 @@
 title: Learning Spatial Data Science
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site! Everyday I will post some stuff that I learned about 
+  Welcome to my blog site! Everyday I will post/update some stuff that I am learning about 
   spatial modelling, optimization, statistics, and VR. This blog is mainly for myself
   to make notes, but I will be more than happy if it is useful to others as well. 
 baseurl: "/" # the subpath of your site, e.g. /blog
