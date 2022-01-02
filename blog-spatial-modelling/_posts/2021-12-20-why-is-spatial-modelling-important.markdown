@@ -61,7 +61,7 @@ Associate with the recent tornadoes that devastated kentucky and four other stat
 [spatial trends in united states tornado frequency](https://www.nature.com/articles/s41612-018-0048-2), and [Spatial Redistribution of U.S. Tornado Activity between 1954 and 2013
 ](https://journals.ametsoc.org/view/journals/apme/55/8/jamc-d-15-0342.1.xml).
 
-Of course, spatial modelling has many applications other than meteorology. Actually, spatial modeling such as smoothing and interpolation have "immense use in everything from anthropology to zoology and all the “ologies” in-between". If we all agree that science is important for sustainable development, spatial modeling plays a fundamental role in these sciences.
+Of course, spatial modelling has many applications other than meteorology. Actually, spatial modeling such as smoothing and interpolation have "immense use in everything from anthropology to zoology and all the 'ologies' in-between". If we all agree that science is important for sustainable development, spatial modeling plays a fundamental role in these sciences.
 
 ---
 <br/>

@@ -5,9 +5,12 @@ date:   2021-12-31 22:41:32 +0800
 category: Metaverse
 ---
 
+
 2021 is an important year to me. This is the last blog of 2021 and might be the first one of 2022 as well if I did not finish it before midnight. This blog is about Metaverse.
 
-Everyone should have heard about the Metaverse in 2021. ALthough I have been working on some virtual reality (VR) projects, I have no idea what Metaverse exactly is, so I did some research.
+Everyone should have heard about the Metaverse in 2021. Although I have been working on some virtual reality (VR) projects, I have no idea what Metaverse exactly is, so I did some research.
+
+Go directly to: [what is the Metaverse?](#what-is-the-metaverse)
 
 > Imagination is everything. It is the preview of life's coming attractions. -Albert Einstein
 
@@ -32,11 +35,14 @@ Multiverse is also known as megaverse, parallel worlds, and parallel universes. 
 >Quantum mechanics describes the universe in terms of probabilities. In the quantum world, all possible outcomes of a choice or situation not only can occur but do occur. At every branch point, a new universe is created.
 
 ### What is the Metaverse?
-Compared to the Universe and Multiverse, the Metaverse is a much more boring concept. It is just the world’s digital counterpart. It is a collective shared virtual space, and people use virtual reality (VR) or augmented reality (AR) to visit it and communicate with each other.
-People can create digital assets and exchange them.  
+Compared to the Universe and Multiverse, the Metaverse is a much more boring concept. **It is just the world’s digital counterpart. It is a collective shared virtual space, and people use virtual reality (VR) or augmented reality (AR) to visit it and communicate with each other.
+People can create digital assets and exchange them**.  
 
-Well, it sounds boring but there might be great opportunity there. Think about social network, blockchain, and cryptocurrency, all of which may not be as exciting as space exploration, but from a business or investment perspective, there might be the next big thing, because as I mentioned in another post, opportunity lies on customer demands and solving users' problems.
+Well, it sounds boring but there might be great opportunities there. Think about social network, blockchain, and cryptocurrency. All of them may not be as exciting as space exploration, but from a business or investment perspective, they are successful. We are not sure whether Metaverse will be the next big thing or not, but it might be wise to keep an eye on it, as I mentioned in another post, opportunity lies on customer demands and satisfying these demands and on social problems and solving these problems.
 
-If one way to solve all the problems is to let people indulge in online games, there is an opportunity there. The global gaming market is set to reach $256.97 billion by 2025 (see [here](https://techjury.net/blog/gaming-industry-worth){:target="_blank"}).
+If one way to solve all the problems is to let people indulge in online games, there is indeed an business opportunity there. The global gaming market is set to reach $256.97 billion by 2025 (see [here](https://techjury.net/blog/gaming-industry-worth){:target="_blank"}). However, we have to be wise to ask the right question about what the real problem is? 
 
-But we need to redefine what game means. Everything in this world can be a "game". Education, traveling, medical service, entertainment, movies, dating, work, etc., almost everything can be 'games'. With robots, AVs, and sensors, transportation and logistics can be controlled and optimized using 'games' in Metaverse. Sky is the limit. 
+Nevertheless, it is important for us, no matter you play video games or not, to rethink what game exactly is. Everything in this world can be a "game" as long as you can play and replay it. Education, traveling, medical service, entertainment, movies, dating, work, etc., almost everything can be 'games', with necessary foundamental facilities such as robots, AVs, sensors, etc. For example, a factory, manufacturing plant, operation, transportation, and logistics can be controlled and optimized inside 'games' in Metaverse.
+
+Sky is the limit. Don't think this idea sucks or it is relevant to us.
+Imagine how we have missed the opportunity of bitcoin. A wise men will not judge the idea is good or bad but focus on what we can do and what we can get from the idea. Of course, one can be pragmatic but, don't be evil!
