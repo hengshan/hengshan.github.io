@@ -29,6 +29,7 @@ url: "https://hengshan.github.io" # the base hostname & protocol for your site, 
 twitter_username: hengshanli
 github_username:  hengshan
 linkedin_username: lihengshan
+markdown: kramdown
 
 # other fields that minima uses
 author: Hengshan Li

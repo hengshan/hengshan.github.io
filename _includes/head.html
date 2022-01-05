@@ -9,4 +9,7 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
 </head>
