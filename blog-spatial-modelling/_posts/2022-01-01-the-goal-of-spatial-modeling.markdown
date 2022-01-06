@@ -132,9 +132,39 @@ where
 * $C = q \times N$ output coefficient matrix
 * $D = q \times p$ direct path coefficient matrix
 
-[Statsmodels](https://www.statsmodels.org/stable/statespace.html){:target="_blank"} describes state space model with additional irregular components $\epsilon_t \sim N(0,H_t)$ and $\eta_t \sim N(0, Q_t)$.
+[Statsmodels](https://www.statsmodels.org/stable/statespace.html){:target="_blank"} describes state space model with additional irregular components $\epsilon_t \sim N(0,H_t)$ and $\eta_t \sim N(0, Q_t)$. These terms are neglected in this post. 
+The key question is: how to link state space model and spatial-temporal modeling? Obviously, spatial modeling does not model spring mass system. However, both spatial-temporal model and state space model deal with temporal data, which is an observation sequence.
 
-Anyway, to understand filter, smoothing, and forcasting, at the current phase we only need to know that there are two vectors: latent variables (unobserved) and output(observed).
+Let's imagine that we observe the temperature at a few sampled locations. These temperature data are output vector $y(n)$.
+Then what is the state? From a physical standpoint, a lot of factors such as latitude, longtitude, distance from the sea,prevailing winds, direction of mountains, slope of land and vegetation and so on and so forth can affect the temperature. Do we model all of these states in spatial-temporal modeling? Of course not. This is related the next post topic: two types of spatial-temporal models: descriptive model and dynamical model.
+In descriptive model, we only need to add temperature (output vector) and state variables of our research interests such as distance from the sea, longlat.
+Given that the temperature is observation at discrete time, we can use hidden markov model here. In the model we  have two layers: observation layer (output) and hidden state layer (state space). An easy way to understand the concept is through [Hidden Markov Model](https://towardsdatascience.com/hidden-markov-model-hmm-simple-explanation-in-high-level-b8722fa1a0d5){:target="_blank"}. 
 
+![HMM](https://assets-global.website-files.com/5f5b931c423b11277a8fe867/5f6e06113b1546c14fd37029_0*8T1XguoIrb8tG8mK.png#center)
 
+We can understand filtering, smoothing, and predicting from a HMM perspective. 
 
+**Filtering** is to compute, given the model's parameters and a sequence of observations, the distribution over hidden states of the last latent variable at the end of the sequence, i.e. to compute $P(z(t)\|x(1),\dots,x(t))$. This problem can be handled efficiently using the [forward algorithm](https://en.wikipedia.org/wiki/Forward_algorithm){:target="_blank"}.
+
+**Smoothing** is similar to filtering but asks about the distribution of a latent variable somewhere in the middle of a sequence, i.e. to compute $P(z(k)\|x(1),\dots,x(t))$ for some $k<t$. From the perspective described above, this can be thought of as the probability distribution over hidden states for a point in time k in the past, relative to time t.
+
+**Predicting** is to compute $P(z(k)\|x(1),\dots,x(t))$ for $k>t$ such as $P(z(t+1)\|x(1),\dots,x(t))$. 
+
+After we have basic understanding of HMM, now we can understand the three goals of spatial modeling:
+> 1. **smoothing** refers to inference on the hidden state process during a fixed time period in which we have observations throughout the time period. 
+2. **filtering** refers to inference on the hidden state value at the most current time based on the current and all past data. the most famous example of filtering is the kalman filter (kalman, 1960).
+3. **forecasting** refers to inference on the hidden state value at any time point beyond the current time, where data are either not available or not considered in the forecast.
+the second goal, inference on parameters, is about statistical inference, which is to use sample data to make inference about the parameters of population.
+
+This post aims to help have a simple high level understanding of the goals of spatial modeling. It is worth noting that both HMM and state space model can be used to model sequence data.
+State space model consists of a series of models such as time-invariant and time variant state space models. 
+For continous time, the filtering steps for state space model is in integral form. 
+State update:
+\[
+p(z_t\|X_{t-1})=\int{p(z_{t-1}\|X_{t-1})p(z_t\|z_{t-1})dz_{t-1}}
+\]
+
+Bayes' update:
+\[
+p(z_t\|X_{t})=p(z_t\|X_{t-1})\frac{p(x_t\|z_t)}{p(x_t\|X_{t-1})}
+\]
