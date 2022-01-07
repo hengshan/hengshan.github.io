@@ -76,6 +76,6 @@ But the spatial-temporal statistics book has illustrated why the model has to be
 each drop will fall would require an inconceivably complex, deterministic, meteorological model, incorporating air pressure, wind speed, water-droplet formation, and so on. A model of this sort at a large spatial scale is not only infeasible but also unnecessary for many purposes. By studying the temporal intensity of drops on a regular spatial grid, one can test for spatio-temporal interaction or look for dynamic changes in spatial intensity (given in units of “per area”) for each cell of the grid. The way in which the intensity evolves over time may reveal something about the driving mechanisms (e.g., wind vectors) and be useful for prediction, even though the exact location and time of each incident raindrop is uncertain.
 
 I summarized the above statement as: it is neither necessary nor possible to observe complete data of the spatio-temporal phenomena.
-In the next blog, I will introduce three objectives of spatial modeling and two spatio-temporal statistical modeling types. 
+Next, I will introduce three objectives of spatial modeling and two spatio-temporal statistical modeling types. 
 
 [1]: https://spacetimewithr.org/Spatio-Temporal%20Statistics%20with%20R.pdf (Wikle, C. K., Zammit-Mangion, A., & Cressie, N. (2019). Spatio-Temporal Data in R. In Journal of Statistical Software.)
