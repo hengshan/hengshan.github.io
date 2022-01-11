@@ -6,5 +6,5 @@ layout: home-spatial-metaverse
 title: "Metaverse"
 category: Metaverse
 display-title: Spatial Metaverse
-description: Understanding the metaverse through a spatiotemporal perspective. 
+description: Understanding the metaverse and blockchain from a spatiotemporal perspective. Geospatial Metaverse and Geospatial Blockchain.  
 ---
