@@ -42,3 +42,83 @@ If we want to compute the filtered values $y_1, y_2,\dots, y_n$, the naive formu
 
 The timeseriesbook then introduced the low-pass filter, high-pass filter, and matching filter. The book also mentioned `Exponential Smoother`. It is such an important topic in time series analysis that we will introduce it in another blog.
 
+### Distributed Lag Models
+We consider models of the form:
+
+\[
+y_t =\sum_{j=-\infty}^\infty \beta_j x_{t-j} +\epsilon_t
+\]
+
+The collection ${\beta_j}$ as a function of the lag j will be referred to as the `distributed lag function`.
+A sometimes useful summary statistics is:
+
+\[
+\eta = \sum_{j=0}^M\beta_j
+\]
+
+The value $\eta$ is often interpretable as a cumulative effect when the outcome is a count. If $\beta_j \neq 0$ and $\eta \approx 0$, then that might suggest that on average across M time points, the effect of a unit increase in $x_t$ is roughly 0.
+
+### Temporal Confounding
+The author introduced this topic from a simple linear regression model,
+
+\[
+y_t = \beta x_t +\epsilon_t
+\]
+
+where $\epsilon_t$ is a Gaussian process with mean 0 and autocovariance $\sigma^2\rho(u)$. It is also assumed that $\mathbb{E}[y_t] = \mathbb{E}[x_t] =0$ and $Var(x_t)=1$.
+The least squares estimate for $\beta$ is:
+
+\[
+\hat\beta = \frac{1}{n}\sum_{t=0}^{n-1}y_tx_t
+\]
+
+Notably, the general form of the least squares estimate for $\beta$ for any matrix X and Y is:
+
+\[
+\hat\beta = (X^TX)^{-1}X^TY
+\]
+
+In the example, there is only one indepentent variable $x_t$ and one coefficient $\beta$ which does not change as a function of t. The author use the simple linear regression model to illustrate the temporal confounding.
+
+Based on the time scale analysis, we can decompose $x_t$ into:
+\[
+x_t = \frac{1}{n}\sum_{p=0}^{n-1}z_x(p)\mathrm{exp}(2\pi ipt/n)
+\]
+where $z_x(p)$ is the complex Fourier coefficient accociated with the frequency p.
+\[
+z_x(p) = \frac{1}{n}\sum_{p=0}^{n-1}x_t\mathrm{exp}(-2\pi ipt/n)
+\]
+
+The least squares estimate can be written as:
+\begin{align}
+\hat\beta &= \frac{1}{n^2}\sum_{p=0}^{n-1}z_x(p)\bar z_y(p) \\\\ 
+\hat\beta_p &= \frac{z_x(p)}{n}\frac{\bar z_y(p)}{n} \\\\ 
+\hat\beta &= \sum_{p=0}^{n-1}\hat\beta_p
+\end{align}
+
+This shows that the least squares estimate of the coefficient $\beta$ can be written as a sum of the products of the Fourier coefficients between the $y_t$ and $x_t$ series over all of the frequencies. 
+This is a very important conclusion, because if we are primarily interested in long-term or short-term trends in $x_t$ and $y_t$, then we do not need to focus on other frequencies components. 
+
+#### Bias from Omitted Temporal Confounders
+Suppose the true model for $y_t$ is
+
+\[
+y_t = \beta x_t + \gamma w_t + \epsilon_t$
+\]
+
+If we include $x_t$ but omit $w_t$ from the model, 
+
+\begin{align}
+\hat\beta &= \frac{1}{n}\sum_{t=0}^{n-1}y_tx_t \\\\ 
+ &= \frac{1}{n}\sum_{t=0}^{n-1}(\beta x_t + \gamma w_t +\epsilon_t)x_t\\\\ 
+ &= \beta \widehat{Var}(x_t) + \gamma \frac{1}{n}\sum_{t=0}^{n-1}w_tx_t+\frac{1}{n}\sum_{t=0}^{n-1}\epsilon_tx_t\\\\ 
+ & \approx \beta + \gamma\frac{1}{n}\sum_{t=0}^{n-1}w_tx_t
+\end{align}
+
+The author illustrated that: the quantity $\sum_{t=0}^{n-1}w_tx_t$ is essentially the least squares estimate of the coefficient between $w_t$ and $x_t$. This implies that if the covariance between the two is zero, then there is no bias in $\hat\beta$. We can also write the bias as a sum of Fourier coefficients:
+\[
+\mathrm{Bias}(\hat\beta) = \gamma \frac{1}{n^2}\sum_{p=0}^{n-1}z_w(p)\bar z_x(p)
+\]
+As long as there is no time sacle where the Fourier coefficients for both $x_t$ and $w_t$ are large, the bias should be close to zero. In other words, to avoid the affect of the confounding factors, we should focus our interest in looking at variation at different time scales of the confounding factors. 
+
+Finally, the author mentioned that it’s possible that the residuals are autocorrelated.If there were substantial autocorrelation in the residual, that would suggest that the independent error model was incorrect. To fully understand this, we need to learn heteroscedasticity and generalized least squares. We will introduce this in another post. 

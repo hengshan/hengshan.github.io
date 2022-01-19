@@ -23,7 +23,7 @@ There might be certain constraints on the decision variables which have to be sa
 If you are a beginner like me, you might feel overwhelmed when you hear about the terms such as single objective and multi-objective optimization, linear programming, mixed-integer linear programming, nonlinear programming, mixed-integer nonlinear programming.
 
 It is so scary that many beginners may stop learning optimization. I did not find any free online videos that systemcatically introduce optimization that is easy to understand. Well, the topic itself is not easy, as it requires solid math foundation.
-If you are not good at math like me, it is better to learn optimization from relatively easy-to-understand optimization problems including:
+Another approach is to learn optimization from relatively easy-to-understand optimization problems including:
 1. The knapsack problem
 2. The bin packing problem
 3. The container loading problem
@@ -32,7 +32,7 @@ If you are not good at math like me, it is better to learn optimization from rel
 6. The travelling sales men problem
 7. The capacitated vehicle routing problem
 
-I will learn and share how to solve these problems using optimization tools. Instead of learning math and trying to solve the optimization by ourselves, we learn how to use tools or libraries which do all the heavy lifting. After that, we will have a basic understanding of what optimization can help us with, and we may become more interested in learning the math underlying the problems.
+I will learn and share how to solve these problems using optimization tools. Before we start to learn the math underlying optimization, let's first learn how to use tools or libraries which do all the heavy lifting. After that, we will have a basic understanding of what optimization can help us with. I am sure that we will become more interested in learning the math underlying the problems.
 
 Of course, if you are interested, you can learn math in advance from the book [All the mathematics you missed](http://xn--webducation-dbb.com/wp-content/uploads/2018/02/all-the-mathematics-you-missed.pdf){:target="_blank"}.
 
