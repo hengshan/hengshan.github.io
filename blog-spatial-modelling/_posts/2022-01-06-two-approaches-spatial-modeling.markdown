@@ -23,9 +23,9 @@ ylab="1/100 Degree Deviation")
 
 ![temperature](/blog-spatial-modelling/assets/temperature.png)
 
-The *dynamic approach* can model the value at the current time $y_t$ as equal to a so-called "transition factor" $\phi$ times the value at the previous time $y_{t_1}$ plus and independent error $\omega_t$.
+The *dynamic approach* can model the value at the current time $y_t$ as equal to a so-called "transition factor" $\phi$ times the value at the previous time $y_{t-1}$ plus and independent error $\omega_t$.
 \[
-y_t = \phi y_{t_1} +\omega_t
+y_t = \phi y_{t-1} +\omega_t
 \]
 
 The Spatio-temporal statistics book states that

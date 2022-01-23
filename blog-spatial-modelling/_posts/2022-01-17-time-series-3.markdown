@@ -103,7 +103,7 @@ This is a very important conclusion, because if we are primarily interested in l
 Suppose the true model for $y_t$ is
 
 \[
-y_t = \beta x_t + \gamma w_t + \epsilon_t$
+y_t = \beta x_t + \gamma w_t + \epsilon_t
 \]
 
 If we include $x_t$ but omit $w_t$ from the model, 
