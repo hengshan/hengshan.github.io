@@ -186,7 +186,7 @@ where
 K_t = P_t^{t-1}A_t'(A_tP_t^{t-1}A_t' + S)^{-1}
 \end{align}
 
-Therefore, if $y_t$ is missing, we can revise the update procedure to simply be:
+Notably, if $y_t$ is missing, we can revise the update procedure to simply be:
 \begin{align}
 x_t^t &= x_t^{t-1} \\\\ 
 P_t^t &= P_t^{t-1}
