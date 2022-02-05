@@ -100,7 +100,7 @@ The Semivariogram is defined as:
 
 $\gamma_z(s_i,s_k;t_j,t_l) \equiv {1 \over 2} \text{var}(Z(s_i;t_j)-Z(s_k;t_l))$
 
-When the covariance depends only on displacements in space and time lag, this an be written as:
+When the covariance depends only on displacements in space and time lag, this can be written as:
 
 \begin{align}
 \gamma_z(\mathbf{h};\tau) &= {1 \over 2}\text{var}(Z(s + \mathbf{h}; t + \tau)-Z(s;t)) \\\\ 
