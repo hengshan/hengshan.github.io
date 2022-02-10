@@ -59,7 +59,7 @@ The spatio-temporal book introduced the following exploratory analysis and visua
 4. spatio-temporal canonical correlation analysis
 
 #### Empirical Means and Covariances 
-For observations  $\\{Z(s_i;t_j)\\}$, we can aggregate the data over time $\\{s_i: i = 1, \dots, m\\}$ or over space location $\\{t_j: j = 1, \dots, T\\}$.
+For observations  $\\{Z(s_i;t_j)\\}$, we can aggregate the data over location $\\{s_i: i = 1, \dots, m\\}$ or over time $\\{t_j: j = 1, \dots, T\\}$.
 
 The formula for average across time is:
 

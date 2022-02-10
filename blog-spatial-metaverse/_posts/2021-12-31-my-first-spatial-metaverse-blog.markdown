@@ -44,5 +44,5 @@ If one way to solve all the problems is to let people indulge in online games, t
 
 Nevertheless, it is important for us, no matter you play video games or not, to rethink what game exactly is. Everything in this world can be a "game" as long as you can play and replay it. Education, traveling, medical service, entertainment, movies, dating, work, etc., almost everything can be 'games', with necessary foundamental facilities such as robots, AVs, sensors, etc. For example, a factory, manufacturing plant, operation, transportation, and logistics can be controlled and optimized inside 'games' in Metaverse.
 
-Sky is the limit. Don't think this idea sucks or it is relevant to us.
+Sky is the limit. Don't think this idea sucks or it is irrelevant to us.
 Imagine how we have missed the opportunity of bitcoin. A wise men will not judge the idea is good or bad but focus on what we can do and what we can get from the idea. Of course, one can be pragmatic but, don't be evil!
