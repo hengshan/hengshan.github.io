@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "WUnfolding Horizons: The Latest Trends in GeoAI"
+title:  "Unfolding Horizons: The Latest Trends in GeoAI"
 date:  2023-10-17 
 category: GeoAI 
 ---

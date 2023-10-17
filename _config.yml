@@ -21,7 +21,7 @@
 title: Learning Spatial Data Science
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site! Everyday I will post/update some stuff that I am learning about 
+  Welcome to my blog site! I will post/update some stuff that I am learning about 
   spatial modelling, optimization, statistics, and VR. This blog is mainly for myself
   to make notes, but I will be more than happy if it is useful to others as well. 
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -41,9 +41,9 @@ title-logo: images/title-logo.svg
 header_pages:
   - blog-spatial-modelling/index.markdown
   - blog-spatial-optimization/index.markdown
+  - blog-geoai/index.markdown
   - blog-spatial-finance/index.markdown
   - blog-spatial-tool/index.markdown
-  - blog-geoai/index.markdown
   - about.markdown
 
 
@@ -60,14 +60,13 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude
+  - .jekyll-cache/ 
+  - gemfiles/ 
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
