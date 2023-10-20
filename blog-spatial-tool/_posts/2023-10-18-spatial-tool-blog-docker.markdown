@@ -7,7 +7,8 @@ category: Tools
 
 In the rapidly evolving world of geospatial data science, professionals and researchers constantly deal with intricate software stacks, which sometimes can be challenging to set up, especially on various environments. Enter Docker—a tool that can ease this pain.  
 
-## What is Docker?  Docker is a platform used to develop, ship, and run applications inside containers. A container can be thought of as a lightweight, stand-alone executable package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.  
+## What is Docker?
+Docker is a platform used to develop, ship, and run applications inside containers. A container can be thought of as a lightweight, stand-alone executable package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and settings.  
 
 ## Why Use Docker for Geospatial Data Science?  
 1. **Reproducibility:** Docker containers ensure that geospatial analyses run consistently across different environments. 
