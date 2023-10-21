@@ -38,6 +38,8 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install -y python3-pip && pip3 install notedown
+
 # Switch back to spacevim user
 USER spacevim
 
