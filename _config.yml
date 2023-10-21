@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Learning Spatial Data Science
+title: Spatial Data Science
 email: hengshan.li@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my blog site! I will post/update some stuff that I am learning about 
