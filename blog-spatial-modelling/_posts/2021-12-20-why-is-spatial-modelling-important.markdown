@@ -7,17 +7,9 @@ category: Spatial Modeling
 
 [The 2030 Agenda for Sustainable Development](https://sdgs.un.org/2030agenda), adopted by all United Nations Member States in 2015,
 provides a shared blueprint for peace and prosperity for our people and our planet. One of its vision is:
->we envisage a world in which every country enjoys sustained, inclusive and sustainable economic growth and decent work for all. A world in which consumption and production patterns and use of all natural resources – from air to land, from rivers, lakes and aquifers to oceans and seas - are sustainable. One in which democracy, good governance and the rule of law as well as an enabling environment at national and international levels, are essential for sustainable development, including sustained and inclusive economic growth, social development, environmental protection and the eradication of poverty and hunger. One in which development and the application of technology are climate-sensitive, respect biodiversity and are resilient. One in which humanity lives in harmony with nature and in which wildlife and other living species are protected. This sounds fantastic! But some may doubt whether and when we can get there and how to get there? Frankly, I have no idea as well. Some may think this is too good to be true and therefore do nothing. Some may think this is irrelevant to them and therefore do nothing. However, I do know that a lot of people have been working on this no matter what. 
+>we envisage a world in which every country enjoys sustained, inclusive and sustainable economic growth and decent work for all. A world in which consumption and production patterns and use of all natural resources – from air to land, from rivers, lakes and aquifers to oceans and seas - are sustainable. One in which democracy, good governance and the rule of law as well as an enabling environment at national and international levels, are essential for sustainable development, including sustained and inclusive economic growth, social development, environmental protection and the eradication of poverty and hunger. One in which development and the application of technology are climate-sensitive, respect biodiversity and are resilient. One in which humanity lives in harmony with nature and in which wildlife and other living species are protected.
 
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/A9iRBVEU72c" frameborder="0" allowfullscreen></iframe>
-
-Well then, to achieve that goal or dream, as data scientist, what can **we** do? This is my motivation to start this blog site. 
-We want to do a little thing that may make this world a little better. Right? To get there, all of us need to work together. 
-
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/pvuN_WvF1to" frameborder="0" allowfullscreen></iframe>
-
----
-<br/>
+This sounds fantastic! But some may doubt whether and when we can get there and how to get there? Frankly, I have no idea as well. Some may think this is too good to be true and therefore do nothing. Some may think this is irrelevant to them and therefore do nothing. However, I do know that a lot of people have been working on this no matter what. We want to do a little thing that may make this world a little better. Right? 
 
 ### What is Spatial Modeling?
 
@@ -42,7 +34,6 @@ species (including human) migrations, the dynamics of epidemics, and so on". As 
 It is worth noting that spatial modeling here stands for spatio-temporal modeling, as
 > it is not enough to consider just spatial snapshots of a process at a given time, nor just time-series profiles at a given spatial location – the behavior at spatial locations at one time point will almost certainly affect the behavior at nearby patial locations at the next time point. Only by considering time and space together can we address how spatially coherent entities change over time or, in some cases, why they change. It turns out that a big part of the how and why of such change is due to interactions across space and time, and across multiple processes.
 
----
 
 ### Why is Spatial Modeling Important for Sustainable Development?
 The book [Spatio-Temporal Statistics with R][1]{:target="_blank"} gave an example about using spatial modeling to detect El Niño and La Niña events in the tropical Pacific Ocean.
@@ -54,8 +45,6 @@ Associate with the recent tornadoes that devastated kentucky and four other stat
 
 Of course, spatial modelling has many applications other than meteorology. Actually, spatial modeling such as smoothing and interpolation have "immense use in everything from anthropology to zoology and all the 'ologies' in-between". If we all agree that science is important for sustainable development, spatial modeling plays a fundamental role in these sciences.
 
----
-<br/>
 ### How to Model Spatial-Temporal Phenomena?
 An simple answer is: we use statistical models.
 How to use statistical models? There is no simple answer. I will write a series of blogs to share what I am learning on this topic.
