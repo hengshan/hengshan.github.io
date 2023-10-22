@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Learning Spatial-Temporal Modeling (1) Exploratory Analysis"
+title:  "Spatial-Temporal Modeling (1) Exploratory Analysis"
 date:   2022-01-28 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
-
-This post is based on the book [Spatio-Temporal Data in R](https://spacetimewithr.org/){:target="_blank"} chapter 2.
 
 In previous posts, we have learned basic time series analysis mostly for univariate sequential data observed at regular intervals. We also learned the basics of point process in which the temperal event itself is the random event. In this post, we will learn exploratory analysis of spatial-temperal data, which includes both temperal and spatial data analysis. 
 

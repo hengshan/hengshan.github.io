@@ -11,23 +11,14 @@ provides a shared blueprint for peace and prosperity for our people and our plan
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/A9iRBVEU72c" frameborder="0" allowfullscreen></iframe>
 
-I remember Will Smith once said:
-> Siddhartha Gautama — the Buddha — he said that ‘good people have to get out of the bed every day and try to empty the ocean with a ladle.’
-> I knew that was profound and I paused for a second and I said ‘alright, what the hell is a ladle?’
-> So then I touched it on my iPad and ‘oh, it’s like a big spoon.’
-> A big spoon, okay. So like a soup spoon. So trying to empty the ocean with a soup spoon,
-> you know, as the mentality of how you wake up every day to try to do good in the world.”
-
-Well then, to achieve that goal or dream, as a data scientist, what can **I** do? This is my motivation to start this blog site. 
-I want to do a little thing that may make this world a little better than when I was born. This is somewhat selfish, as 
-I prefer to working for a mission or vision(something meaningful) rather than working for someone, including myself. 
-of course, to get there, all of us need to work together. Even though one day in future we may enjoy more living in the Metaverse or Mars,
-I'd like to do something now, because I love the earth.
+Well then, to achieve that goal or dream, as data scientist, what can **we** do? This is my motivation to start this blog site. 
+We want to do a little thing that may make this world a little better. Right? To get there, all of us need to work together. 
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/pvuN_WvF1to" frameborder="0" allowfullscreen></iframe>
 
 ---
 <br/>
+
 ### What is Spatial Modeling?
 
 Our environment, economy, and society are facing a lot of challenges.
@@ -52,7 +43,7 @@ It is worth noting that spatial modeling here stands for spatio-temporal modelin
 > it is not enough to consider just spatial snapshots of a process at a given time, nor just time-series profiles at a given spatial location – the behavior at spatial locations at one time point will almost certainly affect the behavior at nearby patial locations at the next time point. Only by considering time and space together can we address how spatially coherent entities change over time or, in some cases, why they change. It turns out that a big part of the how and why of such change is due to interactions across space and time, and across multiple processes.
 
 ---
-<br/>
+
 ### Why is Spatial Modeling Important for Sustainable Development?
 The book [Spatio-Temporal Statistics with R][1]{:target="_blank"} gave an example about using spatial modeling to detect El Niño and La Niña events in the tropical Pacific Ocean.
 > El Niño and La Niña phenomena correspond to periods of warmer-than-normal and colder-than-normal sea surface temperatures (SST), respectively. These SST “events” occur every two to seven years, although the exact timing of their appearance and their end is not regular. But it is well known that they have a tremendous impact on the weather across the globe, and weather affects a great number of things! For example, the El Niño and La Niña events can affect the temperature and rainfall over the midwest USA, which can affect, say, the soil moisture in the state of Iowa, which would likely affect corn production and could lead to a stressed USA agro-economy during that period. Simultaneously, these El Niño and La Niña events can also affect the probability of tornado outbreaks in the famed “tornado alley” region of the central USA, and they can even affect the breeding populations of waterfowl in the USA.
@@ -66,12 +57,11 @@ Of course, spatial modelling has many applications other than meteorology. Actua
 ---
 <br/>
 ### How to Model Spatial-Temporal Phenomena?
-In other words, how to do spatial modeling? An simple answer is: we use statistical models.
+An simple answer is: we use statistical models.
 How to use statistical models? There is no simple answer. I will write a series of blogs to share what I am learning on this topic.
-But the spatial-temporal statistics book has illustrated why the model has to be statistical. 
+Why the model has to be statistical. 
 >The primary reason comes from the uncertainty resulting from incomplete knowledge of the science and of the mechanisms driving a spatio-temporal phenomenon. In particular, statistical spatio-temporal models give us the ability to model components in a physical system that appear to be random and, even if they are not, the models are useful if they result in accurate and precise predictions. Such models introduce the notion of uncertainty, but they are able to do so without obscuring the salient trends or regularities of the underlying process (that are typically of primary interest).
 
- The book gave an example about rainfall to illustrate this point.
 > Take, for instance, the raindrops falling on a surface; to predict exactly where and when
 each drop will fall would require an inconceivably complex, deterministic, meteorological model, incorporating air pressure, wind speed, water-droplet formation, and so on. A model of this sort at a large spatial scale is not only infeasible but also unnecessary for many purposes. By studying the temporal intensity of drops on a regular spatial grid, one can test for spatio-temporal interaction or look for dynamic changes in spatial intensity (given in units of “per area”) for each cell of the grid. The way in which the intensity evolves over time may reveal something about the driving mechanisms (e.g., wind vectors) and be useful for prediction, even though the exact location and time of each incident raindrop is uncertain.
 

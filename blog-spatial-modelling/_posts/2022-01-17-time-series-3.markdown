@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Learning Time Series Analysis: (3) Time Series Regression Modeling"
+title:  "Time Series Analysis: (3) Time Series Regression Modeling"
 date:   2022-01-17 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/){:target="_blank"} chapter 4. In a previous [time scale analysis post]({% post_url 2022-01-11-time-series-2%}), we introduced how to anlalyze the time series of observed outcome $y_t$. In this post, we learn how to analyze the effect of an indepentent variable $x_t$ (with $t=1, \dots, n$) on the observed outcome $y_t$.
+In a previous [time scale analysis post]({% post_url 2022-01-11-time-series-2%}), we introduced how to anlalyze the time series of observed outcome $y_t$. In this post, we learn how to analyze the effect of an indepentent variable $x_t$ (with $t=1, \dots, n$) on the observed outcome $y_t$.
 
 In traditional regression models such as a linear regression model, we generally think of relationships as being concurrent in timing. For example, when we study the linear relationship between heights and weights for a group of students (indepentent measures), we generally ignore the effect of time. However, with time series data, we can see if an effect is propagated across time. That is, the effect of a change in $x_t$ is “distributed” across multiple days in the future. This model is often called `distributed lag models`. 
 
-The author introduced two ways of thinking the objectives of this kind of problem.
+There are two ways of thinking the objectives of this kind of problem.
 1. we observe $x_t$ and we know $β_j$, and we want to know how the series $x_t$ is affected by convolving $x_t$ with the series $β_j$. Then the $y_t$ series represents the filtered version of $x_t$. 
 2. we observe $x_t$ and $y_t$ and want to estimate the value $\beta_j$, which is often called `impulse-response function`.
 

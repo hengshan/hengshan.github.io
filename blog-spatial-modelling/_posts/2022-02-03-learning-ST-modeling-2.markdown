@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Learning Spatial-Temporal Modeling (2) Statistical Models"
+title:  "Spatial-Temporal Modeling (2) Statistical Models"
 date:   2022-02-02 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [Spatio-Temporal Data in R](https://spacetimewithr.org/){:target="_blank"} chapter 3.
-In this chapter, the author introduced in detail the three goals of spatial temporal statistical modeling.
+In this blog, I'd like to introduce in detail the three goals of spatial temporal statistical modeling.
 
 1. predicting at a new location in space given spatial-temporal data (aka spatial-temporal interpolation or smoothing)
 2. doing parameter inference with spatial-temporal data
@@ -16,7 +15,7 @@ In this chapter, the author introduced in detail the three goals of spatial temp
 The three examples basically assume that there are no spatio-temporal dependence. In the next post, we will learn how to model with spatio-temporal dependence.
 
 ### Predicting at a new location
-The authors first introduced a deterministic method (IDW) for spatio-temporal prediction. However, this methods does not provide direct estimates of the prediction uncertainty. We will not discuss IDW in this post.
+We first introduce a deterministic method (IDW) for spatio-temporal prediction. However, this methods does not provide direct estimates of the prediction uncertainty. We will not discuss IDW in this post.
 
 Next, the authors showed how to use a linear regression model with spatio-temporal data. This linear model assumes that all of the spatio-temporal dependence can be accounted for by the trend. 
 
@@ -28,7 +27,7 @@ The covariates $X_k(s_i;t_j)$ describe explanatory features (aka independent var
 
 $Y(s) = \alpha_1\phi_1(s) +\alpha_2\phi_2(s)+\dots+\alpha_i\phi_i(s)$
 
-We an think of coefficients ${\alpha_i}$ as weights that describe how important each basis function ${\phi_i}$ is in representing the function. Examples of basis functions include polynomials, splines, wavelets, sines and cosines, among many others. The authors use NOAA dataset as an example and considered a linear model with the following basis functions:
+We can think of coefficients ${\alpha_i}$ as weights that describe how important each basis function ${\phi_i}$ is in representing the function. Examples of basis functions include polynomials, splines, wavelets, sines and cosines, among many others. The authors use NOAA dataset as an example and considered a linear model with the following basis functions:
 let $s_i \equiv (s_{1,i},s_{2,i})'$. This is to get the long-lat coordinates of all locations.
 1. overall mean: $X_0(s_i; t_j) =1$
 2. linear in lon-coordinate: $X_1(s_i;t_j) = s_{1,i}$
@@ -45,8 +44,7 @@ $\hat Z(s;t)=\hat\beta_0 +\hat\beta_1X_1(s;t)+\dots+\hat\beta_pX_p(s;t)$
 
 $\hat\sigma_e^2 = RSS/(mT-p-1)$
 
-The authors also highlighted that the regression model here does
-not explicitly account for measurement errors in the responses, so the variation due to measurement error is confounded with the variation due to lack of fit in the residual variance.
+Note that the regression model here does not explicitly account for measurement errors in the responses, so the variation due to measurement error is confounded with the variation due to lack of fit in the residual variance.
 
 As long as the residuals do not have spatio-temporal dependence, we can obtain statistically optimal predictions and optimal forecasts using this method. 
 

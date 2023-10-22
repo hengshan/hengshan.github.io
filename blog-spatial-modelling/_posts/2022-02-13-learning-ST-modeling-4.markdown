@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Learning Spatial-Temporal Modeling (4) Dynamic Spatio-Temporal Models"
+title:  "Spatial-Temporal Modeling (4) Dynamic Spatio-Temporal Models"
 date:   2022-02-13 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [Spatio-Temporal Data in R](https://spacetimewithr.org/){:target="_blank"} chapter 5. In this post, we will learn univariate linear dynamic spatio-temporal models (DSTM) in discretized time context.
+In this post, we will learn univariate linear dynamic spatio-temporal models (DSTM) in discretized time context.
 
 In previous posts, we have learned the basics of time series analysis. The DSTM could be viewed as a *time series of spatial processes*. DSTMs provide powerful insights into causative mechanisms, as it allows us not only to make predictions of spatial processes but also to make inference on parameters of models of underlying mechanistic. 
 

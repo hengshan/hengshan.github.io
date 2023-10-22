@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Learning Time Series Analysis: (1) The Structure of Temporal Data"
+title:  "Time Series Analysis: (1) The Structure of Temporal Data"
 date:   2022-01-10 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
 In the [previous post]({% post_url 2022-01-06-two-approaches-spatial-modeling%}), we discussed that understanding time series analysis is a prerequisite for learning spatio-temporal modeling.
-This series of posts are based on the book [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/){:target="_blank"}.
 
 Time series data are:
 > Observations or measurements that are indexed according to time

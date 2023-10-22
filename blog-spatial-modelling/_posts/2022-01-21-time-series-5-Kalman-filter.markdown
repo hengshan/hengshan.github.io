@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Learning Time Series Analysis: (5) The Kalman Filter"
+title:  "Time Series Analysis: (5) The Kalman Filter"
 date:   2022-01-21 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/){:target="_blank"} chapter 5. In the previous post, we learned exponential smoothing and ARIMA. These methods mainly deal with `univariate time series`.
+In the previous post, we learned exponential smoothing and ARIMA. These methods mainly deal with `univariate time series`.
 
 > A *univariate time series* is a sequence of measurements of the same variable collected over time. Most often, the measurements are made at regular time intervals.
 
-Now we are learning how to analyze the time series with a series of states. In a previous [post]({% post_url 2022-01-06-two-approaches-spatial-modeling%}), we learned `state space models` and the basic concept of filtering. 
+Now we are learning how to analyze the time series with a series of states. In another [post]({% post_url 2022-01-06-two-approaches-spatial-modeling%}), we learned `state space models` and the basic concept of filtering. 
 
 State space models attempt to describe a phenomenon that has two characteristics:
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Learning Spatial-Temporal Modeling (3) Descriptive Spatio-Temporal Models"
+title:  "Spatial-Temporal Modeling (3) Descriptive Spatio-Temporal Models"
 date:   2022-02-05 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [Spatio-Temporal Data in R](https://spacetimewithr.org/){:target="_blank"} chapter 4. In this chapter, the authors focus on (1) prediction at some location in space within the time span of the observations (i.e., smoothing) and (2) 
+Today we focus on (1) prediction at some location in space within the time span of the observations (i.e., smoothing) and (2) 
 parameter inference for spatio-temporal covariates.
 
 For both goals, it is assumed that observations can be decomposed to a latent spatio-temporal process and observation error. The latent process can then be written in terms of fixed effects due to covariates plus a spatio-temporally dependent random process.

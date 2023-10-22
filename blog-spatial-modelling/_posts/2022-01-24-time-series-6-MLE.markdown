@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Learning Time Series Analysis: (6) Maximum Likelihood Estimation"
+title:  "Time Series Analysis: (6) Maximum Likelihood Estimation"
 date:   2022-01-24 08:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/){:target="_blank"} chapter 6.
 In a previous post, we introduced Autoregressive Integrated Moving Average (ARIMA) and Exponential Smoothing, and we mentioned that some ARIMA models can be written in the format of Exponential Smoothing. In another post, we learned State Space Models and Kalman Filter.
 
 In the current post, we will learn how to use State Space model and Kalman Filter for parameter estimation of AR models based on `Maximum Likelihood Estimation` (MLE). That is, we

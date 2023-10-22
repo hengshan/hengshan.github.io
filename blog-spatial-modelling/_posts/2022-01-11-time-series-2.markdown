@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Learning Time Series Analysis: (2) Time Scale Analysis"
+title:  "Time Series Analysis: (2) Time Scale Analysis"
 date:   2022-01-11 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
 ---
 
-This post is based on the book [A Very Short Course on Time Series Analysis](https://bookdown.org/rdpeng/timeseriesbook/){:target="_blank"}. What I really like about this book is that it makes complex concepts very simple and easy-to-understand. For example, to fully understand time scale analysis, one has to understand [Fourier Analysis ](https://www.youtube.com/playlist?list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC){:target="_blank"}. However, the timeseriesbook book illustrates the idea from a multivariate linear regression perspective, which is very easy to understand. 
+To fully understand time scale analysis, one has to understand [Fourier Analysis ](https://www.youtube.com/playlist?list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC){:target="_blank"}. However, the timeseriesbook book illustrates the idea from a multivariate linear regression perspective, which is very easy to understand. 
 
 
 ### The Nyquist Frequency
