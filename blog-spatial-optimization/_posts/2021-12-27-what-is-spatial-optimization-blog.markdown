@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What problems do Spatial Optimization solve?" 
-date:   2023-12-27 12:41:33 +0800
+date:   2023-10-27 12:41:33 +0800
 category: Optimization
 ---
 
