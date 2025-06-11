@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-spatial-modelling
-title: "Spatial Modelling"
+title: "Modelling"
 category: Modelling
-display-title: Spatial Modelling
-description: Some notes about spatio-temporal statistics, spatial econometrics, and spatial point pattern analysis.
+display-title: Modelling
+description: Some notes about spatio-temporal statistics, spatial econometrics, and spatial point pattern analysis, and mathmatical modelling in general.
 ---

@@ -5,6 +5,8 @@ display-title: About me
 permalink: /about/
 ---
 
-Hello, everyone! Welcome to my blog site! I'm Hengshan, a technical mananger in Singapore Land Authority. Everyday I will post some stuff that I learned about spatial modelling, optimization, statistics, and VR. This blog is mainly for myself to make notes, but I will be more than happy if it is useful to others as well. 
+  Technical leader with over a decade of experience in quantitative research and data-driven innovation, specializing in bridging advanced research with enterprise-scale solutions.
 
-Disclaimer: All opinions on this blog are my own and not that of my employer.
+  Holds a Ph.D. in Spatial Information Science from the University of Maine as a dual fellowship recipient (Janet Waldron & Chase Distinguished programs). Currently leads core data infrastructure and AI agent development at Synlian Data@Source, driving scalable and intelligent systems.
+
+  Outside of work, enjoys playing guitar and exploring the outdoors—whether hiking, camping, or simply unplugging in nature. Believes in balancing deep technical work with creative and active pursuits.

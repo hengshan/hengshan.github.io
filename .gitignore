@@ -1,7 +1,16 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata/
+
+# Ruby dependencies
+vendor/
+.bundle/
+*.gem
+*.rbc
+
+# OS generated files
 .DS_Store
 **/.DS_Store
+Thumbs.db

@@ -18,30 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Spatial Data Science
-email: hengshan.li@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog site! I will post/update some stuff that I am learning about 
-  spatial modelling, optimization, statistics, and VR. This blog is mainly for myself
-  to make notes, but I will be more than happy if it is useful to others as well.
+title: tHanks.log
+slogan: "Compile Dreams, Debug Limits, and Reboot with Adventure."
+email: hank.li@synlian.com
+description: "Exploring AI, machine learning, and data science—one breakthrough, one bug, and one adventure at a time."
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://hengshan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hengshanli
 github_username: hengshan
 linkedin_username: lihengshan
 markdown: kramdown
 
 # other fields that minima uses
-author: Hengshan Li
+author: Hank Li
 
 #new fields not defined by minima
 copyright: "LSDS"
 title-logo: images/title-logo.svg
 
 header_pages:
+  - blog-ai-enterprise-data/index.markdown
   - blog-spatial-modelling/index.markdown
   - blog-spatial-optimization/index.markdown
-  - blog-geoai/index.markdown
   - blog-spatial-finance/index.markdown
   - blog-spatial-tool/index.markdown
   - about.markdown

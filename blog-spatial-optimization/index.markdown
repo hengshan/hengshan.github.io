@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-spatial-opt
-title: "Spatial Optimization"
+title: "Optimization"
 category: Optimization
-display-title: Spatial Optimization
-description: Find the best solutions to geospatial decision problems under conditions.
+display-title: Optimization
+description: Find the best solutions to decision problems under conditions.
 ---
