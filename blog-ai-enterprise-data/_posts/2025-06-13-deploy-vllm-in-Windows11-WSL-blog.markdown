@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Dual-System Deep Learning: Deploying vLLM with WSL2 and Docker on Windows/Linux Hybrid Setup"
 date:  2025-06-10 22:42:32 +0800
 category: AI 
+author: Hank Li
 ---
 
 ## Introduction

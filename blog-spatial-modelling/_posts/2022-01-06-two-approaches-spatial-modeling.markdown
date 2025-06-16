@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: post-wide
 title:  "Two Approaches of Spatial-Temporal Statistical Modeling"
 date:   2022-01-06 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
+author: Hank Li
 ---
 
 [Spatio-Temporal Statistics with R](https://spacetimewithr.org/Spatio-Temporal%20Statistics%20with%20R.pdf){:target="_blank"} described two approaches of spatio-temporal statistical modeling. Both are trying to capture statistical dependencies in spatio-temporal phenomena, but the methods are different.

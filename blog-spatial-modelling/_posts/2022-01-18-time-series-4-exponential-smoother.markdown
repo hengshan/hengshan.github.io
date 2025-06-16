@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: post-wide
 title:  "Time Series Analysis: (4) Exponential Smoother and ARIMA"
 date:   2022-01-18 12:30:32 +0800
 category: Spatial Modeling
 use_math: true
+author: Hank Li
 ---
 
 Three classical and most commonly used methods in time-series analys include Autoregressive Integrated Moving Average (ARIMA or so-called Box-Jenkins approach), Error, Trend, Seasonality Forecast (ETS), and frequency domain analysis (see a [previous post]({% post_url 2022-01-11-time-series-2%}){:target="_blank"}). ETS approach consists of `exponential smoother` and `loess`.

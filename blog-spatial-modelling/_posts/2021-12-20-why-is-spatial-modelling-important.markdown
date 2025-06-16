@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Why Spatial Modeling is Important for Sustainable Development?"
 date:   2021-12-20 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 ---
 
 [The 2030 Agenda for Sustainable Development](https://sdgs.un.org/2030agenda), adopted by all United Nations Member States in 2015,

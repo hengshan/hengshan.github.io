@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Unfolding Horizons: The Latest Trends in GeoAI"
 date:  2023-10-17 22:41:32 +0800
-category: GeoAI 
+category: AI 
+author: Hank Li
 ---
 
 The last decade has witnessed a symbiotic marriage between geospatial science and artificial intelligence, birthing the interdisciplinary field known as GeoAI. 

@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "What is Spatial Finance?"
 date:   2021-12-30 15:41:32 +0800
 category: Spatial Finance
+author: Hank Li
 ---
 
 Some websites state that the biggest opportunity over the next decade is AI. I do not buy it. I think the biggest opportunity lies on what people want and what problems they have to solve.

@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "What is Spatial Optimization?"
 date:   2021-12-27 12:41:32 +0800
 category: Optimization
+author: Hank Li
 ---
 
 Two key pillars of Spatial Data Science are statistics and optimization in a spatial context. The spatial optimization blogs will focus on the optimization of mathematical models with geographical or space context.

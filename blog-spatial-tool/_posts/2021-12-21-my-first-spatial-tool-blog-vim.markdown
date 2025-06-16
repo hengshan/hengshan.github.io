@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "My First Blog on Tools is about Vim and Spacevim"
 date:   2021-12-21 20:41:32 +0800
 category: Tools
+author: Hank Li
 ---
 
 My first blog on tools is about using [vim](https://www.vim.org/){:target="_blank"} and [spacevim](https://spacevim.org/){:target="_blank"}. It might be a bit surprising, as this blog is about geospatial data science rather than coding. Why am I introducing a text editor as the first blog of geospatial tools? First, I like vim. Second, all blogs are written using vim and spacevim, so I'd like to give vim credit.

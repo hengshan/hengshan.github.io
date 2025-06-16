@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Three Goals of Building Spatial-Temporal Statistics Models"
 date:   2022-01-01 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 

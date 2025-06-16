@@ -1,0 +1,132 @@
+/**
+ * Table of Contents styles
+ */
+
+// Wide post layout with TOC
+.post-wide {
+  .post-wide-container {
+    background: #fff;
+    border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
+    margin: 0; // Remove top margin since header is now inside
+  }
+
+  .post-wide-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: $spacing-unit 0;
+  }
+
+  .post-wide-spacer {
+    flex: 1;
+    min-width: 0;
+    max-width: 280px; // Same as TOC width for balance
+  }
+
+  .post-wide-main {
+    flex: 0 0 800px; // Fixed width for content
+    min-width: 0; // Prevent flex item from overflowing
+
+    .post-header {
+      margin-bottom: $spacing-unit;
+    }
+  }
+
+  .toc-container {
+    flex: 0 0 280px; // Fixed width for TOC
+    min-width: 0;
+  }
+}
+
+// TOC styles
+.toc {
+  position: sticky;
+  top: 100px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  padding: 1rem;
+  background: #fff;
+  border-left: 1px solid $grey-color-light;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  font-size: 0.9rem;
+  display: block !important; // Override the display: none from toc.html
+  
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0.5rem 0;
+    line-height: 1.4;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+    display: block;
+    padding: 0.25rem 0;
+    border-left: 2px solid transparent;
+    padding-left: 1rem;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &:hover {
+      color: $brand-color;
+      border-left-color: $brand-color;
+      background: lighten($grey-color-light, 5%);
+    }
+
+    &.is-active-link {
+      color: $brand-color;
+      border-left-color: $brand-color;
+      background: lighten($grey-color-light, 5%);
+      font-weight: 500;
+    }
+  }
+
+  // Nested items
+  ul ul {
+    padding-left: 1rem;
+    margin-top: 0.25rem;
+  }
+}
+
+// Hide TOC on smaller screens
+@media screen and (max-width: 1400px) {
+  .post-wide {
+    .post-wide-grid {
+      flex-direction: column;
+      align-items: center;
+      padding: $spacing-unit;
+    }
+
+    .post-wide-spacer {
+      display: none;
+    }
+
+    .post-wide-main {
+      flex: 0 0 100%;
+      max-width: 800px;
+    }
+
+    .toc-container {
+      display: none;
+    }
+  }
+}

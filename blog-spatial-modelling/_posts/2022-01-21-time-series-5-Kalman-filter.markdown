@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Time Series Analysis: (5) The Kalman Filter"
 date:   2022-01-21 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 

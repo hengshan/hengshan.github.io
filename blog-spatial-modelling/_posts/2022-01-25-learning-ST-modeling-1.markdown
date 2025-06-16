@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Spatial-Temporal Modeling (1) Exploratory Analysis"
 date:   2022-01-28 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 

@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Usingi Docker for Geospatial Data Science"
 date:   2023-10-18 20:41:32 +0800
 category: Tools
+author: Hank Li
 ---
 
 In the rapidly evolving world of geospatial data science, professionals and researchers constantly deal with intricate software stacks, which sometimes can be challenging to set up, especially on various environments. Enter Docker—a tool that can ease this pain.  

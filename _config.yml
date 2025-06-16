@@ -65,3 +65,21 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Table of Contents
+toc: true
+
+# Giscus Comments
+giscus:
+  enabled: true
+  repo: "hengshan/hengshan.github.io"
+  repo_id: "R_kgDOGjLx_g"
+  category: "Comments"
+  category_id: "DIC_kwDOGjLx_s4Crguz"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "bottom"
+  theme: "preferred_color_scheme"
+  lang: "en"
+  loading: "lazy"

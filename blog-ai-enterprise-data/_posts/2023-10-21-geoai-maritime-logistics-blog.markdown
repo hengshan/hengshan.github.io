@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "GeoAI in Maritime Logistics and Supply Chain"
 date:  2023-10-21 22:42:32 +0800
-category: GeoAI 
+category: AI 
+author: Hank Li
 ---
 
 The maritime industry, pivotal in transporting over 80% of global goods, is undergoing an intense technological evolution. As global supply chains become increasingly complex, the deployment of Artificial Intelligence (AI) and geospatial data science has surfaced as an indispensable tool in refining maritime operations. Singapore, a linchpin in the global maritime network, has recognized this potential. Positioned at the crossroads of major shipping routes, Singapore has always been at the maritime forefront. The country's investment and focus on integrating AI into its maritime infrastructure underline its commitment to maintaining its status as a leading global maritime hub.

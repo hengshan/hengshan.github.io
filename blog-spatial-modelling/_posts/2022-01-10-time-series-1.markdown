@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Time Series Analysis: (1) The Structure of Temporal Data"
 date:   2022-01-10 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 

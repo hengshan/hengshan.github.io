@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "What problems do Spatial Optimization solve?" 
 date:   2023-10-27 12:41:33 +0800
 category: Optimization
+author: Hank Li
 ---
 
 Spatial optimization problems (SOPs) address the optimal arrangement, location, design, or allocation of items in space. They are pivotal in areas like urban planning, transportation, environmental management, and telecommunications. Below are some prevalent SOPs:

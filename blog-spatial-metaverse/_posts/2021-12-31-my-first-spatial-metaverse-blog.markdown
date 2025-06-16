@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "What is Metaverse?"
 date:   2021-12-31 22:41:32 +0800
 category: Metaverse
+author: Hank Li
 ---
 
 

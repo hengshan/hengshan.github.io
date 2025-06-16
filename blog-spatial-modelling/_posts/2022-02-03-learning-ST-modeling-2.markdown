@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Spatial-Temporal Modeling (2) Statistical Models"
 date:   2022-02-02 12:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 

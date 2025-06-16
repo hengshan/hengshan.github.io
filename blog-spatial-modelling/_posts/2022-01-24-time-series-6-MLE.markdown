@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: post-wide
 title:  "Time Series Analysis: (6) Maximum Likelihood Estimation"
 date:   2022-01-24 08:30:32 +0800
 category: Spatial Modeling
+author: Hank Li
 use_math: true
 ---
 
