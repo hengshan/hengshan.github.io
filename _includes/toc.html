@@ -41,14 +41,19 @@
           if (header.level === currentLevel) {
             // Start a new list item
             html += '<li>';
-            html += `<a href="#${header.id}" class="toc-link toc-link-${header.level}" data-level="${header.level}">${header.text}</a>`;
+            // Add title attribute for tooltip and check if has children
+            const hasChildren = i + 1 < headers.length && headers[i + 1].level > currentLevel;
+            const toggleClass = hasChildren ? 'toc-toggle' : '';
+            const toggleIcon = hasChildren ? '<span class="toc-toggle-icon">▼</span>' : '';
+            
+            html += `<a href="#${header.id}" class="toc-link toc-link-${header.level} ${toggleClass}" data-level="${header.level}" title="${header.text}">${header.text}${toggleIcon}</a>`;
             
             // Check if next header is a subheader
-            if (i + 1 < headers.length && headers[i + 1].level > currentLevel) {
+            if (hasChildren) {
               // Create nested list for subheaders
               const subList = createTocHtml(headers, i + 1, currentLevel + 1);
               if (subList.html) {
-                html += '<ul>' + subList.html + '</ul>';
+                html += '<ul class="toc-submenu" style="display: none;">' + subList.html + '</ul>';
                 i = subList.nextIndex - 1; // Adjust index to skip processed subheaders
               }
             }
@@ -79,7 +84,7 @@
         // Fallback to simple list if hierarchy creation fails
         tocList.innerHTML = headerList.map(header => `
           <li>
-            <a href="#${header.id}" class="toc-link toc-link-${header.level}" data-level="${header.level}">
+            <a href="#${header.id}" class="toc-link toc-link-${header.level}" data-level="${header.level}" title="${header.text}">
               ${header.text}
             </a>
           </li>
@@ -90,9 +95,33 @@
       
       toc.style.display = 'block';
 
+      // Handle toggle functionality for parent nodes
+      tocList.querySelectorAll('.toc-toggle').forEach(toggleLink => {
+        toggleLink.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          const listItem = toggleLink.closest('li');
+          const submenu = listItem.querySelector('.toc-submenu');
+          const toggleIcon = toggleLink.querySelector('.toc-toggle-icon');
+          
+          if (submenu) {
+            const isVisible = submenu.style.display !== 'none';
+            submenu.style.display = isVisible ? 'none' : 'block';
+            toggleIcon.textContent = isVisible ? '▼' : '▶';
+            toggleLink.classList.toggle('toc-collapsed', isVisible);
+          }
+        });
+      });
+
       // Handle smooth scrolling
       tocList.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', (e) => {
+          // Don't prevent default for toggle links
+          if (link.classList.contains('toc-toggle')) {
+            return;
+          }
+          
           e.preventDefault();
           const targetId = link.getAttribute('href').substring(1);
           const targetElement = document.getElementById(targetId);
@@ -110,7 +139,31 @@
         });
       });
 
-      // Handle active section highlighting
+      // Function to expand section containing a specific link
+      function expandSection(link) {
+        const listItem = link.closest('li');
+        if (listItem) {
+          // Find all parent submenus and expand them
+          let parent = listItem.parentElement;
+          while (parent && parent.classList.contains('toc-submenu')) {
+            parent.style.display = 'block';
+            const parentListItem = parent.closest('li');
+            if (parentListItem) {
+              const parentToggle = parentListItem.querySelector('.toc-toggle');
+              if (parentToggle) {
+                const toggleIcon = parentToggle.querySelector('.toc-toggle-icon');
+                if (toggleIcon) {
+                  toggleIcon.textContent = '▶';
+                }
+                parentToggle.classList.remove('toc-collapsed');
+              }
+            }
+            parent = parent.parentElement;
+          }
+        }
+      }
+
+      // Handle active section highlighting and auto-expand
       const observerOptions = {
         root: null,
         rootMargin: '0px',
@@ -129,6 +182,8 @@
             const activeLink = tocList.querySelector(`a[href="#${entry.target.id}"]`);
             if (activeLink) {
               activeLink.classList.add('is-active-link');
+              // Auto-expand the section containing this link
+              expandSection(activeLink);
             }
           }
         });
@@ -174,5 +229,66 @@
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toc-toggle {
+  cursor: pointer;
+  user-select: none;
+}
+
+.toc-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.toc-toggle-icon {
+  margin-left: 5px;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+.toc-collapsed .toc-toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.toc-submenu {
+  margin-left: 1em;
+  transition: all 0.3s ease;
+}
+
+.toc-submenu li {
+  list-style: none;
+}
+
+.is-active-link {
+  font-weight: bold;
+  color: #0366d6 !important;
+  background-color: rgba(3, 102, 214, 0.1);
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+/* Tooltip styles for better hover experience */
+.toc-link[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-left: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+
+.toc-link[title] {
+  position: relative;
 }
 </style> 
