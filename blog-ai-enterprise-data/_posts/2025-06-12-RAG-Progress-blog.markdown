@@ -6,7 +6,7 @@ category: AI
 author: Hank Li
 ---
 
-## 1. Introduction to Retrieval-Enhanced Generation (RAG)
+## 1. Introduction to Retrieval-Augmented Generation (RAG)
 
 ### 1.1 Definition of RAG: Core Concepts, Goals and Advantages
 
