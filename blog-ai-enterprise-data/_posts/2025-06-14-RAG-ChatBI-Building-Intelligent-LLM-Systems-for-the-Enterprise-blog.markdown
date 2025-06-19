@@ -1,8 +1,10 @@
 ---
 layout: post-wide
 title:  "Unlocking Supply Chain Intelligence: SynGraph + ChatBI for AI-Powered Enterprise Analytics"
+title:  "Unlocking Supply Chain Intelligence: SynGraph + ChatBI for AI-Powered Enterprise Analytics"
 date:  2025-06-13 10:42:32 +0800
 category: AI 
+author: Tony Murphy & Hank Li
 author: Tony Murphy & Hank Li
 ---
 
