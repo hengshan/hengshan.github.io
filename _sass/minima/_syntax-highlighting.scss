@@ -2,28 +2,28 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: #fff;
+  background: #2d3748;
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: #eef;
+    background: #2d3748;
   }
 
-  .c     { color: #998; font-style: italic } // Comment
-  .err   { color: #a61717; background-color: #e3d2d2 } // Error
-  .k     { font-weight: bold } // Keyword
-  .o     { font-weight: bold } // Operator
-  .cm    { color: #998; font-style: italic } // Comment.Multiline
-  .cp    { color: #999; font-weight: bold } // Comment.Preproc
-  .c1    { color: #998; font-style: italic } // Comment.Single
-  .cs    { color: #999; font-weight: bold; font-style: italic } // Comment.Special
-  .gd    { color: #000; background-color: #fdd } // Generic.Deleted
-  .gd .x { color: #000; background-color: #faa } // Generic.Deleted.Specific
+  .c     { color: #a0aec0; font-style: italic } // Comment
+  .err   { color: #fc8181; background-color: #742a2a } // Error
+  .k     { color: #81e6d9; font-weight: bold } // Keyword
+  .o     { color: #e2e8f0; font-weight: bold } // Operator
+  .cm    { color: #a0aec0; font-style: italic } // Comment.Multiline
+  .cp    { color: #a0aec0; font-weight: bold } // Comment.Preproc
+  .c1    { color: #a0aec0; font-style: italic } // Comment.Single
+  .cs    { color: #a0aec0; font-weight: bold; font-style: italic } // Comment.Special
+  .gd    { color: #fc8181; background-color: #742a2a } // Generic.Deleted
+  .gd .x { color: #fc8181; background-color: #9c2626 } // Generic.Deleted.Specific
   .ge    { font-style: italic } // Generic.Emph
   .gr    { color: #a00 } // Generic.Error
   .gh    { color: #999 } // Generic.Heading
-  .gi    { color: #000; background-color: #dfd } // Generic.Inserted
-  .gi .x { color: #000; background-color: #afa } // Generic.Inserted.Specific
+  .gi    { color: #68d391; background-color: #276749 } // Generic.Inserted
+  .gi .x { color: #68d391; background-color: #38a169 } // Generic.Inserted.Specific
   .go    { color: #888 } // Generic.Output
   .gp    { color: #555 } // Generic.Prompt
   .gs    { font-weight: bold } // Generic.Strong
@@ -33,16 +33,16 @@
   .kd    { font-weight: bold } // Keyword.Declaration
   .kp    { font-weight: bold } // Keyword.Pseudo
   .kr    { font-weight: bold } // Keyword.Reserved
-  .kt    { color: #458; font-weight: bold } // Keyword.Type
-  .m     { color: #099 } // Literal.Number
-  .s     { color: #d14 } // Literal.String
+  .kt    { color: #81e6d9; font-weight: bold } // Keyword.Type
+  .m     { color: #fbb6ce } // Literal.Number
+  .s     { color: #f6ad55 } // Literal.String
   .na    { color: #008080 } // Name.Attribute
   .nb    { color: #0086B3 } // Name.Builtin
   .nc    { color: #458; font-weight: bold } // Name.Class
   .no    { color: #008080 } // Name.Constant
   .ni    { color: #800080 } // Name.Entity
   .ne    { color: #900; font-weight: bold } // Name.Exception
-  .nf    { color: #900; font-weight: bold } // Name.Function
+  .nf    { color: #fbb6ce; font-weight: bold } // Name.Function
   .nn    { color: #555 } // Name.Namespace
   .nt    { color: #000080 } // Name.Tag
   .nv    { color: #008080 } // Name.Variable
@@ -68,4 +68,55 @@
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+/* Code block copy button styles */
+.code-block-wrapper {
+  position: relative;
+  margin: 1em 0;
+}
+
+.copy-code-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.2s ease;
+  opacity: 0.7;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-code-btn:hover {
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  color: #333;
+  transform: scale(1.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.copy-code-btn:active {
+  transform: scale(0.95);
+}
+
+.copy-code-btn svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.code-block-wrapper:hover .copy-code-btn {
+  opacity: 1;
+}
+
+/* Ensure code blocks have proper spacing for the button */
+.code-block-wrapper pre {
+  padding-right: 50px;
 }

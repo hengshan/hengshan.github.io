@@ -1,0 +1,91 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Find all code blocks - target the containers to avoid duplicates
+    const codeBlocks = document.querySelectorAll('.highlight, pre:not(.highlight pre)');
+    
+    codeBlocks.forEach(function(codeBlock) {
+        // Skip if already wrapped
+        if (codeBlock.parentNode.classList.contains('code-block-wrapper')) {
+            return;
+        }
+        
+        // Create wrapper div
+        const wrapper = document.createElement('div');
+        wrapper.className = 'code-block-wrapper';
+        
+        // Create copy button with SVG icon
+        const copyBtn = document.createElement('button');
+        copyBtn.className = 'copy-code-btn';
+        copyBtn.innerHTML = `<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+            <clipPath id="clip0_17_17330"><path d="m0 0h24v24h-24z"/></clipPath>
+            <g clip-path="url(#clip0_17_17330)">
+                <path d="m15 1h-11c-1.1 0-2 .9-2 2v13c0 .55.45 1 1 1s1-.45 1-1v-12c0-.55.45-1 1-1h10c.55 0 1-.45 1-1s-.45-1-1-1zm4 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm-1 16h-9c-.55 0-1-.45-1-1v-12c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z" fill="currentColor"/>
+            </g>
+        </svg>`;
+        copyBtn.setAttribute('aria-label', 'Copy code');
+        copyBtn.setAttribute('title', 'Copy code');
+        
+        // Wrap the code block
+        codeBlock.parentNode.insertBefore(wrapper, codeBlock);
+        wrapper.appendChild(codeBlock);
+        wrapper.appendChild(copyBtn);
+        
+        // Add click event
+        copyBtn.addEventListener('click', function() {
+            // Find the actual code content
+            const preElement = codeBlock.querySelector('pre') || codeBlock;
+            const code = preElement.textContent || preElement.innerText;
+            
+            // Use clipboard API if available
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(code).then(function() {
+                    copyBtn.innerHTML = `<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`;
+                    copyBtn.style.color = '#28a745';
+                    setTimeout(function() {
+                        copyBtn.innerHTML = `<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                            <clipPath id="clip0_17_17330"><path d="m0 0h24v24h-24z"/></clipPath>
+                            <g clip-path="url(#clip0_17_17330)">
+                                <path d="m15 1h-11c-1.1 0-2 .9-2 2v13c0 .55.45 1 1 1s1-.45 1-1v-12c0-.55.45-1 1-1h10c.55 0 1-.45 1-1s-.45-1-1-1zm4 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm-1 16h-9c-.55 0-1-.45-1-1v-12c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z" fill="currentColor"/>
+                            </g>
+                        </svg>`;
+                        copyBtn.style.color = '';
+                    }, 2000);
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = code;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-999999px';
+                textArea.style.top = '-999999px';
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    copyBtn.innerHTML = `<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>`;
+                    copyBtn.style.color = '#28a745';
+                    setTimeout(function() {
+                        copyBtn.innerHTML = `<svg fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                            <clipPath id="clip0_17_17330"><path d="m0 0h24v24h-24z"/></clipPath>
+                            <g clip-path="url(#clip0_17_17330)">
+                                <path d="m15 1h-11c-1.1 0-2 .9-2 2v13c0 .55.45 1 1 1s1-.45 1-1v-12c0-.55.45-1 1-1h10c.55 0 1-.45 1-1s-.45-1-1-1zm4 4h-11c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2v-14c0-1.1-.9-2-2-2zm-1 16h-9c-.55 0-1-.45-1-1v-12c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z" fill="currentColor"/>
+                            </g>
+                        </svg>`;
+                        copyBtn.style.color = '';
+                    }, 2000);
+                } catch (err) {
+                    console.error('Failed to copy: ', err);
+                }
+                
+                document.body.removeChild(textArea);
+            }
+        });
+    });
+});
+</script>
