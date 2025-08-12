@@ -4,13 +4,15 @@ MathJax.Hub.Config({
     inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
     displayMath: [ ['$$', '$$'],['\[','\]'] ],
     processEscapes: true,
+    ignoreClass: "mermaid|language-mermaid",  // 忽略mermaid相关的类
+    skipTags: ["script","noscript","style","textarea","pre","code"]
   }
 });
 MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
+	  console.warn("Math Processing Error: "+message[1]);
 	});
 MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
+	  console.warn("Math Processing Error: "+message[1]);
 	});
 </script>
 <script type="text/javascript" async

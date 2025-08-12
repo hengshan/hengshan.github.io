@@ -9,6 +9,20 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
+        // Skip mermaid blocks (check for mermaid in class or data attributes)
+        if (codeBlock.classList.contains('language-mermaid') || 
+            codeBlock.classList.contains('mermaid') ||
+            codeBlock.getAttribute('data-lang') === 'mermaid' ||
+            (codeBlock.querySelector && codeBlock.querySelector('code.language-mermaid'))) {
+            return;
+        }
+        
+        // Skip blocks that contain mermaid code elements
+        const codeElement = codeBlock.querySelector('code');
+        if (codeElement && codeElement.classList.contains('language-mermaid')) {
+            return;
+        }
+        
         // Create wrapper div
         const wrapper = document.createElement('div');
         wrapper.className = 'code-block-wrapper';
