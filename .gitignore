@@ -19,3 +19,17 @@ Thumbs.db
 .claude/
 claude.md
 CLAUDE.md
+
+# AI博客生成系统（包含API密钥等敏感信息）
+# 这些文件夹只保留在本地，不提交到public GitHub repo
+.ai-agent/
+drafts/
+
+# Python虚拟环境
+.venv/
+venv/
+ENV/
+
+# 备份脚本和激活脚本可以提交
+!backup-ai-agent.sh
+!activate-ai-agent.sh
