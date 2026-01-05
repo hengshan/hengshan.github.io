@@ -42,9 +42,9 @@ generated_by: AI Agent
 
 定义记忆库的价值为其对模型性能的贡献：
 
-\[
+$$
 V(\mathcal{M}) = \mathbb{E}_{(x,y) \sim \mathcal{D}_{\text{test}}} [\log P_\theta(y|x, \mathcal{M})]
-\]
+$$
 
 其中 $\mathcal{M}$ 是记忆库，$\theta$ 是LLM参数。
 
@@ -52,9 +52,9 @@ V(\mathcal{M}) = \mathbb{E}_{(x,y) \sim \mathcal{D}_{\text{test}}} [\log P_\thet
 
 引入码本 $\mathcal{C} = \{c_1, ..., c_K\}$（K个码字），优化目标：
 
-\[
+$$
 \min_{\mathcal{C}, \phi} \mathbb{E}_{m \sim \mathcal{M}} [\|m - c_{\phi(m)}\|^2] + \lambda \cdot \text{Size}(\mathcal{C})
-\]
+$$
 
 - $\phi(m)$：编码器，将记忆 $m$ 映射到最近的码字索引
 - $\lambda$：存储成本权重
@@ -63,9 +63,9 @@ V(\mathcal{M}) = \mathbb{E}_{(x,y) \sim \mathcal{D}_{\text{test}}} [\log P_\thet
 
 在时间步 $t$，接收新数据 $(x_t, y_t)$：
 
-\[
+$$
 \mathcal{C}_{t+1} = \arg\min_{\mathcal{C}} \sum_{i=1}^{t} \alpha^{t-i} \|m_i - c_{\phi(m_i)}\|^2
-\]
+$$
 
 指数衰减因子 $\alpha$ 平衡新旧数据重要性。
 
@@ -73,9 +73,9 @@ V(\mathcal{M}) = \mathbb{E}_{(x,y) \sim \mathcal{D}_{\text{test}}} [\log P_\thet
 
 当码字 $c_k$ 的使用频率低于阈值 $\tau$ 时：
 
-\[
+$$
 c_k \leftarrow m_{\text{worst}} + \epsilon, \quad \text{where} \quad m_{\text{worst}} = \arg\max_{m \in \mathcal{M}_t} \|m - c_{\phi(m)}\|
-\]
+$$
 
 将未使用码字重置为重建误差最大的记忆附近。
 

@@ -2,7 +2,7 @@
 MathJax.Hub.Config({
     tex2jax: {
     inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-    displayMath: [ ['$$', '$$'],['\[','\]'] ],
+    displayMath: [ ['$$', '$$'], ['\\[','\\]'] ],
     processEscapes: true,
     ignoreClass: "mermaid|language-mermaid",  // 忽略mermaid相关的类
     skipTags: ["script","noscript","style","textarea","pre","code"]
@@ -16,5 +16,5 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 	});
 </script>
 <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
