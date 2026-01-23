@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-ai-enterprise-data
+redirect_from:
+  - /blog-geoai/
+  - /blog-geoai/index.html
 title: "AI & Enterprise Data"
 category: AI
 display-title: AI & Enterprise Data 

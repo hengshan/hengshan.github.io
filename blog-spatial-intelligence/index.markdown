@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-spatial-intelligence
+redirect_from:
+  - /blog-spatial-finance/
+  - /blog-spatial-finance/index.html
 title: "Spatial Intelligence"
 category:  Spatial Intelligence
 display-title: Spatial Intelligence
