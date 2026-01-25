@@ -2,7 +2,7 @@
 layout: post-wide
 title: "Placement Semantics for Distributed Deep Learning: A Systematic Framework for An"
 date: 2026-01-06 20:06:12 +0800
-category: Tools
+category: Spatial Intelligence
 author: Hank Li
 use_math: true
 source_url: https://arxiv.org/abs/2601.02311v1

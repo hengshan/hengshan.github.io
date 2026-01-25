@@ -2,7 +2,7 @@
 layout: post-wide
 title: "Yukthi Opus: A Multi-Chain Hybrid Metaheuristic for Large-Scale NP-Hard Optimiza"
 date: 2026-01-06 20:52:36 +0800
-category: AI
+category: Spatial Intelligence
 author: Hank Li
 use_math: true
 source_url: https://arxiv.org/abs/2601.01832v1
