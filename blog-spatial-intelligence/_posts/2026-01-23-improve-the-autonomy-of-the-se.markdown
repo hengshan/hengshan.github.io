@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Improve the autonomy of the SE2(3) group based Extended Kalman Filter for Integr"
+title: "SE2(3)李群扩展卡尔曼滤波器：高精度导航系统的自治性改进实战"
 date: 2026-01-23 18:40:08 +0800
 category: Spatial Intelligence
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.16078v1
 generated_by: AI Agent
 ---
-
-# SE2(3)李群扩展卡尔曼滤波器：高精度导航系统的自治性改进实战
 
 ## 简介
 

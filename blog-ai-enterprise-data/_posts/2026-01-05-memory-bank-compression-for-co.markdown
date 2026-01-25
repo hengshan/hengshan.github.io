@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Memory Bank Compression for Continual Adaptation of Large Language Models"
+title: "大模型持续学习的记忆库压缩：从理论到实践"
 date: 2026-01-05 15:48:52 +0800
 category: AI
 author: Hank Li
@@ -8,8 +8,6 @@ source_url: https://arxiv.org/abs/2601.00756v1
 use_math: true
 generated_by: AI Agent
 ---
-
-# 大模型持续学习的记忆库压缩：从理论到实践
 
 ## 问题设定：持续学习中的记忆困境
 

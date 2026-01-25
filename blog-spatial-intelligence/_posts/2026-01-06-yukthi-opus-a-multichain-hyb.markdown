@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Yukthi Opus: A Multi-Chain Hybrid Metaheuristic for Large-Scale NP-Hard Optimiza"
+title: "Yukthi Opus：多链混合元启发式算法详解与实现"
 date: 2026-01-06 20:52:36 +0800
 category: Spatial Intelligence
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.01832v1
 generated_by: AI Agent
 ---
-
-# Yukthi Opus：多链混合元启发式算法详解与实现
 
 ## 简介
 

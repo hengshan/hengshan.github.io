@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "LLM-in-Sandbox Elicits General Agentic Intelligence"
+title: "LLM-in-Sandbox强化学习：让语言模型学会使用代码沙箱的智能体训练"
 date: 2026-01-25 12:34:24 +0800
 category: AI
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.16206v1
 generated_by: AI Agent
 ---
-
-# LLM-in-Sandbox强化学习：让语言模型学会使用代码沙箱的智能体训练
 
 ## RL问题设定
 

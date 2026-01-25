@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Advancing RT Core-Accelerated Fixed-Radius Nearest Neighbor Search"
+title: "RT Core加速固定半径近邻搜索：从原理到实战"
 date: 2026-01-23 18:28:32 +0800
 category: Tools
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.15633v1
 generated_by: AI Agent
 ---
-
-## RT Core加速固定半径近邻搜索：从原理到实战
 
 ## 简介
 

@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Placement Semantics for Distributed Deep Learning: A Systematic Framework for An"
+title: "分布式深度学习的统一框架：从放置语义理解并行策略"
 date: 2026-01-06 20:06:12 +0800
 category: Spatial Intelligence
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.02311v1
 generated_by: AI Agent
 ---
-
-## 分布式深度学习的统一框架：从放置语义理解并行策略
 
 ## 简介
 

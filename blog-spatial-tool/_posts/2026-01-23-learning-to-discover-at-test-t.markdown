@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "Learning to Discover at Test Time"
+title: "CUDA中的测试时训练：从GPU矩阵乘法优化看TTT-Discover的实践应用"
 date: 2026-01-23 17:44:51 +0800
 category: Tools
 author: Hank Li
@@ -8,8 +8,6 @@ use_math: true
 source_url: https://arxiv.org/abs/2601.16175v1
 generated_by: AI Agent
 ---
-
-## CUDA中的测试时训练：从GPU矩阵乘法优化看TTT-Discover的实践应用
 
 ## 简介
 
