@@ -344,27 +344,24 @@ class BlogGenerationSystem:
         auto_publish_config = self.config.get('auto_publish', {})
         auto_publish_enabled = auto_publish_config.get('enabled', False)
         publish_threshold = auto_publish_config.get('threshold', 7.0)
-        skip_email = auto_publish_config.get('skip_email_review', True)
+        send_email = auto_publish_config.get('send_email', True)
         
         current_score = evaluation.get('overall_score', 0) if evaluation else 0
         
-        if auto_publish_enabled and current_score >= publish_threshold:
-            # 评分达标，自动发布
-            print(f"\n🤖 评分 {current_score}/10 >= 阈值 {publish_threshold}，自动发布...")
-            self.publish_draft(Path(draft_path).name)
-            print("\n" + "=" * 60)
-            print("✅ 博客已自动发布!")
-            print(f"📄 草稿位置: {draft_path}")
-            print(f"📊 评分: {current_score}/10")
-            print("=" * 60)
-        elif not dry_run:
-            # 评分不达标或未启用自动发布，发送审阅邮件
-            if not skip_email:
+        if not dry_run:
+            # 照常发送邮件通知
+            if send_email:
                 self.email_sender.send_draft_review(blog_data, draft_path, evaluation)
+                print(f"\n📧 审阅邮件已发送")
+            
+            # 评分达标则自动发布
+            if auto_publish_enabled and current_score >= publish_threshold:
+                print(f"\n🤖 评分 {current_score}/10 >= 阈值 {publish_threshold}，自动发布...")
+                self.publish_draft(Path(draft_path).name)
                 print("\n" + "=" * 60)
-                print("✅ 博客生成完成!")
+                print("✅ 博客已自动发布!")
                 print(f"📄 草稿位置: {draft_path}")
-                print(f"📧 审阅邮件已发送 (审阅后运行: python .ai-agent/main.py --publish)")
+                print(f"📊 评分: {current_score}/10")
                 print("=" * 60)
             else:
                 print("\n" + "=" * 60)
