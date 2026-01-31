@@ -92,7 +92,7 @@ validation:
 # 自动发布配置
 auto_publish:
   enabled: true  # 评分达标后自动发布
-  threshold: 7.0  # 最低发布分数 (1-10)
+  threshold: 8.0  # 最低发布分数 (1-10)
   send_email: true  # 照常发送邮件通知（供查阅，但不阻塞发布）
 
 # Git配置
