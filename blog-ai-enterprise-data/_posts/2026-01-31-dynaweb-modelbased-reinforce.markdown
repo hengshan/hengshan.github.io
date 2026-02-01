@@ -30,7 +30,7 @@ DynaWeb 通过学习一个 Web 世界模型来模拟网页交互，让智能体�
 **与其让智能体在真实互联网上笨拙地探索，不如先让它学会"想象"网页会如何响应**。
 
 这个想法来自 Model-Based RL（MBRL）：
-- 先学习一个世界模型 $M(s_{t+1} | s_t, a_t)$
+- 先学习一个世界模型 $M(s_{t+1} \mid s_t, a_t)$
 - 用这个模型生成模拟轨迹（imagination rollouts）
 - 在模拟轨迹上训练策略，大幅减少真实交互
 
@@ -86,8 +86,8 @@ $$
 $$
 
 其中：
-- $z_{t+1} \sim M_\theta(z_{t+1} | z_t, a_t)$（世界模型预测）
-- $a_t \sim \pi_\phi(a_t | z_t)$（策略采样）
+- $z_{t+1} \sim M_\theta(z_{t+1} \mid z_t, a_t)$（世界模型预测）
+- $a_t \sim \pi_\phi(a_t \mid z_t)$（策略采样）
 - $r_t = R(z_t, a_t)$（奖励模型预测）
 
 用这些轨迹训练策略（如 PPO）：
