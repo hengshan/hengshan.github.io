@@ -33,7 +33,7 @@ LLM-in-Sandbox将语言模型在代码沙箱中的探索过程建模为一个马
 
 **数学推导**：
 
-定义策略 $\pi_\theta(a|s)$ 为给定状态 $s$ 下选择动作 $a$ 的概率。优化目标是最大化期望累积奖励：
+定义策略 $\pi_\theta(a \mid s)$ 为给定状态 $s$ 下选择动作 $a$ 的概率。优化目标是最大化期望累积奖励：
 
 $$
 J(\theta) = \mathbb{E}_{\tau \sim \pi_\theta} \left[ \sum_{t=0}^{T} \gamma^t R(s_t, a_t) \right]
