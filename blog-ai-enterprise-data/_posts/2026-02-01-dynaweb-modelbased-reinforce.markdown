@@ -1,7 +1,7 @@
 ---
 layout: post-wide
 title: "DynaWeb：通过"想象"训练 Web 智能体"
-date: 2026-02-01 11:08:09 +0800
+date: 2026-02-01 08:08:09 +0800
 category: AI
 author: Hank Li
 use_math: true
