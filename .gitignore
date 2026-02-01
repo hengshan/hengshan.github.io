@@ -30,6 +30,6 @@ drafts/
 venv/
 ENV/
 
-# 备份脚本和激活脚本可以提交
-!backup-ai-agent.sh
-!activate-ai-agent.sh
+# AI agent 相关脚本也不提交
+backup-ai-agent.sh
+activate-ai-agent.sh
