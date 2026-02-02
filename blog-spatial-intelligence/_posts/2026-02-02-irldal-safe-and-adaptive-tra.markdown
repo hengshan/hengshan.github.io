@@ -48,14 +48,14 @@ IRL-DAL 通过扩散模型作为安全监督者 + 逆强化学习对齐专家目
 2. **平滑性保证**：去噪过程天然过滤高频噪声（急转弯、突变）
 3. **条件控制**：可注入当前车速、目标车道等条件
 
-**数学本质**：扩散模型通过以下过程生成轨迹 $\tau = (s_0, s_1, \ldots, s_T)$：
+**数学本质**：扩散模型通过以下过程生成轨迹 $\tau = (s\_0, s\_1, \ldots, s\_T)$：
 
 **前向过程**（训练时）：逐步添加高斯噪声
 $$
 q(x_t | x_{t-1}) = \mathcal{N}(x_t; \sqrt{1-\beta_t} x_{t-1}, \beta_t I)
 $$
 
-**反向过程**（推理时）：从纯噪声 $x_T \sim \mathcal{N}(0, I)$ 逐步去噪
+**反向过程**（推理时）：从纯噪声 $x\_T \sim \mathcal{N}(0, I)$ 逐步去噪
 $$
 p_\theta(x_{t-1} | x_t, c) = \mathcal{N}(x_{t-1}; \mu_\theta(x_t, t, c), \Sigma_\theta(x_t, t))
 $$
@@ -72,15 +72,15 @@ $$
 R_{\text{manual}} = w_1 \cdot \text{speed} + w_2 \cdot \text{lane\_keeping} - w_3 \cdot \text{jerk} - w_4 \cdot \text{collision}
 $$
 
-**问题**：权重 $(w_1, w_2, w_3, w_4)$ 极难调优。例如：
-- $w_4$ 过小 → 频繁碰撞
-- $w_4$ 过大 → 车辆过于保守，停在路中间不动
+**问题**：权重 $(w\_1, w\_2, w\_3, w\_4)$ 极难调优。例如：
+- $w\_4$ 过小 → 频繁碰撞
+- $w\_4$ 过大 → 车辆过于保守，停在路中间不动
 
-**IRL 的思路**：从专家驾驶数据 $\mathcal{D}_{\text{expert}} = \{(s, a)\}$ 中反推奖励函数 $R^*$，使得专家策略 $\pi_{\text{expert}}$ 在 $R^*$ 下最优。
+**IRL 的思路**：从专家驾驶数据 $\mathcal{D}\_{\text{expert}} = \\{(s, a)\\}$ 中反推奖励函数 $R^*$，使得专家策略 $\pi\_{\text{expert}}$ 在 $R^*$ 下最优。
 
 论文采用 **GAIL（Generative Adversarial Imitation Learning）** 框架：
 
-1. 训练判别器 $D_\phi$，区分专家轨迹和策略轨迹
+1. 训练判别器 $D\_\phi$，区分专家轨迹和策略轨迹
 2. 用判别器输出作为奖励信号：
 $$
 r_{\text{IRL}}(s, a) = \log D_\phi(s, a) - \log(1 - D_\phi(s, a))
@@ -129,10 +129,10 @@ class IRLDiscriminator(nn.Module):
 ```
 
 **训练流程**：
-1. 策略 $\pi_\theta$ 与环境交互，收集轨迹 $\mathcal{D}_\pi$
-2. 更新判别器：最大化 $\log D(s_e, a_e) + \log(1 - D(s_\pi, a_\pi))$
-3. 计算混合奖励：$r_{\text{total}} = \alpha \cdot r_{\text{env}} + (1-\alpha) \cdot r_{\text{IRL}}$
-4. 用 PPO 更新策略，最大化 $\mathbb{E}[r_{\text{total}}]$
+1. 策略 $\pi\_\theta$ 与环境交互，收集轨迹 $\mathcal{D}\_\pi$
+2. 更新判别器：最大化 $\log D(s\_e, a\_e) + \log(1 - D(s\_\pi, a\_\pi))$
+3. 计算混合奖励：$r\_{\text{total}} = \alpha \cdot r\_{\text{env}} + (1-\alpha) \cdot r\_{\text{IRL}}$
+4. 用 PPO 更新策略，最大化 $\mathbb{E}[r\_{\text{total}}]$
 
 **关键技术细节**：论文使用 Gradient Penalty 防止判别器过拟合，确保奖励信号始终有效。
 
@@ -140,8 +140,8 @@ class IRLDiscriminator(nn.Module):
 
 **网络结构**：基于 Temporal U-Net，在时间维度上编码轨迹序列。
 
-**训练目标**：学习噪声预测函数 $\epsilon_\theta(x_t, t, c)$，其中：
-- $x_t$：加噪轨迹
+**训练目标**：学习噪声预测函数 $\epsilon\_\theta(x\_t, t, c)$，其中：
+- $x\_t$：加噪轨迹
 - $t$：时间步（0 到 50）
 - $c$：条件（当前状态 + BEV 特征）
 
@@ -275,7 +275,7 @@ class DDIMSampler:
 
 **目标**：将 50M 参数的扩散模型压缩至 10M，适配边缘设备。
 
-**方法**：训练轻量学生模型 $f_S$ 模仿教师模型 $f_T$ 的输出：
+**方法**：训练轻量学生模型 $f\_S$ 模仿教师模型 $f\_T$ 的输出：
 
 $$
 \mathcal{L}_{\text{distill}} = \mathbb{E}_c \left[ \| f_S(c) - f_T(c) \|^2 \right]
