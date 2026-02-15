@@ -636,6 +636,35 @@ class BlogGenerationSystem:
             print(f"⚠ Git操作失败: {e}")
 
 
+def _acquire_lock():
+    """获取文件锁，防止并发执行"""
+    import fcntl
+    lock_path = Path(__file__).parent / '.generation.lock'
+    lock_file = open(lock_path, 'w')
+    try:
+        fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        lock_file.write(str(os.getpid()))
+        lock_file.flush()
+        return lock_file
+    except (IOError, OSError):
+        # 检查持锁进程是否还活着
+        try:
+            with open(lock_path, 'r') as f:
+                pid = int(f.read().strip())
+            os.kill(pid, 0)  # 检查进程是否存在
+            print(f"⚠ 另一个实例正在运行 (PID {pid})，退出")
+            lock_file.close()
+            return None
+        except (ValueError, ProcessLookupError, PermissionError):
+            # 持锁进程已死，强制获取锁
+            fcntl.flock(lock_file, fcntl.LOCK_EX)
+            lock_file.seek(0)
+            lock_file.truncate()
+            lock_file.write(str(os.getpid()))
+            lock_file.flush()
+            return lock_file
+
+
 def main():
     """主函数"""
     parser = argparse.ArgumentParser(description='AI博客自动生成系统')
@@ -651,6 +680,11 @@ def main():
     project_root = Path(__file__).parent.parent
     import os
     os.chdir(project_root)
+
+    # 获取文件锁，防止并发执行
+    lock_file = _acquire_lock()
+    if lock_file is None:
+        sys.exit(1)
 
     # 初始化系统
     system = BlogGenerationSystem(dry_run=(args.dry_run or args.send_review))
