@@ -1,0 +1,464 @@
+{
+  "generated": [
+    {
+      "url": "https://arxiv.org/abs/2601.16200",
+      "original_url": "https://arxiv.org/abs/2601.16200v1",
+      "title": "Provable Robustness in Multimodal Large Language Models via Feature Space Smooth",
+      "title_slug": "provable-robustness-in-multimodal-large-language-m",
+      "filename": "2026-01-23-provable-robustness-in-multimo.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.173541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.21877",
+      "original_url": "https://arxiv.org/abs/2601.21877v1",
+      "title": "从零实现EoB：用LLM自动设计黑盒优化基准测试",
+      "title_slug": "eobllm",
+      "filename": "2026-01-30-evolution-of-benchmark-black.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.181541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16206",
+      "original_url": "https://arxiv.org/abs/2601.16206v1",
+      "title": "LLM-in-Sandbox强化学习：让语言模型学会使用代码沙箱的智能体训练",
+      "title_slug": "llminsandbox",
+      "filename": "2026-01-25-llminsandbox-elicits-general.markdown",
+      "score": 0,
+      "generated_at": "2026-02-01T15:31:05.719307",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22156",
+      "original_url": "https://arxiv.org/abs/2601.22156v1",
+      "title": "混合线性注意力的正确打开方式：HALO蒸馏与HypeNet架构详解",
+      "title_slug": "halohypenet",
+      "filename": "2026-01-30-hybrid-linear-attention-done-r.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T15:37:33.991305",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22146",
+      "original_url": "https://arxiv.org/abs/2601.22146v1",
+      "title": "FineInstructions：用合成指令数据重新定义LLM预训练",
+      "title_slug": "fineinstructionsllm",
+      "filename": "2026-01-30-fineinstructions-scaling-synt.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.189541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12281",
+      "original_url": "https://arxiv.org/abs/2602.12281v1",
+      "title": "强化学习中的验证缩放：CoVer 如何让机器人更好地理解指令",
+      "title_slug": "cover-",
+      "filename": "2026-02-13-scaling-verification-can-be-mo.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T15:06:28.944218",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11804",
+      "original_url": "https://arxiv.org/abs/2602.11804v1",
+      "title": "用 0.1% 数据量让 SAM 看懂深度：EfficientViT-SAM-D 的工程实践",
+      "title_slug": "-01-sam-efficientvitsamd-",
+      "filename": "2026-02-15-efficient-segment-anything-wit.markdown",
+      "score": 0,
+      "generated_at": "2026-02-15T15:06:55.072141",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05848",
+      "original_url": "https://arxiv.org/abs/2602.05848v1",
+      "title": "DARWIN：用遗传算法训练会自我进化的 GPT 模型",
+      "title_slug": "darwin-gpt-",
+      "filename": "2026-02-07-darwin-dynamic-agentically-re.markdown",
+      "score": 0,
+      "generated_at": "2026-02-07T15:06:30.659560",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.06030",
+      "original_url": "https://arxiv.org/abs/2602.06030v1",
+      "title": "PhysicsAgentABM：用物理先验指导的生成式智能体仿真",
+      "title_slug": "physicsagentabm",
+      "filename": "2026-02-06-physicsagentabm-physicsguide.markdown",
+      "score": 0,
+      "generated_at": "2026-02-06T15:07:33.382506",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22151",
+      "original_url": "https://arxiv.org/abs/2601.22151v1",
+      "title": "神经网络到逻辑流：边缘设备上的CPU友好型推理优化",
+      "title_slug": "cpu",
+      "filename": "2026-01-30-late-breaking-results-convers.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.197541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.10.0",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.10.0",
+      "title": "PyTorch 2.10 新特性深度解析：torch.compile() 与 Python 3.14 实战指南",
+      "title_slug": "pytorch-210-torchcompile-python-314-",
+      "filename": "2026-01-24-pytorch-2100-release.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.139948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05675",
+      "original_url": "https://arxiv.org/abs/2602.05675v1",
+      "title": "变步长随机局部搜索：让多目标组合优化不再卡在局部最优",
+      "title_slug": "",
+      "filename": "2026-02-08-variable-search-stepsize-for-r.markdown",
+      "score": 0,
+      "generated_at": "2026-02-08T11:07:22.451761",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.00756",
+      "original_url": "https://arxiv.org/abs/2601.00756v1",
+      "title": "大模型持续学习的记忆库压缩：从理论到实践",
+      "title_slug": "",
+      "filename": "2026-01-05-memory-bank-compression-for-co.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.139948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://github.com/torchgeo/torchgeo/releases/tag/v0.9.0",
+      "original_url": "https://github.com/torchgeo/torchgeo/releases/tag/v0.9.0",
+      "title": "TorchGeo 0.9：遥感深度学习的工程化实践指南",
+      "title_slug": "torchgeo-09",
+      "filename": "2026-02-15-v090.markdown",
+      "score": 0,
+      "generated_at": "2026-02-15T15:06:52.324130",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.06025",
+      "original_url": "https://arxiv.org/abs/2602.06025v1",
+      "title": "BudgetMem：运行时智能体记忆的查询感知预算路由",
+      "title_slug": "budgetmem",
+      "filename": "2026-02-07-learning-queryaware-budgetti.markdown",
+      "score": 0,
+      "generated_at": "2026-02-07T11:11:49.727469",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.21847",
+      "original_url": "https://arxiv.org/abs/2601.21847v1",
+      "title": "READY：用大语言模型自动发现强化学习优化算法的奖励函数",
+      "title_slug": "ready",
+      "filename": "2026-01-30-ready-reward-discovery-for-me.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.205541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12123",
+      "original_url": "https://arxiv.org/abs/2602.12123v1",
+      "title": "Meta-Sel：用监督元学习解决 ICL 示例选择难题",
+      "title_slug": "metasel-icl-",
+      "filename": "2026-02-13-metasel-efficient-demonstrat.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T11:59:01.985262",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.18795",
+      "original_url": "https://arxiv.org/abs/2601.18795v1",
+      "title": "PrefixRL：通过离策略前缀条件化提升强化学习效率",
+      "title_slug": "prefixrl",
+      "filename": "2026-01-27-reuse-your-flops-scaling-rl-o.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.054948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.06942",
+      "original_url": "https://arxiv.org/abs/2602.06942v1",
+      "title": "形态丰富语言的分词困境：土耳其语告诉我们什么？",
+      "title_slug": "",
+      "filename": "2026-02-09-optimal-turkish-subword-strate.markdown",
+      "score": 0,
+      "generated_at": "2026-02-09T11:07:03.267971",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05466",
+      "original_url": "https://arxiv.org/abs/2602.05466v1",
+      "title": "优化算法不够用：问题建模比算法选择更重要",
+      "title_slug": "",
+      "filename": "2026-02-08-optimization-is-not-enough-wh.markdown",
+      "score": 0,
+      "generated_at": "2026-02-08T15:05:35.931134",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12259",
+      "original_url": "https://arxiv.org/abs/2602.12259v1",
+      "title": "像科学家一样思考：KeplerAgent 用 LLM 探索物理公式",
+      "title_slug": "kepleragent-llm-",
+      "filename": "2026-02-14-think-like-a-scientist-physic.markdown",
+      "score": 0,
+      "generated_at": "2026-02-15T11:05:24.157197",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22159",
+      "original_url": "https://arxiv.org/abs/2601.22159v1",
+      "title": "RedSage：网络安全领域专用大模型的训练范式",
+      "title_slug": "redsage",
+      "filename": "2026-01-31-redsage-a-cybersecurity-gener.markdown",
+      "score": 0,
+      "generated_at": "2026-01-31T23:18:39.455737",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22075",
+      "original_url": "https://arxiv.org/abs/2601.22075v1",
+      "title": "用进化算法优化光学透镜设计：LDG-EA 的实现与调试",
+      "title_slug": "ldgea-",
+      "filename": "2026-02-01-lensdescriptor-guided-evoluti.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.237541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22149",
+      "original_url": "https://arxiv.org/abs/2601.22149v1",
+      "title": "DynaWeb：通过「想象」训练 Web 智能体",
+      "title_slug": "dynaweb-web-",
+      "filename": "2026-01-31-dynaweb-modelbased-reinforce.markdown",
+      "score": 0,
+      "generated_at": "2026-02-01T15:25:06.944622",
+      "source": "backfill"
+    },
+    {
+      "url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.18.6",
+      "original_url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.18.6",
+      "title": "DeepSpeed 0.18.6 深度解析：从竞态条件到 AutoTP 自定义分区",
+      "title_slug": "deepspeed-0186-autotp-",
+      "filename": "2026-02-14-v0186-patch-release.markdown",
+      "score": 0,
+      "generated_at": "2026-02-15T11:05:24.149197",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22141",
+      "original_url": "https://arxiv.org/abs/2601.22141v1",
+      "title": "自适应子网络剪枝：为异构数据路由彩票",
+      "title_slug": "",
+      "filename": "2026-01-30-routing-the-lottery-adaptive-.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.212541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.15.1",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.15.1",
+      "title": "vLLM 0.15.1 深度解析：RTX Blackwell GPU 上的 FP4 MoE 推理优化",
+      "title_slug": "vllm-0151-rtx-blackwell-gpu-fp4-moe-",
+      "filename": "2026-02-06-v0151.markdown",
+      "score": 0,
+      "generated_at": "2026-02-06T13:45:30.578617",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.01832",
+      "original_url": "https://arxiv.org/abs/2601.01832v1",
+      "title": "Yukthi Opus：多链混合元启发式算法详解与实现",
+      "title_slug": "yukthi-opus",
+      "filename": "2026-01-06-yukthi-opus-a-multichain-hyb.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.147949",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12177",
+      "original_url": "https://arxiv.org/abs/2602.12177v1",
+      "title": "EO-VAE：统一多传感器的地球观测数据编码器",
+      "title_slug": "eovae",
+      "filename": "2026-02-13-eovae-towards-a-multisensor.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T18:03:28.611404",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.02311",
+      "original_url": "https://arxiv.org/abs/2601.02311v1",
+      "title": "分布式深度学习的统一框架：从放置语义理解并行策略",
+      "title_slug": "",
+      "filename": "2026-01-06-placement-semantics-for-distri.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.147949",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16078",
+      "original_url": "https://arxiv.org/abs/2601.16078v1",
+      "title": "SE2(3)李群扩展卡尔曼滤波器：高精度导航系统的自治性改进实战",
+      "title_slug": "se23",
+      "filename": "2026-01-23-improve-the-autonomy-of-the-se.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.147949",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11873",
+      "original_url": "https://arxiv.org/abs/2602.11873v1",
+      "title": "从少量 2D MRI 切片重建时序 3D 主动脉：可微网格优化的实践指南",
+      "title_slug": "-2d-mri-3d-",
+      "filename": "2026-02-13-temporally-resolved-aortic-3d-.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T15:15:05.088605",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.23266",
+      "original_url": "https://arxiv.org/abs/2601.23266v1",
+      "title": "自动驾驶轨迹规划：用扩散模型实现安全自适应决策",
+      "title_slug": "",
+      "filename": "2026-02-02-irldal-safe-and-adaptive-tra.markdown",
+      "score": 0,
+      "generated_at": "2026-02-02T15:33:49.589017",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12159",
+      "original_url": "https://arxiv.org/abs/2602.12159v1",
+      "title": "3DGSNav：用 3D 高斯泼溅让 VLM \"看懂\"环境的物体导航",
+      "title_slug": "3dgsnav-3d-vlm-",
+      "filename": "2026-02-14-3dgsnav-enhancing-visionlang.markdown",
+      "score": 0,
+      "generated_at": "2026-02-15T11:05:24.162197",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16885",
+      "original_url": "https://arxiv.org/abs/2601.16885v1",
+      "title": "自监督视觉几何定位：GPA-VGGT大规模场景位姿估计详解",
+      "title_slug": "gpavggt",
+      "filename": "2026-01-26-gpavggtadapting-vggt-to-larg.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.054948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12246",
+      "original_url": "https://arxiv.org/abs/2602.12246v1",
+      "title": "6G 赋能未来机器人：从通信到协作的技术演进",
+      "title_slug": "6g-",
+      "filename": "2026-02-13-6g-empowering-future-robotics.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T14:55:46.408245",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.00509",
+      "original_url": "https://arxiv.org/abs/2602.00509v1",
+      "title": "MoE 推理优化：通过预测性预取平衡计算与通信",
+      "title_slug": "moe-",
+      "filename": "2026-02-03-probe-cobalancing-computatio.markdown",
+      "score": 0,
+      "generated_at": "2026-02-03T11:22:41.853604",
+      "source": "backfill"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton",
+      "original_url": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/",
+      "title": "CUDA Tile IR：让 Triton 代码跑在 Tensor Core 上的新方式",
+      "title_slug": "cuda-tile-ir-triton-tensor-core-",
+      "filename": "2026-01-31-advancing-gpu-programming-with.markdown",
+      "score": 0,
+      "generated_at": "2026-01-31T23:18:15.489623",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12029",
+      "original_url": "https://arxiv.org/abs/2602.12029v1",
+      "title": "多模型推理系统的 Prefill 共享优化：让 Multi-Agent 快 4.5 倍",
+      "title_slug": "-prefill-multiagent-45-",
+      "filename": "2026-02-13-prefillshare-a-shared-prefill.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T14:27:34.940231",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.15633",
+      "original_url": "https://arxiv.org/abs/2601.15633v1",
+      "title": "RT Core加速固定半径近邻搜索：从原理到实战",
+      "title_slug": "rt-core",
+      "filename": "2026-01-23-advancing-rt-coreaccelerated-.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.155949",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16956",
+      "original_url": "https://arxiv.org/abs/2601.16956v1",
+      "title": "大规模Transformer模型的异步检查点技术：CUDA实现与优化",
+      "title_slug": "transformercuda",
+      "filename": "2026-01-26-datastatesllm-scalable-check.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.055948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22076",
+      "original_url": "https://arxiv.org/abs/2601.22076v1",
+      "title": "CUDA推理能耗诊断与优化：从测量到优化的完整指南",
+      "title_slug": "cuda",
+      "filename": "2026-01-30-where-do-the-joules-go-diagno.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T12:36:54.220541",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.20706",
+      "original_url": "https://arxiv.org/abs/2601.20706v1",
+      "title": "Diffusion LLM采样优化：超越GEMM的GPU编程实践",
+      "title_slug": "diffusion-llmgemmgpu",
+      "filename": "2026-01-29-beyond-gemmcentric-npus-enab.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.055948",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.16175",
+      "original_url": "https://arxiv.org/abs/2601.16175v1",
+      "title": "CUDA中的测试时训练：从GPU矩阵乘法优化看TTT-Discover的实践应用",
+      "title_slug": "cudagputttdiscover",
+      "filename": "2026-01-23-learning-to-discover-at-test-t.markdown",
+      "score": 0,
+      "generated_at": "2026-01-30T13:06:35.155949",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.22705",
+      "original_url": "https://arxiv.org/abs/2601.22705v1",
+      "title": "大模型批处理推理的拥塞控制：CONCUR 系统深度解析",
+      "title_slug": "concur-",
+      "filename": "2026-02-02-concur-highthroughput-agenti.markdown",
+      "score": 0,
+      "generated_at": "2026-02-02T11:12:58.325675",
+      "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.11000",
+      "original_url": "https://arxiv.org/abs/2602.11000v1",
+      "title": "用强化学习训练 LLM 生成高性能 GPU Kernel：GPT-5 的实战突破",
+      "title_slug": "-llm-gpu-kernelgpt5-",
+      "filename": "2026-02-12-finetuning-gpt5-for-gpu-kern.markdown",
+      "score": 0,
+      "generated_at": "2026-02-13T11:15:10.796443",
+      "source": "backfill"
+    }
+  ]
+}

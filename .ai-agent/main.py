@@ -14,10 +14,11 @@ AI博客自动生成系统 - 主程序
 
 import argparse
 import yaml
+import json
 import sys
 from pathlib import Path
 from datetime import datetime
-from typing import Dict
+from typing import Dict, Optional
 import shutil
 import os
 
@@ -81,7 +82,42 @@ class BlogGenerationSystem:
             for cat in self.config['content']['categories']
         }
 
+        # 生成历史记录（集中式去重）
+        self.history_path = Path('.ai-agent/generation_history.json')
+        self.generation_history = self._load_history()
+
         print("✓ 系统初始化完成\n")
+
+    def _load_history(self) -> dict:
+        """加载生成历史"""
+        if self.history_path.exists():
+            try:
+                with open(self.history_path, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, IOError):
+                pass
+        return {"generated": []}
+
+    def _save_history(self):
+        """保存生成历史"""
+        self.history_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(self.history_path, 'w', encoding='utf-8') as f:
+            json.dump(self.generation_history, f, ensure_ascii=False, indent=2)
+
+    def _record_generation(self, topic_url: str, topic_title: str, filename: str, score: float):
+        """记录一次成功的博客生成"""
+        normalized_url = self._normalize_url(topic_url)
+        title_slug = self._title_to_slug(topic_title)
+        self.generation_history["generated"].append({
+            "url": normalized_url,
+            "original_url": topic_url,
+            "title": topic_title,
+            "title_slug": title_slug,
+            "filename": filename,
+            "score": score,
+            "generated_at": datetime.now().isoformat()
+        })
+        self._save_history()
 
     @staticmethod
     def _normalize_url(url: str) -> str:
@@ -101,23 +137,44 @@ class BlogGenerationSystem:
         return slug[:50]  # 取前50字符足够匹配
 
     def _is_topic_already_generated(self, topic_url: str, topic_title: str = '') -> bool:
-        """检查某个话题是否已经生成过博客（通过 URL 和标题 slug 双重去重）"""
+        """检查某个话题是否已经生成过博客
+
+        使用三层去重机制：
+        1. 集中式历史记录（generation_history.json）— 最可靠
+        2. 草稿/已发布文件的 source_url 匹配
+        3. 文件名 slug 匹配
+        """
         normalized_url = self._normalize_url(topic_url)
         title_slug = self._title_to_slug(topic_title) if topic_title else ''
 
+        # === 第一层：查历史记录（最快最可靠）===
+        for entry in self.generation_history.get("generated", []):
+            # URL 匹配
+            if normalized_url and (entry.get("url") == normalized_url or
+                                   entry.get("original_url") == topic_url):
+                return True
+            # 标题 slug 匹配（防止同一话题 URL 略有不同）
+            if title_slug and entry.get("title_slug") and \
+               title_slug[:30] == entry.get("title_slug", "")[:30]:
+                return True
+
+        # === 第二层：扫描文件（兜底，覆盖历史记录引入前的旧文件）===
         def _check_file(filepath):
             try:
                 with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read(1000)  # 读前1000字符，确保覆盖 front matter
-                    # URL 匹配（规范化后）
-                    if normalized_url and (normalized_url in content or topic_url in content):
-                        return True
-                    # source_url 字段精确匹配
-                    if normalized_url:
-                        for line in content.split('\n'):
-                            if line.startswith('source_url:') and normalized_url in line:
+                    content = f.read(1000)
+                    # source_url 字段匹配
+                    for line in content.split('\n'):
+                        if line.startswith('source_url:'):
+                            file_url = line.split(':', 1)[1].strip()
+                            file_url_normalized = self._normalize_url(file_url)
+                            if normalized_url and (
+                                file_url_normalized == normalized_url or
+                                file_url == topic_url
+                            ):
                                 return True
-                    # 标题 slug 匹配（检查文件名）
+                            break  # source_url 只有一行
+                    # 文件名 slug 匹配
                     if title_slug and title_slug[:30] in filepath.stem:
                         return True
             except:
@@ -196,8 +253,8 @@ class BlogGenerationSystem:
 
         if not selected_topic:
             print(f"⚠️  所有 {len(topics_to_consider)} 个候选话题都已生成过")
-            print(f"💡 将重新生成评分最高的话题（可能产生不同内容）")
-            selected_topic = topics_to_consider[0]
+            print(f"💡 本次跳过生成，避免重复内容")
+            return False
 
         if skipped_count > 0:
             print(f"✓ 跳过了 {skipped_count} 个已生成的话题")
@@ -372,13 +429,20 @@ class BlogGenerationSystem:
         draft_path = self.content_generator.save_draft(blog_data)
         self._save_metadata(blog_data, draft_path, validation_results, quality)
 
+        # 7. 记录到生成历史（防止后续 run 重复选同一话题）
+        current_score = evaluation.get('overall_score', 0) if evaluation else 0
+        self._record_generation(
+            topic_url=selected_topic['url'],
+            topic_title=selected_topic.get('title', ''),
+            filename=blog_data['filename'],
+            score=current_score
+        )
+
         # 8. 自动发布或发送审阅邮件
         auto_publish_config = self.config.get('auto_publish', {})
         auto_publish_enabled = auto_publish_config.get('enabled', False)
         publish_threshold = auto_publish_config.get('threshold', 7.0)
         send_email = auto_publish_config.get('send_email', True)
-        
-        current_score = evaluation.get('overall_score', 0) if evaluation else 0
         
         if not dry_run:
             # 照常发送邮件通知
