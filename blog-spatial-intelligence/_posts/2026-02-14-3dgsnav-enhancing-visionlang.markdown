@@ -1,6 +1,6 @@
 ---
 layout: post-wide
-title: "3DGSNav：用 3D 高斯泼溅让 VLM "看懂"环境的物体导航"
+title: '3DGSNav：用 3D 高斯泼溅让 VLM "看懂"环境的物体导航'
 date: 2026-02-14 12:03:22 +0800
 category: Spatial Intelligence
 author: Hank Li
