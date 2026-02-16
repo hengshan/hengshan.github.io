@@ -58,7 +58,7 @@ class BlogGenerationSystem:
             self.config = yaml.safe_load(f)
 
         # 初始化模块
-        self.tech_monitor = TechMonitor('.ai-agent/sources/tech_sources.yaml')
+        self.tech_monitor = TechMonitor('.ai-agent/sources/tech_sources.yaml', config=self.config)
         self.content_generator = ContentGenerator(self.config)
         # dry-run模式下跳过邮件验证
         self.email_sender = EmailSender(self.config, skip_validation=dry_run)

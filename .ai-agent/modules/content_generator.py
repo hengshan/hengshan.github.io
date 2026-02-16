@@ -211,9 +211,16 @@ class ContentGenerator:
                 counter += 1
 
             # 添加Jekyll front matter（使用中文标题）
+            # 处理标题中的引号，防止 YAML 解析失败
+            safe_title = chinese_title.replace('"', '\\"').replace('\u201c', '\u201c').replace('\u201d', '\u201d')
+            # 如果标题包含中文引号，用单引号包裹以避免 YAML 问题
+            if '\u201c' in chinese_title or '\u201d' in chinese_title or '"' in chinese_title:
+                title_line = f"title: '{chinese_title}'"
+            else:
+                title_line = f'title: "{chinese_title}"'
             front_matter = f"""---
 layout: post-wide
-title: "{chinese_title}"
+{title_line}
 date: {(datetime.now() - timedelta(hours=3)).strftime('%Y-%m-%d %H:%M:%S +0800')}
 category: {self._get_category_tag(category)}
 author: Hank Li

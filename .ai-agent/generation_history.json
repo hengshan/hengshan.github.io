@@ -459,6 +459,24 @@
       "score": 0,
       "generated_at": "2026-02-13T11:15:10.796443",
       "source": "backfill"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13172",
+      "original_url": "https://arxiv.org/abs/2602.13172v1",
+      "title": "LongStream: Long-Sequence Streaming Autoregressive Visual Geometry",
+      "title_slug": "longstream-longsequence-streaming-autoregressive-v",
+      "filename": "2026-02-16-longstream-longsequence-streaming-autore.markdown",
+      "score": 9,
+      "generated_at": "2026-02-16T11:06:43.986812"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.12750",
+      "original_url": "https://arxiv.org/abs/2602.12750v1",
+      "title": "Lung nodule classification on CT scan patches using 3D convolutional neural networks",
+      "title_slug": "lung-nodule-classification-on-ct-scan-patches-usin",
+      "filename": "2026-02-16-lung-nodule-classification-on-ct-scan-pa.markdown",
+      "score": 8,
+      "generated_at": "2026-02-16T15:06:48.017864"
     }
   ]
 }
