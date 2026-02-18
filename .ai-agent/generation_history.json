@@ -477,6 +477,42 @@
       "filename": "2026-02-16-lung-nodule-classification-on-ct-scan-pa.markdown",
       "score": 8,
       "generated_at": "2026-02-16T15:06:48.017864"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13185",
+      "original_url": "https://arxiv.org/abs/2602.13185v1",
+      "title": "FlexAM: Flexible Appearance-Motion Decomposition for Versatile Video Generation Control",
+      "title_slug": "flexam-flexible-appearancemotion-decomposition-for",
+      "filename": "2026-02-16-flexam-flexible-appearancemotion-decompo.markdown",
+      "score": 9,
+      "generated_at": "2026-02-16T16:38:57.402501"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13532",
+      "original_url": "https://arxiv.org/abs/2602.13532v1",
+      "title": "Fast Swap-Based Element Selection for Multiplication-Free Dimension Reduction",
+      "title_slug": "fast-swapbased-element-selection-for-multiplicatio",
+      "filename": "2026-02-17-fast-swapbased-element-selection-for-mul.markdown",
+      "score": 9,
+      "generated_at": "2026-02-17T11:05:18.927194"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.13814",
+      "original_url": "https://arxiv.org/abs/2602.13814v1",
+      "title": "A Deep Convolutional Network to Extract Real-Time Landmarks for UAV Navigation",
+      "title_slug": "a-deep-convolutional-network-to-extract-realtime-l",
+      "filename": "2026-02-17-a-deep-convolutional-network-to-extract-.markdown",
+      "score": 7,
+      "generated_at": "2026-02-17T15:11:28.970759"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.15618",
+      "original_url": "https://arxiv.org/abs/2602.15618v1",
+      "title": "Physics-Informed Anomaly Detection of Terrain Material Change in Radar Imagery",
+      "title_slug": "physicsinformed-anomaly-detection-of-terrain-mater",
+      "filename": "2026-02-18-physicsinformed-anomaly-detection-of-ter.markdown",
+      "score": 8,
+      "generated_at": "2026-02-18T11:11:41.421593"
     }
   ]
 }
