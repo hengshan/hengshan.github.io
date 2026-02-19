@@ -512,7 +512,25 @@
       "title_slug": "physicsinformed-anomaly-detection-of-terrain-mater",
       "filename": "2026-02-18-physicsinformed-anomaly-detection-of-ter.markdown",
       "score": 8,
-      "generated_at": "2026-02-18T12:10:07.758854"
+      "generated_at": "2026-02-18T11:11:41.421593"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.15830",
+      "original_url": "https://arxiv.org/abs/2602.15830v1",
+      "title": "Ensemble-size-dependence of deep-learning post-processing methods that minimize an (un)fair score: motivating examples and a proof-of-concept solution",
+      "title_slug": "ensemblesizedependence-of-deeplearning-postprocess",
+      "filename": "2026-02-18-ensemblesizedependence-of-deeplearning-p.markdown",
+      "score": 9,
+      "generated_at": "2026-02-18T15:07:14.321668"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.16703",
+      "original_url": "https://arxiv.org/abs/2602.16703v1",
+      "title": "Measuring Mid-2025 LLM-Assistance on Novice Performance in Biology",
+      "title_slug": "measuring-mid2025-llmassistance-on-novice-performa",
+      "filename": "2026-02-19-measuring-mid2025-llmassistance-on-novic.markdown",
+      "score": 8,
+      "generated_at": "2026-02-19T12:02:36.798160"
     }
   ]
 }
