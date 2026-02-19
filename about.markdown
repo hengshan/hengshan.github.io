@@ -9,7 +9,7 @@ Dr. Hank Li, 李恒山, is a technical leader with over a decade of experience i
 
 Hank holds a Ph.D. in Spatial Information Science from the University of Maine as a dual fellowship recipient (Janet Waldron & Chase Distinguished programs). 
 
-Currently Hank leads core data infrastructure and AI agent development at Synlian Data@Source, driving scalable and intelligent systems.
+Currently building at the intersection of GeoAI and agricultural robotics, working on AI-powered solutions for Southeast Asia's palm oil industry.
 
 Outside of work, Hank enjoys playing guitar and exploring the outdoors—whether hiking, camping, or simply unplugging in nature. Believes in balancing deep technical work with creative and active pursuits.
 
