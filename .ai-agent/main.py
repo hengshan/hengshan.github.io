@@ -664,15 +664,34 @@ class BlogGenerationSystem:
         )
 
         try:
+            # 确保在 main 分支上（防止 detached HEAD）
+            try:
+                current = subprocess.run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+                                        capture_output=True, text=True, check=True)
+                if current.stdout.strip() == 'HEAD':
+                    print("⚠ Detached HEAD 检测到，切回 main...")
+                    subprocess.run(['git', 'stash', '--include-untracked'], capture_output=True)
+                    subprocess.run(['git', 'checkout', 'main'], check=True, capture_output=True)
+                    subprocess.run(['git', 'stash', 'pop'], capture_output=True)
+            except subprocess.CalledProcessError:
+                pass
+
             # 先拉取远端更新，避免 non-fast-forward 错误
             try:
                 subprocess.run(['git', 'pull', '--rebase', '--autostash'], check=True,
                              capture_output=True, text=True)
             except subprocess.CalledProcessError:
-                print("⚠ git pull --rebase 失败，尝试继续...")
+                print("⚠ git pull --rebase 失败，尝试 merge...")
+                try:
+                    subprocess.run(['git', 'rebase', '--abort'], capture_output=True)
+                    subprocess.run(['git', 'pull', '--no-rebase'], check=True,
+                                 capture_output=True, text=True)
+                except subprocess.CalledProcessError:
+                    print("⚠ git pull 也失败，尝试继续...")
 
-            # Git add（只添加目标文件）
+            # Git add（目标文件 + generation history）
             subprocess.run(['git', 'add', str(file_path)], check=True)
+            subprocess.run(['git', 'add', '.ai-agent/generation_history.json'], capture_output=True)
 
             # 检查是否有实际变更需要提交
             result = subprocess.run(['git', 'diff', '--cached', '--quiet'],
