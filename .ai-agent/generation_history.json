@@ -531,6 +531,24 @@
       "filename": "2026-02-20-nested-sampling-with-slicewithingibbs-ef.markdown",
       "score": 8,
       "generated_at": "2026-02-20T15:06:59.989206"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute",
+      "original_url": "https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute/",
+      "title": "Topping the GPU MODE Kernel Leaderboard with NVIDIA cuda.compute",
+      "title_slug": "topping-the-gpu-mode-kernel-leaderboard-with-nvidi",
+      "filename": "2026-02-21-topping-the-gpu-mode-kernel-leaderboard-.markdown",
+      "score": 9,
+      "generated_at": "2026-02-21T11:02:12.994043"
+    },
+    {
+      "url": "https://github.com/open-mmlab/mmdetection3d/releases/tag/v1.4.0",
+      "original_url": "https://github.com/open-mmlab/mmdetection3d/releases/tag/v1.4.0",
+      "title": "MMDetection3D v1.4.0 Release",
+      "title_slug": "mmdetection3d-v140-release",
+      "filename": "2026-02-21-mmdetection3d-v140-release.markdown",
+      "score": 8,
+      "generated_at": "2026-02-21T15:08:08.979360"
     }
   ]
 }
