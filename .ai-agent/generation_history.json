@@ -549,6 +549,15 @@
       "filename": "2026-02-21-mmdetection3d-v140-release.markdown",
       "score": 8,
       "generated_at": "2026-02-21T15:08:08.979360"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.17634",
+      "original_url": "https://arxiv.org/abs/2602.17634v1",
+      "title": "Reverso: Efficient Time Series Foundation Models for Zero-shot Forecasting",
+      "title_slug": "reverso-efficient-time-series-foundation-models-fo",
+      "filename": "2026-02-22-reverso-efficient-time-series-foundation.markdown",
+      "score": 9,
+      "generated_at": "2026-02-22T11:05:47.823207"
     }
   ]
 }
