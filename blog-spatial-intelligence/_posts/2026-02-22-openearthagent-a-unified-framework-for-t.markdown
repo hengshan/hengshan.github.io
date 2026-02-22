@@ -106,23 +106,18 @@ system_prompt = """你是一个遥感分析专家。分析步骤:
 ### 环境配置
 
 ```bash
-# 基础依赖
-pip install torch transformers pillow numpy
-# 遥感数据处理
-pip install rasterio gdal geopandas shapely
-# 可选：卫星数据下载
-pip install sentinelsat planetary-computer
+pip install torch transformers rasterio gdal geopandas shapely
 ```
 
 ### 核心工具包
 
-整个系统的工具层实现相当简洁——本质上是对 numpy/rasterio 的薄封装：
+工具层本质上是对 numpy/rasterio 的薄封装。论文的设计哲学是：**每种 GIS 操作都封装为一个标准函数接口**，这样 LLM 只需学习"什么时候调什么函数"，而不需要理解底层实现。
+
+注意 NDVI、NBR、NDBI 等归一化指数的计算公式形式完全相同（`(b1-b2)/(b1+b2)`），只是选用的波段不同。因此工具包用一个通用函数覆盖所有指数：
 
 ```python
 import numpy as np
 import rasterio
-from rasterio.mask import mask
-import geopandas as gpd
 from typing import Dict, Tuple
 
 class RemoteSensingToolkit:
@@ -130,114 +125,63 @@ class RemoteSensingToolkit:
     
     @staticmethod
     def calculate_spectral_index(image: np.ndarray, 
-                                  band1_idx: int, 
-                                  band2_idx: int) -> np.ndarray:
-        """
-        通用归一化光谱指数计算
-        公式: (band1 - band2) / (band1 + band2)
-        
+                                  band1_idx: int, band2_idx: int) -> np.ndarray:
+        """通用归一化光谱指数: (b1-b2)/(b1+b2)
         NDVI: band1=NIR(3), band2=Red(2)
-        NBR:  band1=NIR(3), band2=SWIR(5)
-        NDBI: band1=SWIR(5), band2=NIR(3)
-        """
-        b1 = image[band1_idx].astype(float)
-        b2 = image[band2_idx].astype(float)
+        NBR:  band1=NIR(3), band2=SWIR(5)"""
+        b1, b2 = image[band1_idx].astype(float), image[band2_idx].astype(float)
         denom = b1 + b2
         denom[denom == 0] = 1e-8
         return np.clip((b1 - b2) / denom, -1, 1)
     
     @staticmethod
-    def threshold_segmentation(index_image: np.ndarray,
-                               threshold: float) -> np.ndarray:
-        """基于阈值的二值分割"""
+    def threshold_segmentation(index_image: np.ndarray, threshold: float):
         return (index_image > threshold).astype(np.uint8)
     
     @staticmethod
-    def calculate_area(mask: np.ndarray, 
-                       pixel_size: Tuple[float, float]) -> float:
-        """计算掩膜区域面积（平方米）"""
+    def calculate_area(mask: np.ndarray, pixel_size: Tuple[float, float]):
         return np.sum(mask) * pixel_size[0] * pixel_size[1]
-    
-    @staticmethod
-    def load_image(filepath: str, 
-                   boundary: gpd.GeoDataFrame = None) -> np.ndarray:
-        """加载 GeoTIFF，可选 ROI 裁剪"""
-        with rasterio.open(filepath) as src:
-            if boundary is not None:
-                geoms = boundary.geometry.values
-                out_image, _ = mask(src, geoms, crop=True)
-                return out_image
-            return src.read()
 ```
 
 ### 推理智能体
 
-Agent 的核心是**将 LLM 的推理链映射为工具调用序列**。以下是简化实现，展示推理链构建的核心逻辑：
+Agent 的核心是**将 LLM 的推理链映射为工具调用序列**。实际系统中，LLM 动态生成每一步的 action 和参数；以下硬编码版本展示了推理链的数据结构：
 
 ```python
 class ReasoningAgent:
-    """推理智能体——编排工具调用的核心"""
-    
     def __init__(self, toolkit: RemoteSensingToolkit):
         self.toolkit = toolkit
-        self.chain = []  # 推理链记录
-    
-    def _step(self, action: str, reason: str, result):
-        """记录一步推理"""
-        self.chain.append({"action": action, "reason": reason, "result": str(result)})
-    
-    def analyze_vegetation_health(self, image: np.ndarray,
-                                   pixel_size: Tuple[float, float]) -> Dict:
-        """
-        植被健康度分析——展示完整推理链
-        实际 Agent 由 LLM 动态生成这些步骤
-        """
         self.chain = []
-        
-        # Step 1: 计算 NDVI (NIR=3, Red=2)
-        ndvi = self.toolkit.calculate_spectral_index(image, 3, 2)
-        self._step("calculate_ndvi", "NDVI 是评估植被健康的标准指标",
-                   f"均值: {ndvi.mean():.3f}")
-        
-        # Step 2: 三级分类
+    
+    def analyze_vegetation(self, image, pixel_size):
+        """植被分析——每步记录 action + reason + result"""
+        ndvi = self.toolkit.calculate_spectral_index(image, 3, 2)  # NDVI
         healthy = self.toolkit.threshold_segmentation(ndvi, 0.6)
-        moderate = self.toolkit.threshold_segmentation(ndvi, 0.3) - healthy
-        self._step("classify", "健康(>0.6), 中等(0.3-0.6), 不健康(<0.3)", "完成")
-        
-        # Step 3: 面积统计
         total = pixel_size[0] * pixel_size[1] * image.shape[1] * image.shape[2]
-        h_ratio = self.toolkit.calculate_area(healthy, pixel_size) / total
-        self._step("statistics", "量化各等级覆盖面积", f"健康占比: {h_ratio:.1%}")
+        ratio = self.toolkit.calculate_area(healthy, pixel_size) / total
         
-        # Step 4: 自然语言结论
-        pct = h_ratio * 100
-        if pct > 70:   conclusion = f"植被整体健康，{pct:.1f}% 区域 NDVI > 0.6"
-        elif pct > 40: conclusion = f"植被健康度中等，{pct:.1f}% 健康区域"
-        else:          conclusion = f"植被健康度较差，仅 {pct:.1f}% 健康区域"
-        
-        return {"reasoning_chain": self.chain, "conclusion": conclusion}
+        self.chain = [
+            {"action": "calculate_ndvi", "reason": "植被健康标准指标"},
+            {"action": "classify", "reason": "阈值 0.6/0.3 三级分类"},
+            {"action": "statistics", "result": f"健康占比 {ratio:.1%}"}
+        ]
+        return {"chain": self.chain, "ndvi_mean": float(ndvi.mean())}
 ```
+
+这个设计的精妙之处在于：推理链不仅用于执行，还用于**向用户解释分析过程**。每步的 `reason` 字段让非专家也能理解为什么要计算 NDVI、为什么阈值设为 0.6。
 
 ### 时序变化检测
 
-Agent 处理时间序列分析的核心模式——对比两个时间点的同一指数：
+时间序列分析是 OpenEarthAgent 最常用的模式：对比两个时间点的同一光谱指数（如灾前/灾后 NDVI），计算差值 delta，用阈值判断变化是否显著。Agent 会自动选择合适的指数和阈值——例如火灾用 NBR（阈值 0.4），植被退化用 NDVI（阈值 0.2）。
+
+核心逻辑只需复用上面的 `calculate_spectral_index`，分别对两期影像计算后求差：
 
 ```python
-def compare_temporal_change(toolkit: RemoteSensingToolkit,
-                             image_t1: np.ndarray, image_t2: np.ndarray,
-                             band1: int, band2: int) -> Dict:
-    """时序变化检测——Agent 自动选择指数后调用"""
-    idx_t1 = toolkit.calculate_spectral_index(image_t1, band1, band2)
-    idx_t2 = toolkit.calculate_spectral_index(image_t2, band1, band2)
-    delta = idx_t2 - idx_t1
-    
-    significant = np.abs(delta) > 0.2
-    return {
-        "mean_change": float(delta.mean()),
-        "increase_pixels": int((delta > 0.2).sum()),
-        "decrease_pixels": int((delta < -0.2).sum()),
-        "change_ratio": float(significant.sum() / delta.size)
-    }
+def compare_temporal(toolkit, img_t1, img_t2, b1, b2, threshold=0.2):
+    delta = (toolkit.calculate_spectral_index(img_t2, b1, b2) 
+             - toolkit.calculate_spectral_index(img_t1, b1, b2))
+    return {"mean_change": float(delta.mean()),
+            "change_ratio": float((np.abs(delta) > threshold).mean())}
 ```
 
 ## 实验
@@ -260,7 +204,11 @@ def compare_temporal_change(toolkit: RemoteSensingToolkit,
 | Claude-3.5 | 79.1% | 68.2% | 75.4% |
 | **OpenEarthAgent** | **89.7%** | **85.3%** | **87.2%** |
 
-OpenEarthAgent 在所有指标上显著领先通用模型，尤其是**推理链完整率**（+13.8pp vs GPT-4V），说明领域特化训练的价值主要体现在推理规划能力上。
+OpenEarthAgent 在所有指标上显著领先通用模型。值得关注的几个发现：
+
+- **推理链完整率**提升最大（+13.8pp vs GPT-4V），说明领域特化训练的价值主要体现在推理规划能力上——通用模型知道怎么算 NDVI，但常常遗漏关键中间步骤（如忘记做云掩膜、忘记检查坐标系）
+- **工具调用准确率**的差距（+7.4pp）部分来自参数选择——通用模型经常混淆 Sentinel-2 和 Landsat 的波段索引
+- 最终答案准确率的差距（+8.3pp）小于推理链完整率的差距，说明即使推理链不完整，通用模型有时也能"蒙对"答案，但这种不可靠性在生产中是不可接受的
 
 ### 定性案例
 
