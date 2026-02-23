@@ -577,6 +577,15 @@
       "filename": "2026-02-23-sarah-spatially-aware-realtime-agentic-h.markdown",
       "score": 9,
       "generated_at": "2026-02-23T11:07:00.366502"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.18428",
+      "original_url": "https://arxiv.org/abs/2602.18428v1",
+      "title": "The Geometry of Noise: Why Diffusion Models Don't Need Noise Conditioning",
+      "title_slug": "the-geometry-of-noise-why-diffusion-models-dont-ne",
+      "filename": "2026-02-23-the-geometry-of-noise-why-diffusion-mode.markdown",
+      "score": 9,
+      "generated_at": "2026-02-23T15:03:14.679840"
     }
   ]
 }
