@@ -8,7 +8,8 @@
       "filename": "2026-01-23-provable-robustness-in-multimo.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.173541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.21877",
@@ -18,7 +19,8 @@
       "filename": "2026-01-30-evolution-of-benchmark-black.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.181541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.16206",
@@ -28,7 +30,8 @@
       "filename": "2026-01-25-llminsandbox-elicits-general.markdown",
       "score": 0,
       "generated_at": "2026-02-01T15:31:05.719307",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22156",
@@ -38,7 +41,8 @@
       "filename": "2026-01-30-hybrid-linear-attention-done-r.markdown",
       "score": 0,
       "generated_at": "2026-01-30T15:37:33.991305",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22146",
@@ -48,7 +52,8 @@
       "filename": "2026-01-30-fineinstructions-scaling-synt.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.189541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12281",
@@ -58,7 +63,8 @@
       "filename": "2026-02-13-scaling-verification-can-be-mo.markdown",
       "score": 0,
       "generated_at": "2026-02-13T15:06:28.944218",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.11804",
@@ -68,7 +74,8 @@
       "filename": "2026-02-15-efficient-segment-anything-wit.markdown",
       "score": 0,
       "generated_at": "2026-02-15T15:06:55.072141",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.05848",
@@ -78,7 +85,8 @@
       "filename": "2026-02-07-darwin-dynamic-agentically-re.markdown",
       "score": 0,
       "generated_at": "2026-02-07T15:06:30.659560",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.06030",
@@ -88,7 +96,8 @@
       "filename": "2026-02-06-physicsagentabm-physicsguide.markdown",
       "score": 0,
       "generated_at": "2026-02-06T15:07:33.382506",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22151",
@@ -98,7 +107,8 @@
       "filename": "2026-01-30-late-breaking-results-convers.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.197541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://github.com/pytorch/pytorch/releases/tag/v2.10.0",
@@ -108,7 +118,8 @@
       "filename": "2026-01-24-pytorch-2100-release.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.139948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.05675",
@@ -118,7 +129,8 @@
       "filename": "2026-02-08-variable-search-stepsize-for-r.markdown",
       "score": 0,
       "generated_at": "2026-02-08T11:07:22.451761",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.00756",
@@ -128,7 +140,8 @@
       "filename": "2026-01-05-memory-bank-compression-for-co.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.139948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://github.com/torchgeo/torchgeo/releases/tag/v0.9.0",
@@ -138,7 +151,8 @@
       "filename": "2026-02-15-v090.markdown",
       "score": 0,
       "generated_at": "2026-02-15T15:06:52.324130",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.06025",
@@ -148,7 +162,8 @@
       "filename": "2026-02-07-learning-queryaware-budgetti.markdown",
       "score": 0,
       "generated_at": "2026-02-07T11:11:49.727469",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.21847",
@@ -158,7 +173,8 @@
       "filename": "2026-01-30-ready-reward-discovery-for-me.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.205541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12123",
@@ -168,7 +184,8 @@
       "filename": "2026-02-13-metasel-efficient-demonstrat.markdown",
       "score": 0,
       "generated_at": "2026-02-13T11:59:01.985262",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.18795",
@@ -178,7 +195,8 @@
       "filename": "2026-01-27-reuse-your-flops-scaling-rl-o.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.054948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.06942",
@@ -188,7 +206,8 @@
       "filename": "2026-02-09-optimal-turkish-subword-strate.markdown",
       "score": 0,
       "generated_at": "2026-02-09T11:07:03.267971",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.05466",
@@ -198,7 +217,8 @@
       "filename": "2026-02-08-optimization-is-not-enough-wh.markdown",
       "score": 0,
       "generated_at": "2026-02-08T15:05:35.931134",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12259",
@@ -208,7 +228,8 @@
       "filename": "2026-02-14-think-like-a-scientist-physic.markdown",
       "score": 0,
       "generated_at": "2026-02-15T11:05:24.157197",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22159",
@@ -218,7 +239,8 @@
       "filename": "2026-01-31-redsage-a-cybersecurity-gener.markdown",
       "score": 0,
       "generated_at": "2026-01-31T23:18:39.455737",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22075",
@@ -228,7 +250,8 @@
       "filename": "2026-02-01-lensdescriptor-guided-evoluti.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.237541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22149",
@@ -238,7 +261,8 @@
       "filename": "2026-01-31-dynaweb-modelbased-reinforce.markdown",
       "score": 0,
       "generated_at": "2026-02-01T15:25:06.944622",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.18.6",
@@ -248,7 +272,8 @@
       "filename": "2026-02-14-v0186-patch-release.markdown",
       "score": 0,
       "generated_at": "2026-02-15T11:05:24.149197",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22141",
@@ -258,7 +283,8 @@
       "filename": "2026-01-30-routing-the-lottery-adaptive-.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.212541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://github.com/vllm-project/vllm/releases/tag/v0.15.1",
@@ -268,7 +294,8 @@
       "filename": "2026-02-06-v0151.markdown",
       "score": 0,
       "generated_at": "2026-02-06T13:45:30.578617",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.01832",
@@ -278,7 +305,8 @@
       "filename": "2026-01-06-yukthi-opus-a-multichain-hyb.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.147949",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12177",
@@ -288,7 +316,8 @@
       "filename": "2026-02-13-eovae-towards-a-multisensor.markdown",
       "score": 0,
       "generated_at": "2026-02-13T18:03:28.611404",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.02311",
@@ -298,7 +327,8 @@
       "filename": "2026-01-06-placement-semantics-for-distri.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.147949",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.16078",
@@ -308,7 +338,8 @@
       "filename": "2026-01-23-improve-the-autonomy-of-the-se.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.147949",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.11873",
@@ -318,7 +349,8 @@
       "filename": "2026-02-13-temporally-resolved-aortic-3d-.markdown",
       "score": 0,
       "generated_at": "2026-02-13T15:15:05.088605",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.23266",
@@ -328,7 +360,8 @@
       "filename": "2026-02-02-irldal-safe-and-adaptive-tra.markdown",
       "score": 0,
       "generated_at": "2026-02-02T15:33:49.589017",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12159",
@@ -338,7 +371,8 @@
       "filename": "2026-02-14-3dgsnav-enhancing-visionlang.markdown",
       "score": 0,
       "generated_at": "2026-02-15T11:05:24.162197",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.16885",
@@ -348,7 +382,8 @@
       "filename": "2026-01-26-gpavggtadapting-vggt-to-larg.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.054948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12246",
@@ -358,7 +393,8 @@
       "filename": "2026-02-13-6g-empowering-future-robotics.markdown",
       "score": 0,
       "generated_at": "2026-02-13T14:55:46.408245",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.00509",
@@ -368,7 +404,8 @@
       "filename": "2026-02-03-probe-cobalancing-computatio.markdown",
       "score": 0,
       "generated_at": "2026-02-03T11:22:41.853604",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton",
@@ -378,7 +415,8 @@
       "filename": "2026-01-31-advancing-gpu-programming-with.markdown",
       "score": 0,
       "generated_at": "2026-01-31T23:18:15.489623",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12029",
@@ -388,7 +426,8 @@
       "filename": "2026-02-13-prefillshare-a-shared-prefill.markdown",
       "score": 0,
       "generated_at": "2026-02-13T14:27:34.940231",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.15633",
@@ -398,7 +437,8 @@
       "filename": "2026-01-23-advancing-rt-coreaccelerated-.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.155949",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.16956",
@@ -408,7 +448,8 @@
       "filename": "2026-01-26-datastatesllm-scalable-check.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.055948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22076",
@@ -418,7 +459,8 @@
       "filename": "2026-01-30-where-do-the-joules-go-diagno.markdown",
       "score": 0,
       "generated_at": "2026-02-13T12:36:54.220541",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.20706",
@@ -428,7 +470,8 @@
       "filename": "2026-01-29-beyond-gemmcentric-npus-enab.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.055948",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.16175",
@@ -438,7 +481,8 @@
       "filename": "2026-01-23-learning-to-discover-at-test-t.markdown",
       "score": 0,
       "generated_at": "2026-01-30T13:06:35.155949",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2601.22705",
@@ -448,7 +492,8 @@
       "filename": "2026-02-02-concur-highthroughput-agenti.markdown",
       "score": 0,
       "generated_at": "2026-02-02T11:12:58.325675",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.11000",
@@ -458,7 +503,8 @@
       "filename": "2026-02-12-finetuning-gpt5-for-gpu-kern.markdown",
       "score": 0,
       "generated_at": "2026-02-13T11:15:10.796443",
-      "source": "backfill"
+      "source": "backfill",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.13172",
@@ -467,7 +513,8 @@
       "title_slug": "longstream-longsequence-streaming-autoregressive-v",
       "filename": "2026-02-16-longstream-longsequence-streaming-autore.markdown",
       "score": 9,
-      "generated_at": "2026-02-16T11:06:43.986812"
+      "generated_at": "2026-02-16T11:06:43.986812",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.12750",
@@ -485,7 +532,8 @@
       "title_slug": "flexam-flexible-appearancemotion-decomposition-for",
       "filename": "2026-02-16-flexam-flexible-appearancemotion-decompo.markdown",
       "score": 9,
-      "generated_at": "2026-02-16T16:38:57.402501"
+      "generated_at": "2026-02-16T16:38:57.402501",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.13532",
@@ -494,7 +542,8 @@
       "title_slug": "fast-swapbased-element-selection-for-multiplicatio",
       "filename": "2026-02-17-fast-swapbased-element-selection-for-mul.markdown",
       "score": 9,
-      "generated_at": "2026-02-17T11:05:18.927194"
+      "generated_at": "2026-02-17T11:05:18.927194",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.13814",
@@ -512,7 +561,8 @@
       "title_slug": "physicsinformed-anomaly-detection-of-terrain-mater",
       "filename": "2026-02-18-physicsinformed-anomaly-detection-of-ter.markdown",
       "score": 8,
-      "generated_at": "2026-02-18T12:10:07.758854"
+      "generated_at": "2026-02-18T12:10:07.758854",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.16100",
@@ -521,7 +571,8 @@
       "title_slug": "llmdriven-intentbased-privacyaware-orchestration-a",
       "filename": "2026-02-19-llmdriven-intentbased-privacyaware-orche.markdown",
       "score": 8,
-      "generated_at": "2026-02-19T15:06:25.283560"
+      "generated_at": "2026-02-19T15:06:25.283560",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.17414",
@@ -530,7 +581,8 @@
       "title_slug": "nested-sampling-with-slicewithingibbs-efficient-ev",
       "filename": "2026-02-20-nested-sampling-with-slicewithingibbs-ef.markdown",
       "score": 8,
-      "generated_at": "2026-02-20T15:06:59.989206"
+      "generated_at": "2026-02-20T15:06:59.989206",
+      "status": "published"
     },
     {
       "url": "https://developer.nvidia.com/blog/topping-the-gpu-mode-kernel-leaderboard-with-nvidia-cuda-compute",
@@ -539,7 +591,8 @@
       "title_slug": "topping-the-gpu-mode-kernel-leaderboard-with-nvidi",
       "filename": "2026-02-21-topping-the-gpu-mode-kernel-leaderboard-.markdown",
       "score": 9,
-      "generated_at": "2026-02-21T11:02:12.994043"
+      "generated_at": "2026-02-21T11:02:12.994043",
+      "status": "published"
     },
     {
       "url": "https://github.com/open-mmlab/mmdetection3d/releases/tag/v1.4.0",
@@ -548,7 +601,8 @@
       "title_slug": "mmdetection3d-v140-release",
       "filename": "2026-02-21-mmdetection3d-v140-release.markdown",
       "score": 8,
-      "generated_at": "2026-02-21T15:08:08.979360"
+      "generated_at": "2026-02-21T15:08:08.979360",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.17634",
@@ -557,7 +611,8 @@
       "title_slug": "reverso-efficient-time-series-foundation-models-fo",
       "filename": "2026-02-22-reverso-efficient-time-series-foundation.markdown",
       "score": 9,
-      "generated_at": "2026-02-22T11:05:47.823207"
+      "generated_at": "2026-02-22T11:05:47.823207",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.17665",
@@ -576,7 +631,8 @@
       "title_slug": "sarah-spatially-aware-realtime-agentic-humans",
       "filename": "2026-02-23-sarah-spatially-aware-realtime-agentic-h.markdown",
       "score": 9,
-      "generated_at": "2026-02-23T11:07:00.366502"
+      "generated_at": "2026-02-23T11:07:00.366502",
+      "status": "published"
     },
     {
       "url": "https://arxiv.org/abs/2602.18428",
@@ -585,7 +641,8 @@
       "title_slug": "the-geometry-of-noise-why-diffusion-models-dont-ne",
       "filename": "2026-02-23-the-geometry-of-noise-why-diffusion-mode.markdown",
       "score": 9,
-      "generated_at": "2026-02-23T15:03:14.679840"
+      "generated_at": "2026-02-23T15:03:14.679840",
+      "status": "published"
     }
   ]
 }

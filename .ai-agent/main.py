@@ -534,25 +534,64 @@ class BlogGenerationSystem:
 
         return success
 
+    def _is_draft_already_published(self, draft_filename: str) -> bool:
+        """检查草稿是否已经发布到 _posts 目录"""
+        for cat in self.config['content']['categories']:
+            posts_dir = Path(cat['output_dir'])
+            if (posts_dir / draft_filename).exists():
+                return True
+        # 也检查 generation_history 中的 status 字段
+        for entry in self.generation_history.get("generated", []):
+            if entry.get("filename") == draft_filename and entry.get("status") == "published":
+                return True
+        return False
+
+    def _find_latest_unpublished_draft(self) -> Path | None:
+        """从 generation_history 中找最新的未发布草稿，而非盲目按 mtime"""
+        drafts_dir = Path(self.config['drafts']['save_location'])
+
+        # 优先从历史记录中找（按时间倒序）
+        for entry in reversed(self.generation_history.get("generated", [])):
+            filename = entry.get("filename", "")
+            if not filename:
+                continue
+            if entry.get("status") == "published":
+                continue
+            draft_path = drafts_dir / filename
+            if draft_path.exists() and not self._is_draft_already_published(filename):
+                return draft_path
+
+        # 兜底：按 mtime 找，但排除已发布的
+        drafts = sorted(drafts_dir.glob('*.markdown'), key=lambda p: p.stat().st_mtime, reverse=True)
+        for draft in drafts:
+            if not self._is_draft_already_published(draft.name):
+                return draft
+
+        return None
+
     def publish_draft(self, draft_filename: str = None):
         """发布已审阅的草稿"""
         print("\n📤 准备发布博客...\n")
 
-        # 查找最新草稿
+        # 查找草稿
         drafts_dir = Path(self.config['drafts']['save_location'])
 
         if draft_filename:
             draft_path = drafts_dir / draft_filename
         else:
-            # 找最新的草稿
-            drafts = sorted(drafts_dir.glob('*.markdown'), key=lambda p: p.stat().st_mtime, reverse=True)
-            if not drafts:
-                print("❌ 未找到草稿文件")
+            # 找最新的未发布草稿
+            draft_path = self._find_latest_unpublished_draft()
+            if not draft_path:
+                print("❌ 未找到未发布的草稿文件")
                 return False
-            draft_path = drafts[0]
 
         if not draft_path.exists():
             print(f"❌ 草稿文件不存在: {draft_path}")
+            return False
+
+        # 检查是否已发布（防止重复发布）
+        if self._is_draft_already_published(draft_path.name):
+            print(f"⏭️  草稿已发布过，跳过: {draft_path.name}")
             return False
 
         print(f"📄 草稿: {draft_path.name}")
@@ -585,6 +624,13 @@ class BlogGenerationSystem:
         shutil.copy(draft_path, target_path)
 
         print(f"✓ 博客已复制到: {target_path}")
+
+        # 标记为已发布
+        for entry in self.generation_history.get("generated", []):
+            if entry.get("filename") == draft_path.name:
+                entry["status"] = "published"
+                self._save_history()
+                break
 
         # Git操作
         if self.config['git'].get('auto_commit', False):
