@@ -643,6 +643,16 @@
       "score": 9,
       "generated_at": "2026-02-23T15:03:14.679840",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.19323",
+      "original_url": "https://arxiv.org/abs/2602.19323v1",
+      "title": "DefenseSplat: Enhancing the Robustness of 3D Gaussian Splatting via Frequency-Aware Filtering",
+      "title_slug": "defensesplat-enhancing-the-robustness-of-3d-gaussi",
+      "filename": "2026-02-24-defensesplat-enhancing-the-robustness-of.markdown",
+      "score": 9,
+      "generated_at": "2026-02-24T11:05:16.109931",
+      "status": "published"
     }
   ]
 }
