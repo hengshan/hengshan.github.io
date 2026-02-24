@@ -653,6 +653,16 @@
       "score": 9,
       "generated_at": "2026-02-24T11:05:16.109931",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.18961",
+      "original_url": "https://arxiv.org/abs/2602.18961v1",
+      "title": "Depth-Enhanced YOLO-SAM2 Detection for Reliable Ballast Insufficiency Identification",
+      "title_slug": "depthenhanced-yolosam2-detection-for-reliable-ball",
+      "filename": "2026-02-24-depthenhanced-yolosam2-detection-for-rel.markdown",
+      "score": 8,
+      "generated_at": "2026-02-24T11:07:57.949361",
+      "status": "published"
     }
   ]
 }
