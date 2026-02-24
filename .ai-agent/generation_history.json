@@ -663,6 +663,16 @@
       "score": 8,
       "generated_at": "2026-02-24T11:07:57.949361",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.19877",
+      "original_url": "https://arxiv.org/abs/2602.19877v1",
+      "title": "Breaking the CP Limit: Robust Long-Range OFDM Sensing via Interference Cleaning",
+      "title_slug": "breaking-the-cp-limit-robust-longrange-ofdm-sensin",
+      "filename": "2026-02-24-breaking-the-cp-limit-robust-longrange-o.markdown",
+      "score": 9,
+      "generated_at": "2026-02-24T15:11:17.098119",
+      "status": "published"
     }
   ]
 }
