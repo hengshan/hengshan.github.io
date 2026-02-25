@@ -674,6 +674,16 @@
       "score": 9,
       "generated_at": "2026-02-24T15:11:17.098119",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20846",
+      "original_url": "https://arxiv.org/abs/2602.20846v1",
+      "title": "Body-Reservoir Governance in Repeated Games: Embodied Decision-Making, Dynamic Sentinel Adaptation, and Complexity-Regularized Optimization",
+      "title_slug": "bodyreservoir-governance-in-repeated-games-embodie",
+      "filename": "2026-02-25-bodyreservoir-governance-in-repeated-gam.markdown",
+      "score": 9,
+      "generated_at": "2026-02-25T11:06:13.295229",
+      "status": "published"
     }
   ]
 }
