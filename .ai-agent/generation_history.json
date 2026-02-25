@@ -694,6 +694,16 @@
       "score": 9,
       "generated_at": "2026-02-25T11:16:07.039116",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.21195",
+      "original_url": "https://arxiv.org/abs/2602.21195v1",
+      "title": "Region of Interest Segmentation and Morphological Analysis for Membranes in Cryo-Electron Tomography",
+      "title_slug": "region-of-interest-segmentation-and-morphological-",
+      "filename": "2026-02-25-region-of-interest-segmentation-and-morp.markdown",
+      "score": 9,
+      "generated_at": "2026-02-25T15:06:51.711476",
+      "status": "published"
     }
   ]
 }
