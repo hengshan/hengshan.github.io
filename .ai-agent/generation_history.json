@@ -684,6 +684,16 @@
       "score": 9,
       "generated_at": "2026-02-25T11:06:13.295229",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20539",
+      "original_url": "https://arxiv.org/abs/2602.20539v1",
+      "title": "Progressive Per-Branch Depth Optimization for DEFOM-Stereo and SAM3 Joint Analysis in UAV Forestry Applications",
+      "title_slug": "progressive-perbranch-depth-optimization-for-defom",
+      "filename": "2026-02-25-progressive-perbranch-depth-optimization.markdown",
+      "score": 9,
+      "generated_at": "2026-02-25T11:16:07.039116",
+      "status": "published"
     }
   ]
 }
