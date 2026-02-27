@@ -714,6 +714,16 @@
       "score": 8,
       "generated_at": "2026-02-27T11:02:42.816925",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23361",
+      "original_url": "https://arxiv.org/abs/2602.23361v1",
+      "title": "VGG-T$^3$: Offline Feed-Forward 3D Reconstruction at Scale",
+      "title_slug": "vggt3-offline-feedforward-3d-reconstruction-at-sca",
+      "filename": "2026-02-27-vggt3-offline-feedforward-3d-reconstruct.markdown",
+      "score": 9,
+      "generated_at": "2026-02-27T15:06:22.809151",
+      "status": "published"
     }
   ]
 }
