@@ -704,6 +704,16 @@
       "score": 9,
       "generated_at": "2026-02-25T15:06:51.711476",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23214",
+      "original_url": "https://arxiv.org/abs/2602.23214v1",
+      "title": "Plug-and-Play Diffusion Meets ADMM: Dual-Variable Coupling for Robust Medical Image Reconstruction",
+      "title_slug": "plugandplay-diffusion-meets-admm-dualvariable-coup",
+      "filename": "2026-02-27-plugandplay-diffusion-meets-admm-dualvar.markdown",
+      "score": 8,
+      "generated_at": "2026-02-27T11:02:42.816925",
+      "status": "published"
     }
   ]
 }
