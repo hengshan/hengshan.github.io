@@ -734,6 +734,16 @@
       "score": 8,
       "generated_at": "2026-02-28T11:03:30.084939",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23280",
+      "original_url": "https://arxiv.org/abs/2602.23280v1",
+      "title": "Physics Informed Viscous Value Representations",
+      "title_slug": "physics-informed-viscous-value-representations",
+      "filename": "2026-02-28-physics-informed-viscous-value-represent.markdown",
+      "score": 8,
+      "generated_at": "2026-02-28T15:05:58.902990",
+      "status": "published"
     }
   ]
 }
