@@ -724,6 +724,16 @@
       "score": 9,
       "generated_at": "2026-02-27T15:06:22.809151",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.21777",
+      "original_url": "https://arxiv.org/abs/2602.21777v1",
+      "title": "Towards Object Segmentation Mask Selection Using Specular Reflections",
+      "title_slug": "towards-object-segmentation-mask-selection-using-s",
+      "filename": "2026-02-28-towards-object-segmentation-mask-selecti.markdown",
+      "score": 8,
+      "generated_at": "2026-02-28T11:03:30.084939",
+      "status": "published"
     }
   ]
 }
