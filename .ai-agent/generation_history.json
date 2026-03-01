@@ -744,6 +744,16 @@
       "score": 8,
       "generated_at": "2026-02-28T15:05:58.902990",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.22691",
+      "original_url": "https://arxiv.org/abs/2602.22691v1",
+      "title": "U-Net-Based Generative Joint Source-Channel Coding for Wireless Image Transmission",
+      "title_slug": "unetbased-generative-joint-sourcechannel-coding-fo",
+      "filename": "2026-03-01-unetbased-generative-joint-sourcechannel.markdown",
+      "score": 8,
+      "generated_at": "2026-03-01T11:07:10.500107",
+      "status": "published"
     }
   ]
 }
