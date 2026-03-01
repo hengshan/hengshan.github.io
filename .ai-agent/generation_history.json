@@ -754,6 +754,16 @@
       "score": 8,
       "generated_at": "2026-03-01T11:07:10.500107",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.22544",
+      "original_url": "https://arxiv.org/abs/2602.22544v1",
+      "title": "HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising in Cone-Beam Computed Tomography",
+      "title_slug": "harunet-hybrid-attention-residual-unet-for-edgepre",
+      "filename": "2026-03-01-harunet-hybrid-attention-residual-unet-f.markdown",
+      "score": 8,
+      "generated_at": "2026-03-01T15:07:28.246006",
+      "status": "published"
     }
   ]
 }
