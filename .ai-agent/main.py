@@ -368,62 +368,27 @@ class BlogGenerationSystem:
         self._save_metadata(blog_data, draft_path, validation_results, quality)
         print(f"  ✓ 草稿已保存: {draft_path}")
 
-        # 5.7 Phase 3: 迭代改进博客（最多2次）
-        MAX_ITERATIONS = 2
+        # 5.7 评估结果诊断（不再 refine 循环，改为写 PROMPT_IMPROVEMENTS.md）
+        # 理由：per-post refine 循环浪费 token，经常 timeout，且无法修复 prompt 本身的问题。
+        # 正确做法：prompt 写好，评估做诊断，不达标时记录原因给人工改 prompt。
         TARGET_SCORE = 8.0
-        
-        for iteration in range(1, MAX_ITERATIONS + 1):
-            # 检查是否需要改进
-            if evaluation:
-                current_score = evaluation.get('overall_score', 0)
-                structure = evaluation.get('structure', {})
-                text_ratio = structure.get('text_ratio', 0)
-                
-                # 检查是否已达标
-                if current_score >= TARGET_SCORE and 0.40 <= text_ratio <= 0.60:
-                    print(f"\n✓ 博客质量达标 (评分: {current_score}/10, 文字占比: {text_ratio:.0%})")
-                    break
-                
-                # 需要改进
-                print(f"\n🔄 迭代改进 ({iteration}/{MAX_ITERATIONS})...")
-                print(f"   当前评分: {current_score}/10, 目标: {TARGET_SCORE}/10")
-                
-                try:
-                    refine_result = self.blog_refiner.refine(
-                        blog_content=blog_data['content'],
-                        evaluation=evaluation,
-                        iteration=iteration
-                    )
-                    
-                    if refine_result.converged:
-                        print(f"   ✓ 已达标，停止迭代")
-                        break
-                    
-                    # 更新博客内容
-                    blog_data['content'] = refine_result.refined_content
-                    
-                    print(f"   改动:")
-                    for change in refine_result.changes_made:
-                        print(f"     - {change}")
-                    
-                    # 重新评估
-                    print(f"   重新评估中...")
-                    evaluation = self.blog_evaluator.evaluate_blog(
-                        blog_data['content'],
-                        selected_topic
-                    )
-                    new_score = evaluation.get('overall_score', 0)
-                    print(f"   新评分: {new_score}/10")
-                    
-                    if new_score >= TARGET_SCORE:
-                        print(f"   ✓ 评分达标，停止迭代")
-                        break
-                        
-                except Exception as e:
-                    print(f"   ⚠ 迭代改进失败: {e}")
-                    break
+        if evaluation:
+            current_score = evaluation.get('overall_score', 0)
+            structure = evaluation.get('structure', {})
+            text_ratio = structure.get('text_ratio', 0)
+
+            if current_score >= TARGET_SCORE and 0.40 <= text_ratio <= 0.60:
+                print(f"\n✓ 博客质量达标 (评分: {current_score}/10, 文字占比: {text_ratio:.0%})")
             else:
-                break
+                print(f"\n⚠ 博客评分 {current_score}/10（目标 {TARGET_SCORE}），记录改进建议...")
+                suggestions = evaluation.get('suggestions', [])
+                self._log_prompt_improvements(
+                    topic=selected_topic,
+                    score=current_score,
+                    category=selected_category,
+                    suggestions=suggestions,
+                    evaluation=evaluation,
+                )
 
         # 6. 重新保存草稿（迭代改进后的版本）
         draft_path = self.content_generator.save_draft(blog_data)
@@ -674,6 +639,44 @@ class BlogGenerationSystem:
             return max(scores.items(), key=lambda x: x[1])[0]
 
         return 'ML/DL算法实现'  # 默认分类
+
+    def _log_prompt_improvements(self, topic: Dict, score: float,
+                                  category: str, suggestions: list,
+                                  evaluation: Dict):
+        """当评估分数不达标时，将改进建议写入 PROMPT_IMPROVEMENTS.md。
+        不再触发 refine 循环——改进 prompt 本身才是正确方式。"""
+        improvements_path = Path('.ai-agent/PROMPT_IMPROVEMENTS.md')
+        now = datetime.now().strftime('%Y-%m-%d %H:%M')
+        
+        lines = []
+        if not improvements_path.exists():
+            lines.append("# Prompt Improvement Log\n")
+            lines.append("每次生成评分低于阈值时自动记录，供人工改进提示词使用。\n\n")
+        
+        lines.append(f"## [{now}] Score {score}/10 — {category}\n")
+        lines.append(f"**Topic**: {topic.get('title', 'unknown')}\n\n")
+        
+        depth = evaluation.get('content_depth', {})
+        code_q = evaluation.get('code_quality', {})
+        struct = evaluation.get('structure', {})
+        
+        lines.append(f"**Scores**: depth={depth.get('score','?')} | code={code_q.get('score','?')} | structure={struct.get('score','?')}\n\n")
+        
+        if suggestions:
+            lines.append("**Suggestions (fix in prompt):**\n")
+            for s in suggestions:
+                lines.append(f"- {s}\n")
+        
+        if depth.get('comments'):
+            lines.append(f"\n**Depth comment**: {depth['comments']}\n")
+        
+        lines.append("\n---\n\n")
+        
+        with open(improvements_path, 'a', encoding='utf-8') as f:
+            f.writelines(lines)
+        
+        print(f"  📝 改进建议已记录到 .ai-agent/PROMPT_IMPROVEMENTS.md")
+        print(f"  （不触发 refine 循环，请人工根据建议改进 prompts/ 目录下的模板）")
 
     def _save_metadata(self, blog_data: Dict, draft_path: str,
                       validation: Dict, quality: Dict):
