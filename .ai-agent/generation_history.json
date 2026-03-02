@@ -748,6 +748,16 @@
       "url": "https://arxiv.org/abs/2602.22544v1",
       "title": "HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising in CBCT",
       "generated_at": "2026-03-01"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.23961",
+      "original_url": "https://arxiv.org/abs/2602.23961v1",
+      "title": "Clinically-aligned ischemic stroke segmentation and ASPECTS scoring on NCCT imaging using a slice-gated loss on foundation representations",
+      "title_slug": "clinicallyaligned-ischemic-stroke-segmentation-and",
+      "filename": "2026-03-02-clinicallyaligned-ischemic-stroke-segmen.markdown",
+      "score": 8,
+      "generated_at": "2026-03-02T11:02:49.272847",
+      "status": "published"
     }
   ]
 }
