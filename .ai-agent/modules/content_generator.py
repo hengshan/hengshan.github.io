@@ -142,26 +142,28 @@ class ContentGenerator:
             try:
                 # 调用 Claude CLI
                 # 使用 -p (print) 模式，禁用工具以纯文本生成
+                # cwd=/tmp：避免加载项目 memory，防止 <function_calls> XML 污染输出
                 result = subprocess.run(
                     [
                         'claude',
                         '-p',  # print mode (non-interactive)
                         '--model', 'sonnet',  # 使用 sonnet 模型
                         '--tools', '',  # 禁用工具，纯文本生成
+                        '--no-session-persistence',  # 不读写 session，防止 memory 干扰
                         '--dangerously-skip-permissions',  # 跳过权限检查
                     ],
                     input=full_prompt,
                     capture_output=True,
                     text=True,
                     timeout=600,  # 10分钟超时
-                    cwd=str(Path('.').absolute()),  # 在项目目录运行
+                    cwd='/tmp',  # 用 /tmp 避免加载项目 memory，防止 tool call XML 泄漏到输出
                 )
 
                 if result.returncode != 0:
                     error_msg = result.stderr or result.stdout or "Unknown error"
                     raise RuntimeError(f"Claude CLI 错误: {error_msg}")
 
-                blog_content = result.stdout.strip()
+                blog_content = self._strip_tool_calls(result.stdout.strip())
 
             finally:
                 # 清理临时文件
@@ -250,6 +252,16 @@ generated_by: Claude Code CLI
         except Exception as e:
             print(f"  ✗ 生成失败: {e}")
             raise
+
+    def _strip_tool_calls(self, text: str) -> str:
+        """移除 Claude Code CLI 可能泄漏到输出的 <function_calls>...</function_calls> XML 块。
+        即使 --tools '' 已禁用工具，某些版本的 CLI 仍会将 tool call XML 打印到 stdout。"""
+        import re
+        # 移除完整的 <function_calls> ... </function_calls> 块（含嵌套内容，跨行）
+        text = re.sub(r'<function_calls>.*?</function_calls>\s*', '', text, flags=re.DOTALL)
+        # 兜底：移除单独出现的 <invoke>/<parameter>/<function_calls> 残留标签
+        text = re.sub(r'</?(?:function_calls|invoke|parameter)[^>]*>\s*', '', text, flags=re.DOTALL)
+        return text.strip()
 
     def _get_category_tag(self, category: str) -> str:
         """获取分类标签"""
