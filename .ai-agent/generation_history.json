@@ -724,6 +724,30 @@
       "score": 9,
       "generated_at": "2026-02-27T15:06:22.809151",
       "status": "published"
+    },
+    {
+      "filename": "2026-02-28-towards-object-segmentation-mask-selecti.markdown",
+      "url": "https://arxiv.org/abs/2602.21777v1",
+      "title": "Towards Object Segmentation Mask Selection Using Specular Reflections",
+      "generated_at": "2026-02-28"
+    },
+    {
+      "filename": "2026-02-28-physics-informed-viscous-value-represent.markdown",
+      "url": "https://arxiv.org/abs/2602.23280v1",
+      "title": "Physics Informed Viscous Value Representations",
+      "generated_at": "2026-02-28"
+    },
+    {
+      "filename": "2026-03-01-unetbased-generative-joint-sourcechannel.markdown",
+      "url": "https://arxiv.org/abs/2602.22691v1",
+      "title": "U-Net-Based Generative Joint Source-Channel Coding for Wireless Image Transmission",
+      "generated_at": "2026-03-01"
+    },
+    {
+      "filename": "2026-03-01-harunet-hybrid-attention-residual-unet-f.markdown",
+      "url": "https://arxiv.org/abs/2602.22544v1",
+      "title": "HARU-Net: Hybrid Attention Residual U-Net for Edge-Preserving Denoising in CBCT",
+      "generated_at": "2026-03-01"
     }
   ]
 }
