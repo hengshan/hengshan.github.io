@@ -758,6 +758,16 @@
       "score": 8,
       "generated_at": "2026-03-02T11:02:49.272847",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.00888",
+      "original_url": "https://arxiv.org/abs/2603.00888v1",
+      "title": "Probabilistic Learning and Generation in Deep Sequence Models",
+      "title_slug": "probabilistic-learning-and-generation-in-deep-sequ",
+      "filename": "2026-03-03-probabilistic-learning-and-generation-in.markdown",
+      "score": 8,
+      "generated_at": "2026-03-03T11:03:19.856556",
+      "status": "published"
     }
   ]
 }
