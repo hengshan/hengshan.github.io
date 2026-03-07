@@ -768,6 +768,16 @@
       "score": 8,
       "generated_at": "2026-03-03T11:03:19.856556",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.05023",
+      "original_url": "https://arxiv.org/abs/2603.05023v1",
+      "title": "Label Hijacking in Track Consensus-Based Distributed Multi-Target Tracking",
+      "title_slug": "label-hijacking-in-track-consensusbased-distribute",
+      "filename": "2026-03-07-label-hijacking-in-track-consensusbased-.markdown",
+      "score": 8,
+      "generated_at": "2026-03-07T15:04:58.578835",
+      "status": "published"
     }
   ]
 }
