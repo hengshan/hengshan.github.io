@@ -778,6 +778,16 @@
       "score": 8,
       "generated_at": "2026-03-07T15:04:58.578835",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.05335",
+      "original_url": "https://arxiv.org/abs/2603.05335v1",
+      "title": "Bayes with No Shame: Admissibility Geometries of Predictive Inference",
+      "title_slug": "bayes-with-no-shame-admissibility-geometries-of-pr",
+      "filename": "2026-03-08-bayes-with-no-shame-admissibility-geomet.markdown",
+      "score": 8,
+      "generated_at": "2026-03-08T11:07:07.241254",
+      "status": "published"
     }
   ]
 }
