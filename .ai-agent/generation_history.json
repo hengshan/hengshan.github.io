@@ -788,6 +788,16 @@
       "score": 8,
       "generated_at": "2026-03-08T11:07:07.241254",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.17.0",
+      "title": "v0.17.0",
+      "title_slug": "v0170",
+      "filename": "2026-03-08-v0170.markdown",
+      "score": 8,
+      "generated_at": "2026-03-08T15:03:19.262070",
+      "status": "published"
     }
   ]
 }
