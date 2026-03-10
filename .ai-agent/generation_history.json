@@ -808,6 +808,16 @@
       "score": 8,
       "generated_at": "2026-03-10T11:03:33.092469",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.08703",
+      "original_url": "https://arxiv.org/abs/2603.08703v1",
+      "title": "HiAR: Efficient Autoregressive Long Video Generation via Hierarchical Denoising",
+      "title_slug": "hiar-efficient-autoregressive-long-video-generatio",
+      "filename": "2026-03-10-hiar-efficient-autoregressive-long-video.markdown",
+      "score": 8,
+      "generated_at": "2026-03-10T15:05:06.116378",
+      "status": "published"
     }
   ]
 }
