@@ -798,6 +798,16 @@
       "score": 8,
       "generated_at": "2026-03-08T15:03:19.262070",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.08215",
+      "original_url": "https://arxiv.org/abs/2603.08215v1",
+      "title": "Skill-Evolving Grounded Reasoning for Free-Text Promptable 3D Medical Image Segmentation",
+      "title_slug": "skillevolving-grounded-reasoning-for-freetext-prom",
+      "filename": "2026-03-10-skillevolving-grounded-reasoning-for-fre.markdown",
+      "score": 8,
+      "generated_at": "2026-03-10T11:03:33.092469",
+      "status": "published"
     }
   ]
 }
