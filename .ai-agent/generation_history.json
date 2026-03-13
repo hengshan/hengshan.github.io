@@ -818,6 +818,16 @@
       "score": 8,
       "generated_at": "2026-03-10T15:05:06.116378",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.12244",
+      "original_url": "https://arxiv.org/abs/2603.12244v1",
+      "title": "Separable neural architectures as a primitive for unified predictive and generative intelligence",
+      "title_slug": "separable-neural-architectures-as-a-primitive-for-",
+      "filename": "2026-03-13-separable-neural-architectures-as-a-prim.markdown",
+      "score": 8,
+      "generated_at": "2026-03-13T15:04:29.325655",
+      "status": "published"
     }
   ]
 }
