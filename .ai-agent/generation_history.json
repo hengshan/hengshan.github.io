@@ -828,6 +828,16 @@
       "score": 8,
       "generated_at": "2026-03-13T15:04:29.325655",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.12246",
+      "original_url": "https://arxiv.org/abs/2603.12246v1",
+      "title": "Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training",
+      "title_slug": "examining-reasoning-llmsasjudges-in-nonverifiable-",
+      "filename": "2026-03-15-examining-reasoning-llmsasjudges-in-nonv.markdown",
+      "score": 8,
+      "generated_at": "2026-03-15T15:06:24.349247",
+      "status": "published"
     }
   ]
 }
