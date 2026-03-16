@@ -848,6 +848,16 @@
       "score": 8,
       "generated_at": "2026-03-16T11:05:22.426184",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.12949",
+      "original_url": "https://arxiv.org/abs/2603.12949v1",
+      "title": "Editing Away the Evidence: Diffusion-Based Image Manipulation and the Failure Modes of Robust Watermarking",
+      "title_slug": "editing-away-the-evidence-diffusionbased-image-man",
+      "filename": "2026-03-16-editing-away-the-evidence-diffusionbased.markdown",
+      "score": 9,
+      "generated_at": "2026-03-16T15:05:29.863135",
+      "status": "published"
     }
   ]
 }
