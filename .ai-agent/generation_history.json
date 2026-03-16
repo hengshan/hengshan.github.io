@@ -838,6 +838,16 @@
       "score": 8,
       "generated_at": "2026-03-15T15:06:24.349247",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.13162",
+      "original_url": "https://arxiv.org/abs/2603.13162v1",
+      "title": "DiT-IC: Aligned Diffusion Transformer for Efficient Image Compression",
+      "title_slug": "ditic-aligned-diffusion-transformer-for-efficient-",
+      "filename": "2026-03-16-ditic-aligned-diffusion-transformer-for-.markdown",
+      "score": 8,
+      "generated_at": "2026-03-16T11:05:22.426184",
+      "status": "published"
     }
   ]
 }
