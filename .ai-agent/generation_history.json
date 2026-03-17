@@ -858,6 +858,16 @@
       "score": 9,
       "generated_at": "2026-03-16T15:05:29.863135",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.14941",
+      "original_url": "https://arxiv.org/abs/2603.14941v1",
+      "title": "RS-WorldModel: a Unified Model for Remote Sensing Understanding and Future Sense Forecasting",
+      "title_slug": "rsworldmodel-a-unified-model-for-remote-sensing-un",
+      "filename": "2026-03-17-rsworldmodel-a-unified-model-for-remote-.markdown",
+      "score": 8,
+      "generated_at": "2026-03-17T11:03:05.052828",
+      "status": "published"
     }
   ]
 }
