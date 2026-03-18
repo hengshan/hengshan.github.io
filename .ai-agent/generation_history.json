@@ -878,6 +878,16 @@
       "score": 9,
       "generated_at": "2026-03-18T11:05:13.425014",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.16868",
+      "original_url": "https://arxiv.org/abs/2603.16868v1",
+      "title": "MessyKitchens: Contact-rich object-level 3D scene reconstruction",
+      "title_slug": "messykitchens-contactrich-objectlevel-3d-scene-rec",
+      "filename": "2026-03-18-messykitchens-contactrich-objectlevel-3d.markdown",
+      "score": 8,
+      "generated_at": "2026-03-18T15:03:18.167844",
+      "status": "published"
     }
   ]
 }
