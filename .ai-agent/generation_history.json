@@ -868,6 +868,16 @@
       "score": 8,
       "generated_at": "2026-03-17T11:03:05.052828",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.16788",
+      "original_url": "https://arxiv.org/abs/2603.16788v1",
+      "title": "Preserving Vertical Structure in 3D-to-2D Projection for Permafrost Thaw Mapping",
+      "title_slug": "preserving-vertical-structure-in-3dto2d-projection",
+      "filename": "2026-03-18-preserving-vertical-structure-in-3dto2d-.markdown",
+      "score": 9,
+      "generated_at": "2026-03-18T11:05:13.425014",
+      "status": "published"
     }
   ]
 }
