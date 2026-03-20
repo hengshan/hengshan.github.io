@@ -888,6 +888,16 @@
       "score": 8,
       "generated_at": "2026-03-18T15:03:18.167844",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19231",
+      "original_url": "https://arxiv.org/abs/2603.19231v1",
+      "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
+      "title_slug": "monoart-progressive-structural-reasoning-for-monoc",
+      "filename": "2026-03-20-monoart-progressive-structural-reasoning.markdown",
+      "score": 8,
+      "generated_at": "2026-03-20T11:05:33.337151",
+      "status": "published"
     }
   ]
 }
