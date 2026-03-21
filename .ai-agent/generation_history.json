@@ -898,6 +898,16 @@
       "score": 8,
       "generated_at": "2026-03-20T11:05:33.337151",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.18123",
+      "original_url": "https://arxiv.org/abs/2603.18123v1",
+      "title": "Understanding Task Aggregation for Generalizable Ultrasound Foundation Models",
+      "title_slug": "understanding-task-aggregation-for-generalizable-u",
+      "filename": "2026-03-21-understanding-task-aggregation-for-gener.markdown",
+      "score": 8,
+      "generated_at": "2026-03-21T11:04:11.625165",
+      "status": "published"
     }
   ]
 }
