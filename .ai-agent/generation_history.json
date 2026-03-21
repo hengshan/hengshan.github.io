@@ -908,6 +908,16 @@
       "score": 8,
       "generated_at": "2026-03-21T11:04:11.625165",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19220",
+      "original_url": "https://arxiv.org/abs/2603.19220v1",
+      "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+      "title_slug": "nemotroncascade-2-posttraining-llms-with-cascade-r",
+      "filename": "2026-03-21-nemotroncascade-2-posttraining-llms-with.markdown",
+      "score": 8,
+      "generated_at": "2026-03-21T15:03:31.756998",
+      "status": "published"
     }
   ]
 }
