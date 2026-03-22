@@ -918,6 +918,16 @@
       "score": 8,
       "generated_at": "2026-03-21T15:03:31.756998",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.19153",
+      "original_url": "https://arxiv.org/abs/2603.19153v1",
+      "title": "Mobile Radio Networks and Weather Radars Dualism: Rainfall Measurement Revolution in Densely Populated Areas",
+      "title_slug": "mobile-radio-networks-and-weather-radars-dualism-r",
+      "filename": "2026-03-22-mobile-radio-networks-and-weather-radars.markdown",
+      "score": 9,
+      "generated_at": "2026-03-22T11:07:41.916687",
+      "status": "published"
     }
   ]
 }
