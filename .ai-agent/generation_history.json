@@ -928,6 +928,16 @@
       "score": 9,
       "generated_at": "2026-03-22T11:07:41.916687",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.18995",
+      "original_url": "https://arxiv.org/abs/2603.18995v1",
+      "title": "Radar Detection through Rectified Flow Matching",
+      "title_slug": "radar-detection-through-rectified-flow-matching",
+      "filename": "2026-03-22-radar-detection-through-rectified-flow-m.markdown",
+      "score": 9,
+      "generated_at": "2026-03-22T15:05:02.388822",
+      "status": "published"
     }
   ]
 }
