@@ -938,6 +938,16 @@
       "score": 9,
       "generated_at": "2026-03-22T15:05:02.388822",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.23390",
+      "original_url": "https://arxiv.org/abs/2603.23390v1",
+      "title": "Harnessing Lightweight Transformer with Contextual Synergic Enhancement for Efficient 3D Medical Image Segmentation",
+      "title_slug": "harnessing-lightweight-transformer-with-contextual",
+      "filename": "2026-03-25-harnessing-lightweight-transformer-with-.markdown",
+      "score": 9,
+      "generated_at": "2026-03-25T15:06:45.038566",
+      "status": "published"
     }
   ]
 }
