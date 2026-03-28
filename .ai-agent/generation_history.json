@@ -948,6 +948,16 @@
       "score": 9,
       "generated_at": "2026-03-25T15:06:45.038566",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25384",
+      "original_url": "https://arxiv.org/abs/2603.25384v1",
+      "title": "Underdetermined Blind Source Separation via Weighted Simplex Shrinkage Regularization and Quantum Deep Image Prior",
+      "title_slug": "underdetermined-blind-source-separation-via-weight",
+      "filename": "2026-03-28-underdetermined-blind-source-separation-.markdown",
+      "score": 8,
+      "generated_at": "2026-03-28T11:06:41.642687",
+      "status": "published"
     }
   ]
 }
