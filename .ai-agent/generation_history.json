@@ -968,6 +968,16 @@
       "score": 9,
       "generated_at": "2026-03-30T15:05:15.856360",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.28498",
+      "original_url": "https://arxiv.org/abs/2603.28498v1",
+      "title": "MRI-to-CT synthesis using drifting models",
+      "title_slug": "mritoct-synthesis-using-drifting-models",
+      "filename": "2026-03-31-mritoct-synthesis-using-drifting-models.markdown",
+      "score": 9,
+      "generated_at": "2026-03-31T11:06:47.528571",
+      "status": "published"
     }
   ]
 }
