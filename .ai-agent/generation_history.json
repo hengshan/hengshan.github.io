@@ -978,6 +978,16 @@
       "score": 9,
       "generated_at": "2026-03-31T11:06:47.528571",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.29261",
+      "original_url": "https://arxiv.org/abs/2603.29261v1",
+      "title": "Monodense Deep Neural Model for Determining Item Price Elasticity",
+      "title_slug": "monodense-deep-neural-model-for-determining-item-p",
+      "filename": "2026-04-03-monodense-deep-neural-model-for-determin.markdown",
+      "score": 9,
+      "generated_at": "2026-04-03T11:05:39.499995",
+      "status": "published"
     }
   ]
 }
