@@ -988,6 +988,16 @@
       "score": 9,
       "generated_at": "2026-04-03T11:05:39.499995",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.02292",
+      "original_url": "https://arxiv.org/abs/2604.02292v1",
+      "title": "Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference",
+      "title_slug": "taming-the-exponential-a-fast-softmax-surrogate-fo",
+      "filename": "2026-04-04-taming-the-exponential-a-fast-softmax-su.markdown",
+      "score": 9,
+      "generated_at": "2026-04-04T11:05:03.349912",
+      "status": "published"
     }
   ]
 }
