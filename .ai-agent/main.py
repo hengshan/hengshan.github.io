@@ -385,7 +385,7 @@ class BlogGenerationSystem:
                 self._log_prompt_improvements(
                     topic=selected_topic,
                     score=current_score,
-                    category=selected_category,
+                    category=category,
                     suggestions=suggestions,
                     evaluation=evaluation,
                 )
