@@ -998,6 +998,16 @@
       "score": 9,
       "generated_at": "2026-04-04T11:05:03.349912",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.01946",
+      "original_url": "https://arxiv.org/abs/2604.01946v1",
+      "title": "PAC-Bayesian Reward-Certified Outcome Weighted Learning",
+      "title_slug": "pacbayesian-rewardcertified-outcome-weighted-learn",
+      "filename": "2026-04-05-pacbayesian-rewardcertified-outcome-weig.markdown",
+      "score": 8,
+      "generated_at": "2026-04-05T11:05:40.709714",
+      "status": "published"
     }
   ]
 }
