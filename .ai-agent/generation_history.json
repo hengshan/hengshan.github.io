@@ -1008,6 +1008,16 @@
       "score": 8,
       "generated_at": "2026-04-05T11:05:40.709714",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.02116",
+      "original_url": "https://arxiv.org/abs/2604.02116v1",
+      "title": "A new wavelet-based variational family with copula dependence structures",
+      "title_slug": "a-new-waveletbased-variational-family-with-copula-",
+      "filename": "2026-04-05-a-new-waveletbased-variational-family-wi.markdown",
+      "score": 8,
+      "generated_at": "2026-04-05T15:08:00.319817",
+      "status": "published"
     }
   ]
 }
