@@ -1018,6 +1018,25 @@
       "score": 8,
       "generated_at": "2026-04-05T15:08:00.319817",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.03092",
+      "original_url": "https://arxiv.org/abs/2604.03092v1",
+      "title": "Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM",
+      "title_slug": "flashmono-feedforward-accelerated-gaussian-splatti",
+      "filename": "2026-04-06-flashmono-feedforward-accelerated-gaussi.markdown",
+      "score": 7,
+      "generated_at": "2026-04-06T11:06:25.750503"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.03120",
+      "original_url": "https://arxiv.org/abs/2604.03120v1",
+      "title": "SCC-Loc: A Unified Semantic Cascade Consensus Framework for UAV Thermal Geo-Localization",
+      "title_slug": "sccloc-a-unified-semantic-cascade-consensus-framew",
+      "filename": "2026-04-06-sccloc-a-unified-semantic-cascade-consen.markdown",
+      "score": 8,
+      "generated_at": "2026-04-06T15:04:12.385957",
+      "status": "published"
     }
   ]
 }
