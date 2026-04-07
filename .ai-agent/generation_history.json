@@ -1037,6 +1037,16 @@
       "score": 8,
       "generated_at": "2026-04-06T15:04:12.385957",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.04929",
+      "original_url": "https://arxiv.org/abs/2604.04929v1",
+      "title": "Rethinking Model Efficiency: Multi-Agent Inference with Large Models",
+      "title_slug": "rethinking-model-efficiency-multiagent-inference-w",
+      "filename": "2026-04-07-rethinking-model-efficiency-multiagent-i.markdown",
+      "score": 8,
+      "generated_at": "2026-04-07T11:03:33.460238",
+      "status": "published"
     }
   ]
 }
