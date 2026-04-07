@@ -1047,6 +1047,16 @@
       "score": 8,
       "generated_at": "2026-04-07T11:03:33.460238",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.04667",
+      "original_url": "https://arxiv.org/abs/2604.04667v1",
+      "title": "ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging",
+      "title_slug": "zedmap-bundle-adjustment-guided-zeroshot-depth-map",
+      "filename": "2026-04-07-zedmap-bundle-adjustment-guided-zeroshot.markdown",
+      "score": 8,
+      "generated_at": "2026-04-07T15:05:18.920260",
+      "status": "published"
     }
   ]
 }
