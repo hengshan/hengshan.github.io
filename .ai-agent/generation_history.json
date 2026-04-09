@@ -1057,6 +1057,25 @@
       "score": 8,
       "generated_at": "2026-04-07T15:05:18.920260",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.04484",
+      "original_url": "https://arxiv.org/abs/2604.04484v1",
+      "title": "TM-BSN: Triangular-Masked Blind-Spot Network for Real-World Self-Supervised Image Denoising",
+      "title_slug": "tmbsn-triangularmasked-blindspot-network-for-realw",
+      "filename": "2026-04-08-tmbsn-triangularmasked-blindspot-network.markdown",
+      "score": 7,
+      "generated_at": "2026-04-08T11:04:41.173444"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.07267",
+      "original_url": "https://arxiv.org/abs/2604.07267v1",
+      "title": "The Theory and Practice of Highly Scalable Gaussian Process Regression with Nearest Neighbours",
+      "title_slug": "the-theory-and-practice-of-highly-scalable-gaussia",
+      "filename": "2026-04-09-the-theory-and-practice-of-highly-scalab.markdown",
+      "score": 8,
+      "generated_at": "2026-04-09T11:03:33.284327",
+      "status": "published"
     }
   ]
 }
