@@ -1076,6 +1076,16 @@
       "score": 8,
       "generated_at": "2026-04-09T11:03:33.284327",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.07350",
+      "original_url": "https://arxiv.org/abs/2604.07350v1",
+      "title": "Fast Spatial Memory with Elastic Test-Time Training",
+      "title_slug": "fast-spatial-memory-with-elastic-testtime-training",
+      "filename": "2026-04-09-fast-spatial-memory-with-elastic-testtim.markdown",
+      "score": 8,
+      "generated_at": "2026-04-09T15:05:15.402884",
+      "status": "published"
     }
   ]
 }
