@@ -1086,6 +1086,16 @@
       "score": 8,
       "generated_at": "2026-04-09T15:05:15.402884",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08477",
+      "original_url": "https://arxiv.org/abs/2604.08477v1",
+      "title": "SUPERNOVA: Eliciting General Reasoning in LLMs with Reinforcement Learning on Natural Instructions",
+      "title_slug": "supernova-eliciting-general-reasoning-in-llms-with",
+      "filename": "2026-04-10-supernova-eliciting-general-reasoning-in.markdown",
+      "score": 8,
+      "generated_at": "2026-04-10T11:06:50.668198",
+      "status": "published"
     }
   ]
 }
