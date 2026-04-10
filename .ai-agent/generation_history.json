@@ -1096,6 +1096,16 @@
       "score": 8,
       "generated_at": "2026-04-10T11:06:50.668198",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08272",
+      "original_url": "https://arxiv.org/abs/2604.08272v1",
+      "title": "Preventing Overfitting in Deep Image Prior for Hyperspectral Image Denoising",
+      "title_slug": "preventing-overfitting-in-deep-image-prior-for-hyp",
+      "filename": "2026-04-10-preventing-overfitting-in-deep-image-pri.markdown",
+      "score": 9,
+      "generated_at": "2026-04-10T15:07:20.914105",
+      "status": "published"
     }
   ]
 }
