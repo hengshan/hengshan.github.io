@@ -1116,6 +1116,16 @@
       "score": 8,
       "generated_at": "2026-04-11T11:05:50.854637",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08547",
+      "original_url": "https://arxiv.org/abs/2604.08547v1",
+      "title": "GaussiAnimate: Reconstruct and Rig Animatable Categories with Level of Dynamics",
+      "title_slug": "gaussianimate-reconstruct-and-rig-animatable-categ",
+      "filename": "2026-04-11-gaussianimate-reconstruct-and-rig-animat.markdown",
+      "score": 8,
+      "generated_at": "2026-04-11T15:04:01.484381",
+      "status": "published"
     }
   ]
 }
