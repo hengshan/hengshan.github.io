@@ -1106,6 +1106,16 @@
       "score": 9,
       "generated_at": "2026-04-10T15:07:20.914105",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.07780",
+      "original_url": "https://arxiv.org/abs/2604.07780v1",
+      "title": "MonoUNet: A Robust Tiny Neural Network for Automated Knee Cartilage Segmentation on Point-of-Care Ultrasound Devices",
+      "title_slug": "monounet-a-robust-tiny-neural-network-for-automate",
+      "filename": "2026-04-11-monounet-a-robust-tiny-neural-network-fo.markdown",
+      "score": 8,
+      "generated_at": "2026-04-11T11:05:50.854637",
+      "status": "published"
     }
   ]
 }
