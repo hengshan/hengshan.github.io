@@ -1136,6 +1136,16 @@
       "score": 8,
       "generated_at": "2026-04-12T11:04:48.260284",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08542",
+      "original_url": "https://arxiv.org/abs/2604.08542v1",
+      "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
+      "title_slug": "scal3r-scalable-testtime-training-for-largescale-3",
+      "filename": "2026-04-12-scal3r-scalable-testtime-training-for-la.markdown",
+      "score": 8,
+      "generated_at": "2026-04-12T15:05:06.821208",
+      "status": "published"
     }
   ]
 }
