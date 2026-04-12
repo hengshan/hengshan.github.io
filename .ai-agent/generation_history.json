@@ -1126,6 +1126,16 @@
       "score": 8,
       "generated_at": "2026-04-11T15:04:01.484381",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.08548",
+      "original_url": "https://arxiv.org/abs/2604.08548v1",
+      "title": "ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets",
+      "title_slug": "etchx-robustify-expressive-body-fitting-to-clothed",
+      "filename": "2026-04-12-etchx-robustify-expressive-body-fitting-.markdown",
+      "score": 8,
+      "generated_at": "2026-04-12T11:04:48.260284",
+      "status": "published"
     }
   ]
 }
