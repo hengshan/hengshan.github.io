@@ -1156,6 +1156,16 @@
       "score": 8,
       "generated_at": "2026-04-13T11:05:07.819864",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.09107",
+      "original_url": "https://arxiv.org/abs/2604.09107v1",
+      "title": "TensorHub: Scalable and Elastic Weight Transfer for LLM RL Training",
+      "title_slug": "tensorhub-scalable-and-elastic-weight-transfer-for",
+      "filename": "2026-04-13-tensorhub-scalable-and-elastic-weight-tr.markdown",
+      "score": 8,
+      "generated_at": "2026-04-13T15:05:39.748164",
+      "status": "published"
     }
   ]
 }
