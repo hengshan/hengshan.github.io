@@ -1176,6 +1176,16 @@
       "score": 9,
       "generated_at": "2026-04-14T11:05:39.029020",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.11786",
+      "original_url": "https://arxiv.org/abs/2604.11786v1",
+      "title": "GenTac: Generative Modeling and Forecasting of Soccer Tactics",
+      "title_slug": "gentac-generative-modeling-and-forecasting-of-socc",
+      "filename": "2026-04-14-gentac-generative-modeling-and-forecasti.markdown",
+      "score": 8,
+      "generated_at": "2026-04-14T15:07:25.585406",
+      "status": "published"
     }
   ]
 }
