@@ -1166,6 +1166,16 @@
       "score": 8,
       "generated_at": "2026-04-13T15:05:39.748164",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.11590",
+      "original_url": "https://arxiv.org/abs/2604.11590v1",
+      "title": "Learning Robustness at Test-Time from a Non-Robust Teacher",
+      "title_slug": "learning-robustness-at-testtime-from-a-nonrobust-t",
+      "filename": "2026-04-14-learning-robustness-at-testtime-from-a-n.markdown",
+      "score": 9,
+      "generated_at": "2026-04-14T11:05:39.029020",
+      "status": "published"
     }
   ]
 }
