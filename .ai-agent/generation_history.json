@@ -1186,6 +1186,16 @@
       "score": 8,
       "generated_at": "2026-04-14T15:07:25.585406",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13028",
+      "original_url": "https://arxiv.org/abs/2604.13028v1",
+      "title": "Conflated Inverse Modeling to Generate Diverse and Temperature-Change Inducing Urban Vegetation Patterns",
+      "title_slug": "conflated-inverse-modeling-to-generate-diverse-and",
+      "filename": "2026-04-15-conflated-inverse-modeling-to-generate-d.markdown",
+      "score": 8,
+      "generated_at": "2026-04-15T11:04:30.420313",
+      "status": "published"
     }
   ]
 }
