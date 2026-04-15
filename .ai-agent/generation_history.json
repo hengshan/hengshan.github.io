@@ -1196,6 +1196,16 @@
       "score": 8,
       "generated_at": "2026-04-15T11:04:30.420313",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.12942",
+      "original_url": "https://arxiv.org/abs/2604.12942v1",
+      "title": "RMGS-SLAM: Real-time Multi-sensor Gaussian Splatting SLAM",
+      "title_slug": "rmgsslam-realtime-multisensor-gaussian-splatting-s",
+      "filename": "2026-04-15-rmgsslam-realtime-multisensor-gaussian-s.markdown",
+      "score": 8,
+      "generated_at": "2026-04-15T15:06:40.526756",
+      "status": "published"
     }
   ]
 }
