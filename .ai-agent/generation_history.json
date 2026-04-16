@@ -1216,6 +1216,16 @@
       "score": 8,
       "generated_at": "2026-04-16T11:03:55.311830",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.13278",
+      "original_url": "https://arxiv.org/abs/2604.13278v1",
+      "title": "DroneScan-YOLO: Redundancy-Aware Lightweight Detection for Tiny Objects in UAV Imagery",
+      "title_slug": "dronescanyolo-redundancyaware-lightweight-detectio",
+      "filename": "2026-04-16-dronescanyolo-redundancyaware-lightweigh.markdown",
+      "score": 8,
+      "generated_at": "2026-04-16T15:07:00.472524",
+      "status": "published"
     }
   ]
 }
