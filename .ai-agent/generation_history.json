@@ -1206,6 +1206,16 @@
       "score": 8,
       "generated_at": "2026-04-15T15:06:40.526756",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.14141",
+      "original_url": "https://arxiv.org/abs/2604.14141v1",
+      "title": "Geometric Context Transformer for Streaming 3D Reconstruction",
+      "title_slug": "geometric-context-transformer-for-streaming-3d-rec",
+      "filename": "2026-04-16-geometric-context-transformer-for-stream.markdown",
+      "score": 8,
+      "generated_at": "2026-04-16T11:03:55.311830",
+      "status": "published"
     }
   ]
 }
