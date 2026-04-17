@@ -1226,6 +1226,25 @@
       "score": 8,
       "generated_at": "2026-04-16T15:07:00.472524",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15168",
+      "original_url": "https://arxiv.org/abs/2604.15168v1",
+      "title": "Dual Pose-Graph Semantic Localization for Vision-Based Autonomous Drone Racing",
+      "title_slug": "dual-posegraph-semantic-localization-for-visionbas",
+      "filename": "2026-04-17-dual-posegraph-semantic-localization-for.markdown",
+      "score": 7,
+      "generated_at": "2026-04-17T11:06:00.753820"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15306",
+      "original_url": "https://arxiv.org/abs/2604.15306v1",
+      "title": "Generalization in LLM Problem Solving: The Case of the Shortest Path",
+      "title_slug": "generalization-in-llm-problem-solving-the-case-of-",
+      "filename": "2026-04-17-generalization-in-llm-problem-solving-th.markdown",
+      "score": 8,
+      "generated_at": "2026-04-17T15:05:57.793404",
+      "status": "published"
     }
   ]
 }
