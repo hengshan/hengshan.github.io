@@ -1255,6 +1255,16 @@
       "score": 8,
       "generated_at": "2026-04-18T11:04:48.426636",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15272",
+      "original_url": "https://arxiv.org/abs/2604.15272v1",
+      "title": "Prism: Symbolic Superoptimization of Tensor Programs",
+      "title_slug": "prism-symbolic-superoptimization-of-tensor-program",
+      "filename": "2026-04-18-prism-symbolic-superoptimization-of-tens.markdown",
+      "score": 9,
+      "generated_at": "2026-04-18T15:06:48.765939",
+      "status": "published"
     }
   ]
 }
