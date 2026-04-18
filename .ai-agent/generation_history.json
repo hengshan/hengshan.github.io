@@ -1245,6 +1245,16 @@
       "score": 8,
       "generated_at": "2026-04-17T15:05:57.793404",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15273",
+      "original_url": "https://arxiv.org/abs/2604.15273v1",
+      "title": "How Embeddings Shape Graph Neural Networks: Classical vs Quantum-Oriented Node Representations",
+      "title_slug": "how-embeddings-shape-graph-neural-networks-classic",
+      "filename": "2026-04-18-how-embeddings-shape-graph-neural-networ.markdown",
+      "score": 8,
+      "generated_at": "2026-04-18T11:04:48.426636",
+      "status": "published"
     }
   ]
 }
