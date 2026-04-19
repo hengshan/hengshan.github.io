@@ -1265,6 +1265,16 @@
       "score": 9,
       "generated_at": "2026-04-18T15:06:48.765939",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.15186",
+      "original_url": "https://arxiv.org/abs/2604.15186v1",
+      "title": "Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines",
+      "title_slug": "scepsy-serving-agentic-workflows-using-aggregate-l",
+      "filename": "2026-04-19-scepsy-serving-agentic-workflows-using-a.markdown",
+      "score": 8,
+      "generated_at": "2026-04-19T11:04:32.385446",
+      "status": "published"
     }
   ]
 }
