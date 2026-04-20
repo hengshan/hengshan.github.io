@@ -1275,6 +1275,34 @@
       "score": 8,
       "generated_at": "2026-04-19T11:04:32.385446",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.14993",
+      "original_url": "https://arxiv.org/abs/2604.14993v1",
+      "title": "Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving",
+      "title_slug": "serving-chainstructured-jobs-with-large-memory-foo",
+      "filename": "2026-04-19-serving-chainstructured-jobs-with-large-.markdown",
+      "score": 7,
+      "generated_at": "2026-04-19T15:04:35.508096"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.16298",
+      "original_url": "https://arxiv.org/abs/2604.16298v1",
+      "title": "FineCog-Nav: Integrating Fine-grained Cognitive Modules for Zero-shot Multimodal UAV Navigation",
+      "title_slug": "finecognav-integrating-finegrained-cognitive-modul",
+      "filename": "2026-04-20-finecognav-integrating-finegrained-cogni.markdown",
+      "score": 7,
+      "generated_at": "2026-04-20T11:05:46.836603"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.16129",
+      "original_url": "https://arxiv.org/abs/2604.16129v1",
+      "title": "Deep Ranking with Heterogeneous Effect",
+      "title_slug": "deep-ranking-with-heterogeneous-effect",
+      "filename": "2026-04-20-deep-ranking-with-heterogeneous-effect.markdown",
+      "score": 8,
+      "generated_at": "2026-04-20T15:04:35.115947",
+      "status": "published"
     }
   ]
 }
