@@ -1303,6 +1303,16 @@
       "score": 8,
       "generated_at": "2026-04-20T15:04:35.115947",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.18047",
+      "original_url": "https://arxiv.org/abs/2604.18047v1",
+      "title": "GS-STVSR: Ultra-Efficient Continuous Spatio-Temporal Video Super-Resolution via 2D Gaussian Splatting",
+      "title_slug": "gsstvsr-ultraefficient-continuous-spatiotemporal-v",
+      "filename": "2026-04-21-gsstvsr-ultraefficient-continuous-spatio.markdown",
+      "score": 8,
+      "generated_at": "2026-04-21T11:05:30.349541",
+      "status": "published"
     }
   ]
 }
