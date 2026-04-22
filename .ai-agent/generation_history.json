@@ -1313,6 +1313,25 @@
       "score": 8,
       "generated_at": "2026-04-21T11:05:30.349541",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.17442",
+      "original_url": "https://arxiv.org/abs/2604.17442v1",
+      "title": "BreathAI: Transfer Learning-Based Thermal Imaging for Automated Breathing Pattern Recognition",
+      "title_slug": "breathai-transfer-learningbased-thermal-imaging-fo",
+      "filename": "2026-04-21-breathai-transfer-learningbased-thermal-.markdown",
+      "score": 7,
+      "generated_at": "2026-04-21T15:06:31.820295"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19747",
+      "original_url": "https://arxiv.org/abs/2604.19747v1",
+      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "title_slug": "anyrecon-arbitraryview-3d-reconstruction-with-vide",
+      "filename": "2026-04-22-anyrecon-arbitraryview-3d-reconstruction.markdown",
+      "score": 8,
+      "generated_at": "2026-04-22T11:08:59.628495",
+      "status": "published"
     }
   ]
 }
