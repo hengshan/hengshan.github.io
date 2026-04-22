@@ -1332,6 +1332,16 @@
       "score": 8,
       "generated_at": "2026-04-22T11:08:59.628495",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19740",
+      "original_url": "https://arxiv.org/abs/2604.19740v1",
+      "title": "Generalization at the Edge of Stability",
+      "title_slug": "generalization-at-the-edge-of-stability",
+      "filename": "2026-04-22-generalization-at-the-edge-of-stability.markdown",
+      "score": 8,
+      "generated_at": "2026-04-22T15:06:24.111347",
+      "status": "published"
     }
   ]
 }
