@@ -1342,6 +1342,16 @@
       "score": 8,
       "generated_at": "2026-04-22T15:06:24.111347",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.20822",
+      "original_url": "https://arxiv.org/abs/2604.20822v1",
+      "title": "Global Offshore Wind Infrastructure: Deployment and Operational Dynamics from Dense Sentinel-1 Time Series",
+      "title_slug": "global-offshore-wind-infrastructure-deployment-and",
+      "filename": "2026-04-23-global-offshore-wind-infrastructure-depl.markdown",
+      "score": 8,
+      "generated_at": "2026-04-23T11:05:46.056297",
+      "status": "published"
     }
   ]
 }
