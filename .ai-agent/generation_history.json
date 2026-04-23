@@ -1352,6 +1352,16 @@
       "score": 8,
       "generated_at": "2026-04-23T11:05:46.056297",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.20129",
+      "original_url": "https://arxiv.org/abs/2604.20129v1",
+      "title": "A Delta-Aware Orchestration Framework for Scalable Multi-Agent Edge Computing",
+      "title_slug": "a-deltaaware-orchestration-framework-for-scalable-",
+      "filename": "2026-04-23-a-deltaaware-orchestration-framework-for.markdown",
+      "score": 8,
+      "generated_at": "2026-04-23T15:06:05.708587",
+      "status": "published"
     }
   ]
 }
