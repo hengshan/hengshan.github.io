@@ -1390,6 +1390,16 @@
       "score": 8,
       "generated_at": "2026-04-25T11:04:44.969193",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21915",
+      "original_url": "https://arxiv.org/abs/2604.21915v1",
+      "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+      "title_slug": "vista4d-video-reshooting-with-4d-point-clouds",
+      "filename": "2026-04-25-vista4d-video-reshooting-with-4d-point-c.markdown",
+      "score": 8,
+      "generated_at": "2026-04-25T15:03:55.936667",
+      "status": "published"
     }
   ]
 }
