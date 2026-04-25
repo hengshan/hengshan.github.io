@@ -1362,6 +1362,34 @@
       "score": 8,
       "generated_at": "2026-04-23T15:06:05.708587",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21693",
+      "original_url": "https://arxiv.org/abs/2604.21693v1",
+      "title": "SLAM as a Stochastic Control Problem with Partial Information: Optimal Solutions and Rigorous Approximations",
+      "title_slug": "slam-as-a-stochastic-control-problem-with-partial-",
+      "filename": "2026-04-24-slam-as-a-stochastic-control-problem-wit.markdown",
+      "score": 7,
+      "generated_at": "2026-04-24T11:05:20.311876"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21518",
+      "original_url": "https://arxiv.org/abs/2604.21518v1",
+      "title": "DiffNR: Diffusion-Enhanced Neural Representation Optimization for Sparse-View 3D Tomographic Reconstruction",
+      "title_slug": "diffnr-diffusionenhanced-neural-representation-opt",
+      "filename": "2026-04-24-diffnr-diffusionenhanced-neural-represen.markdown",
+      "score": 7,
+      "generated_at": "2026-04-24T15:05:34.115719"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21893",
+      "original_url": "https://arxiv.org/abs/2604.21893v1",
+      "title": "Revealing Geography-Driven Signals in Zone-Level Claim Frequency Models: An Empirical Study using Environmental and Visual Predictors",
+      "title_slug": "revealing-geographydriven-signals-in-zonelevel-cla",
+      "filename": "2026-04-25-revealing-geographydriven-signals-in-zon.markdown",
+      "score": 8,
+      "generated_at": "2026-04-25T11:04:44.969193",
+      "status": "published"
     }
   ]
 }
