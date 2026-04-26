@@ -1400,6 +1400,16 @@
       "score": 8,
       "generated_at": "2026-04-25T15:03:55.936667",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21904",
+      "original_url": "https://arxiv.org/abs/2604.21904v1",
+      "title": "UniGenDet: A Unified Generative-Discriminative Framework for Co-Evolutionary Image Generation and Generated Image Detection",
+      "title_slug": "unigendet-a-unified-generativediscriminative-frame",
+      "filename": "2026-04-26-unigendet-a-unified-generativediscrimina.markdown",
+      "score": 8,
+      "generated_at": "2026-04-26T11:05:48.742936",
+      "status": "published"
     }
   ]
 }
