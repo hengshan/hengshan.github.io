@@ -1410,6 +1410,16 @@
       "score": 8,
       "generated_at": "2026-04-26T11:05:48.742936",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.21290",
+      "original_url": "https://arxiv.org/abs/2604.21290v1",
+      "title": "GraphLeap: Decoupling Graph Construction and Convolution for Vision GNN Acceleration on FPGA",
+      "title_slug": "graphleap-decoupling-graph-construction-and-convol",
+      "filename": "2026-04-26-graphleap-decoupling-graph-construction-.markdown",
+      "score": 9,
+      "generated_at": "2026-04-26T15:04:37.147219",
+      "status": "published"
     }
   ]
 }
