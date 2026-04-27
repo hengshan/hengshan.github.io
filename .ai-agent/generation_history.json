@@ -1420,6 +1420,16 @@
       "score": 9,
       "generated_at": "2026-04-26T15:04:37.147219",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.22658",
+      "original_url": "https://arxiv.org/abs/2604.22658v1",
+      "title": "PASR: Pose-Aware 3D Shape Retrieval from Occluded Single Views",
+      "title_slug": "pasr-poseaware-3d-shape-retrieval-from-occluded-si",
+      "filename": "2026-04-27-pasr-poseaware-3d-shape-retrieval-from-o.markdown",
+      "score": 8,
+      "generated_at": "2026-04-27T11:06:29.089498",
+      "status": "published"
     }
   ]
 }
