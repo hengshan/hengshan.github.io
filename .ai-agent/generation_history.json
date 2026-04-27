@@ -1430,6 +1430,16 @@
       "score": 8,
       "generated_at": "2026-04-27T11:06:29.089498",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.22714",
+      "original_url": "https://arxiv.org/abs/2604.22714v1",
+      "title": "Long-tail Internet photo reconstruction",
+      "title_slug": "longtail-internet-photo-reconstruction",
+      "filename": "2026-04-27-longtail-internet-photo-reconstruction.markdown",
+      "score": 8,
+      "generated_at": "2026-04-27T15:07:39.394097",
+      "status": "published"
     }
   ]
 }
