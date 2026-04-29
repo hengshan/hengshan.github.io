@@ -1450,6 +1450,25 @@
       "score": 8,
       "generated_at": "2026-04-28T11:03:18.682199",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.24763",
+      "original_url": "https://arxiv.org/abs/2604.24763v1",
+      "title": "Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation",
+      "title_slug": "tuna2-pixel-embeddings-beat-vision-encoders-for-mu",
+      "filename": "2026-04-28-tuna2-pixel-embeddings-beat-vision-encod.markdown",
+      "score": 7,
+      "generated_at": "2026-04-28T15:05:35.106208"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25728",
+      "original_url": "https://arxiv.org/abs/2604.25728v1",
+      "title": "Joint Design of Doppler-Resilient Unimodular Discrete-Phase Waveforms and Receiving Filters for MIMO Radars",
+      "title_slug": "joint-design-of-dopplerresilient-unimodular-discre",
+      "filename": "2026-04-29-joint-design-of-dopplerresilient-unimodu.markdown",
+      "score": 8,
+      "generated_at": "2026-04-29T11:06:32.116523",
+      "status": "published"
     }
   ]
 }
