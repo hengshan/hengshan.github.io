@@ -1488,6 +1488,16 @@
       "score": 8,
       "generated_at": "2026-04-30T11:05:02.528449",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26687",
+      "original_url": "https://arxiv.org/abs/2604.26687v1",
+      "title": "COPUS: Co-adaptive Parallelism and Batch Size Selection in Large Language Model Training",
+      "title_slug": "copus-coadaptive-parallelism-and-batch-size-select",
+      "filename": "2026-04-30-copus-coadaptive-parallelism-and-batch-s.markdown",
+      "score": 8,
+      "generated_at": "2026-04-30T15:05:35.736191",
+      "status": "published"
     }
   ]
 }
