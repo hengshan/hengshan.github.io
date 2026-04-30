@@ -1469,6 +1469,25 @@
       "score": 8,
       "generated_at": "2026-04-29T11:06:32.116523",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.25795",
+      "original_url": "https://arxiv.org/abs/2604.25795v1",
+      "title": "Improving Diversity in Black-box Few-shot Knowledge Distillation",
+      "title_slug": "improving-diversity-in-blackbox-fewshot-knowledge-",
+      "filename": "2026-04-29-improving-diversity-in-blackbox-fewshot-.markdown",
+      "score": 7,
+      "generated_at": "2026-04-29T15:06:51.013710"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.26883",
+      "original_url": "https://arxiv.org/abs/2604.26883v1",
+      "title": "SEAL: Semantic-aware Single-image Sticker Personalization with a Large-scale Sticker-tag Dataset",
+      "title_slug": "seal-semanticaware-singleimage-sticker-personaliza",
+      "filename": "2026-04-30-seal-semanticaware-singleimage-sticker-p.markdown",
+      "score": 8,
+      "generated_at": "2026-04-30T11:05:02.528449",
+      "status": "published"
     }
   ]
 }
