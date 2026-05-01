@@ -1498,6 +1498,16 @@
       "score": 8,
       "generated_at": "2026-04-30T15:05:35.736191",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28196",
+      "original_url": "https://arxiv.org/abs/2604.28196v1",
+      "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+      "title_slug": "hermes-toward-a-unified-driving-world-model-for-3d",
+      "filename": "2026-05-01-hermes-toward-a-unified-driving-world-mo.markdown",
+      "score": 8,
+      "generated_at": "2026-05-01T11:04:40.235209",
+      "status": "published"
     }
   ]
 }
