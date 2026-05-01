@@ -1508,6 +1508,16 @@
       "score": 8,
       "generated_at": "2026-05-01T11:04:40.235209",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28193",
+      "original_url": "https://arxiv.org/abs/2604.28193v1",
+      "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
+      "title_slug": "generalizable-sparseview-3d-reconstruction-from-un",
+      "filename": "2026-05-01-generalizable-sparseview-3d-reconstructi.markdown",
+      "score": 8,
+      "generated_at": "2026-05-01T15:05:41.342483",
+      "status": "published"
     }
   ]
 }
