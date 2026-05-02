@@ -1518,6 +1518,16 @@
       "score": 8,
       "generated_at": "2026-05-01T15:05:41.342483",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28190",
+      "original_url": "https://arxiv.org/abs/2604.28190v1",
+      "title": "Representation Fréchet Loss for Visual Generation",
+      "title_slug": "representation-frchet-loss-for-visual-generation",
+      "filename": "2026-05-02-representation-fréchet-loss-for-visual-g.markdown",
+      "score": 8,
+      "generated_at": "2026-05-02T11:07:26.915278",
+      "status": "published"
     }
   ]
 }
