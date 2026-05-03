@@ -1548,6 +1548,16 @@
       "score": 8,
       "generated_at": "2026-05-03T11:05:20.066623",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.28169",
+      "original_url": "https://arxiv.org/abs/2604.28169v1",
+      "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+      "title_slug": "phyco-learning-controllable-physical-priors-for-ge",
+      "filename": "2026-05-03-phyco-learning-controllable-physical-pri.markdown",
+      "score": 8,
+      "generated_at": "2026-05-03T15:07:48.992614",
+      "status": "published"
     }
   ]
 }
