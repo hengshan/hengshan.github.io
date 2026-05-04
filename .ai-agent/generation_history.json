@@ -1558,6 +1558,16 @@
       "score": 8,
       "generated_at": "2026-05-03T15:07:48.992614",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00799",
+      "original_url": "https://arxiv.org/abs/2605.00799v1",
+      "title": "GMGaze: MoE-Based Context-Aware Gaze Estimation with CLIP and Multiscale Transformer",
+      "title_slug": "gmgaze-moebased-contextaware-gaze-estimation-with-",
+      "filename": "2026-05-04-gmgaze-moebased-contextaware-gaze-estima.markdown",
+      "score": 8,
+      "generated_at": "2026-05-04T11:05:52.117031",
+      "status": "published"
     }
   ]
 }
