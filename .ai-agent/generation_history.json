@@ -1587,6 +1587,16 @@
       "score": 8,
       "generated_at": "2026-05-05T11:06:58.148656",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02794",
+      "original_url": "https://arxiv.org/abs/2605.02794v1",
+      "title": "Edge-Efficient Image Restoration: Transformer Distillation into State-Space Models",
+      "title_slug": "edgeefficient-image-restoration-transformer-distil",
+      "filename": "2026-05-05-edgeefficient-image-restoration-transfor.markdown",
+      "score": 8,
+      "generated_at": "2026-05-05T15:06:11.936490",
+      "status": "published"
     }
   ]
 }
