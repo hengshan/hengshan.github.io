@@ -1568,6 +1568,25 @@
       "score": 8,
       "generated_at": "2026-05-04T11:05:52.117031",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00686",
+      "original_url": "https://arxiv.org/abs/2605.00686v1",
+      "title": "Eliminating Hidden Serialization in Multi-Node Megakernel Communication",
+      "title_slug": "eliminating-hidden-serialization-in-multinode-mega",
+      "filename": "2026-05-04-eliminating-hidden-serialization-in-mult.markdown",
+      "score": 7,
+      "generated_at": "2026-05-04T15:06:18.929813"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.02759",
+      "original_url": "https://arxiv.org/abs/2605.02759v1",
+      "title": "DynoSLAM: Dynamic SLAM with Generative Graph Neural Networks for Real-World Social Navigation",
+      "title_slug": "dynoslam-dynamic-slam-with-generative-graph-neural",
+      "filename": "2026-05-05-dynoslam-dynamic-slam-with-generative-gr.markdown",
+      "score": 8,
+      "generated_at": "2026-05-05T11:06:58.148656",
+      "status": "published"
     }
   ]
 }
