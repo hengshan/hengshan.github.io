@@ -1597,6 +1597,16 @@
       "score": 8,
       "generated_at": "2026-05-05T15:06:11.936490",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.03999",
+      "original_url": "https://arxiv.org/abs/2605.03999v1",
+      "title": "RD-ViT: Recurrent-Depth Vision Transformer for Semantic Segmentation with Reduced Data Dependence Extending the Recurrent-Depth Transformer Architecture to Dense Prediction",
+      "title_slug": "rdvit-recurrentdepth-vision-transformer-for-semant",
+      "filename": "2026-05-06-rdvit-recurrentdepth-vision-transformer-.markdown",
+      "score": 8,
+      "generated_at": "2026-05-06T15:06:23.852674",
+      "status": "published"
     }
   ]
 }
