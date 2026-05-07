@@ -1607,6 +1607,16 @@
       "score": 8,
       "generated_at": "2026-05-06T15:06:23.852674",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.04388",
+      "original_url": "https://arxiv.org/abs/2605.04388v1",
+      "title": "Hyperspectral Anomaly Detection Using Einstein Fuzzy Computing and Quantum Neural Network",
+      "title_slug": "hyperspectral-anomaly-detection-using-einstein-fuz",
+      "filename": "2026-05-07-hyperspectral-anomaly-detection-using-ei.markdown",
+      "score": 9,
+      "generated_at": "2026-05-07T15:05:07.079698",
+      "status": "published"
     }
   ]
 }
