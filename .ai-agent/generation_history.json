@@ -1617,6 +1617,16 @@
       "score": 9,
       "generated_at": "2026-05-07T15:05:07.079698",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06392",
+      "original_url": "https://arxiv.org/abs/2605.06392v1",
+      "title": "ADELIA: Automatic Differentiation for Efficient Laplace Inference Approximations",
+      "title_slug": "adelia-automatic-differentiation-for-efficient-lap",
+      "filename": "2026-05-08-adelia-automatic-differentiation-for-eff.markdown",
+      "score": 8,
+      "generated_at": "2026-05-08T11:05:20.833121",
+      "status": "published"
     }
   ]
 }
