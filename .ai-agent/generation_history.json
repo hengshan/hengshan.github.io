@@ -1627,6 +1627,16 @@
       "score": 8,
       "generated_at": "2026-05-08T11:05:20.833121",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06665",
+      "original_url": "https://arxiv.org/abs/2605.06665v1",
+      "title": "UniPool: A Globally Shared Expert Pool for Mixture-of-Experts",
+      "title_slug": "unipool-a-globally-shared-expert-pool-for-mixtureo",
+      "filename": "2026-05-08-unipool-a-globally-shared-expert-pool-fo.markdown",
+      "score": 8,
+      "generated_at": "2026-05-08T15:06:17.227974",
+      "status": "published"
     }
   ]
 }
