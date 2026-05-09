@@ -1637,6 +1637,16 @@
       "score": 8,
       "generated_at": "2026-05-08T15:06:17.227974",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06198",
+      "original_url": "https://arxiv.org/abs/2605.06198v1",
+      "title": "Orthogonal Least Squares with Integrated Information Theoretic Criteria for Joint Number of Targets and DoA Estimation",
+      "title_slug": "orthogonal-least-squares-with-integrated-informati",
+      "filename": "2026-05-09-orthogonal-least-squares-with-integrated.markdown",
+      "score": 8,
+      "generated_at": "2026-05-09T15:07:47.841471",
+      "status": "published"
     }
   ]
 }
