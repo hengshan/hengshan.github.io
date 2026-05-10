@@ -1647,6 +1647,16 @@
       "score": 8,
       "generated_at": "2026-05-09T15:07:47.841471",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.06628",
+      "original_url": "https://arxiv.org/abs/2605.06628v1",
+      "title": "LiVeAction: a Lightweight, Versatile, and Asymmetric Neural Codec Design for Real-time Operation",
+      "title_slug": "liveaction-a-lightweight-versatile-and-asymmetric-",
+      "filename": "2026-05-10-liveaction-a-lightweight-versatile-and-a.markdown",
+      "score": 8,
+      "generated_at": "2026-05-10T15:05:03.136887",
+      "status": "published"
     }
   ]
 }
