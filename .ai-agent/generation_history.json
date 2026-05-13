@@ -1687,6 +1687,16 @@
       "score": 8,
       "generated_at": "2026-05-13T11:04:37.577398",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.12491",
+      "original_url": "https://arxiv.org/abs/2605.12491v1",
+      "title": "Elastic Attention Cores for Scalable Vision Transformers",
+      "title_slug": "elastic-attention-cores-for-scalable-vision-transf",
+      "filename": "2026-05-13-elastic-attention-cores-for-scalable-vis.markdown",
+      "score": 9,
+      "generated_at": "2026-05-13T15:11:26.135250",
+      "status": "published"
     }
   ]
 }
