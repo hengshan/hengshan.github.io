@@ -1697,6 +1697,34 @@
       "score": 9,
       "generated_at": "2026-05-13T15:11:26.135250",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.0",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.0",
+      "title": "PyTorch 2.12.0 Release",
+      "title_slug": "pytorch-2120-release",
+      "filename": "2026-05-14-pytorch-2120-release.markdown",
+      "score": 7,
+      "generated_at": "2026-05-14T15:03:24.981247"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.15074",
+      "original_url": "https://arxiv.org/abs/2605.15074v1",
+      "title": "SOCC-ICP: Semantics-Assisted Odometry based on Occupancy Grids and ICP",
+      "title_slug": "soccicp-semanticsassisted-odometry-based-on-occupa",
+      "filename": "2026-05-15-soccicp-semanticsassisted-odometry-based.markdown",
+      "score": 7,
+      "generated_at": "2026-05-15T11:06:29.542757"
+    },
+    {
+      "url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.0",
+      "original_url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.0",
+      "title": "CUTLASS 4.5.0",
+      "title_slug": "cutlass-450",
+      "filename": "2026-05-15-cutlass-450.markdown",
+      "score": 8,
+      "generated_at": "2026-05-15T15:05:28.850485",
+      "status": "published"
     }
   ]
 }
