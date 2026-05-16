@@ -1725,6 +1725,16 @@
       "score": 8,
       "generated_at": "2026-05-15T15:05:28.850485",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.14734",
+      "original_url": "https://arxiv.org/abs/2605.14734v1",
+      "title": "Denoising for Neuromorphic Cameras Based on Graph Spectral Features",
+      "title_slug": "denoising-for-neuromorphic-cameras-based-on-graph-",
+      "filename": "2026-05-16-denoising-for-neuromorphic-cameras-based.markdown",
+      "score": 9,
+      "generated_at": "2026-05-16T15:06:46.393663",
+      "status": "published"
     }
   ]
 }
