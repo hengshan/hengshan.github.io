@@ -1735,6 +1735,25 @@
       "score": 9,
       "generated_at": "2026-05-16T15:06:46.393663",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
+      "title": "v0.21.0",
+      "title_slug": "v0210",
+      "filename": "2026-05-17-v0210.markdown",
+      "score": 7,
+      "generated_at": "2026-05-17T11:03:56.259550"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.15179",
+      "original_url": "https://arxiv.org/abs/2605.15179v1",
+      "title": "Eradicating Negative Transfer in Multi-Physics Foundation Models via Sparse Mixture-of-Experts Routing",
+      "title_slug": "eradicating-negative-transfer-in-multiphysics-foun",
+      "filename": "2026-05-17-eradicating-negative-transfer-in-multiph.markdown",
+      "score": 8,
+      "generated_at": "2026-05-17T15:04:18.228863",
+      "status": "published"
     }
   ]
 }
