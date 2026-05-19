@@ -1754,6 +1754,16 @@
       "score": 8,
       "generated_at": "2026-05-17T15:04:18.228863",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.18743",
+      "original_url": "https://arxiv.org/abs/2605.18743v1",
+      "title": "Actionable World Representation",
+      "title_slug": "actionable-world-representation",
+      "filename": "2026-05-19-actionable-world-representation.markdown",
+      "score": 9,
+      "generated_at": "2026-05-19T15:06:09.341868",
+      "status": "published"
     }
   ]
 }
