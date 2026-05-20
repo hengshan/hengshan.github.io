@@ -1764,6 +1764,16 @@
       "score": 9,
       "generated_at": "2026-05-19T15:06:09.341868",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.20150",
+      "original_url": "https://arxiv.org/abs/2605.20150v1",
+      "title": "TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization",
+      "title_slug": "tidegs-scalable-training-of-over-one-billion-3d-ga",
+      "filename": "2026-05-20-tidegs-scalable-training-of-over-one-bil.markdown",
+      "score": 8,
+      "generated_at": "2026-05-20T11:04:43.270484",
+      "status": "published"
     }
   ]
 }
