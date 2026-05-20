@@ -1774,6 +1774,16 @@
       "score": 8,
       "generated_at": "2026-05-20T11:04:43.270484",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.20134",
+      "original_url": "https://arxiv.org/abs/2605.20134v1",
+      "title": "TrajTok: Adaptive Spatial Tokenization for Trajectory Representation Learning",
+      "title_slug": "trajtok-adaptive-spatial-tokenization-for-trajecto",
+      "filename": "2026-05-20-trajtok-adaptive-spatial-tokenization-fo.markdown",
+      "score": 8,
+      "generated_at": "2026-05-20T15:06:41.890480",
+      "status": "published"
     }
   ]
 }
