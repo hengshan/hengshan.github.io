@@ -1784,6 +1784,25 @@
       "score": 8,
       "generated_at": "2026-05-20T15:06:41.890480",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.21484",
+      "original_url": "https://arxiv.org/abs/2605.21484v1",
+      "title": "One-Step Distillation of Discrete Diffusion Image Generators via Fixed-Point Iteration",
+      "title_slug": "onestep-distillation-of-discrete-diffusion-image-g",
+      "filename": "2026-05-21-onestep-distillation-of-discrete-diffusi.markdown",
+      "score": 7,
+      "generated_at": "2026-05-21T11:05:34.237538"
+    },
+    {
+      "url": "https://medium.com/google-earth/rethinking-change-detection-and-attribution-how-you-compare-satellite-embeddings-matters-858f17f577d7?source=rss----a747a9e16c1c---4",
+      "original_url": "https://medium.com/google-earth/rethinking-change-detection-and-attribution-how-you-compare-satellite-embeddings-matters-858f17f577d7?source=rss----a747a9e16c1c---4",
+      "title": "Rethinking Change Detection and Attribution: How You Compare Satellite Embeddings Matters",
+      "title_slug": "rethinking-change-detection-and-attribution-how-yo",
+      "filename": "2026-05-21-rethinking-change-detection-and-attribut.markdown",
+      "score": 8,
+      "generated_at": "2026-05-21T15:04:05.497267",
+      "status": "published"
     }
   ]
 }
