@@ -1822,6 +1822,16 @@
       "score": 8,
       "generated_at": "2026-05-22T15:07:57.769372",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.21804",
+      "original_url": "https://arxiv.org/abs/2605.21804v1",
+      "title": "Mapping Tomato Cropping Systems in California Using AlphaEarth Geospatial Embeddings and Deep Learning Analysis",
+      "title_slug": "mapping-tomato-cropping-systems-in-california-usin",
+      "filename": "2026-05-23-mapping-tomato-cropping-systems-in-calif.markdown",
+      "score": 9,
+      "generated_at": "2026-05-23T15:04:24.109708",
+      "status": "published"
     }
   ]
 }
