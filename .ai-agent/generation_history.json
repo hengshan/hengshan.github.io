@@ -1842,6 +1842,16 @@
       "score": 8,
       "generated_at": "2026-05-24T11:08:09.362322",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22658",
+      "original_url": "https://arxiv.org/abs/2605.22658v1",
+      "title": "SegCompass: Exploring Interpretable Alignment with Sparse Autoencoders for Enhanced Reasoning Segmentation",
+      "title_slug": "segcompass-exploring-interpretable-alignment-with-",
+      "filename": "2026-05-24-segcompass-exploring-interpretable-align.markdown",
+      "score": 8,
+      "generated_at": "2026-05-24T15:06:39.457701",
+      "status": "published"
     }
   ]
 }
