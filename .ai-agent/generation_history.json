@@ -1832,6 +1832,16 @@
       "score": 9,
       "generated_at": "2026-05-23T15:04:24.109708",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.22776",
+      "original_url": "https://arxiv.org/abs/2605.22776v1",
+      "title": "SDPM: Survival Diffusion Probabilistic Model for Continuous-Time Survival Analysis",
+      "title_slug": "sdpm-survival-diffusion-probabilistic-model-for-co",
+      "filename": "2026-05-24-sdpm-survival-diffusion-probabilistic-mo.markdown",
+      "score": 8,
+      "generated_at": "2026-05-24T11:08:09.362322",
+      "status": "published"
     }
   ]
 }
