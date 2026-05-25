@@ -1862,6 +1862,16 @@
       "score": 8,
       "generated_at": "2026-05-25T11:04:16.528567",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23889",
+      "original_url": "https://arxiv.org/abs/2605.23889v1",
+      "title": "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction",
+      "title_slug": "horizonstream-longhorizon-attention-for-streaming-",
+      "filename": "2026-05-25-horizonstream-longhorizon-attention-for-.markdown",
+      "score": 8,
+      "generated_at": "2026-05-25T15:06:34.658776",
+      "status": "published"
     }
   ]
 }
