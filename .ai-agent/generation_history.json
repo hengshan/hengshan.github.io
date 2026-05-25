@@ -1852,6 +1852,16 @@
       "score": 8,
       "generated_at": "2026-05-24T15:06:39.457701",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.23883",
+      "original_url": "https://arxiv.org/abs/2605.23883v1",
+      "title": "PGT: Procedurally Generated Tasks for improving visual grounding in MLLMs",
+      "title_slug": "pgt-procedurally-generated-tasks-for-improving-vis",
+      "filename": "2026-05-25-pgt-procedurally-generated-tasks-for-imp.markdown",
+      "score": 8,
+      "generated_at": "2026-05-25T11:04:16.528567",
+      "status": "published"
     }
   ]
 }
