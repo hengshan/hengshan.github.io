@@ -1872,6 +1872,16 @@
       "score": 8,
       "generated_at": "2026-05-25T15:06:34.658776",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26113",
+      "original_url": "https://arxiv.org/abs/2605.26113v1",
+      "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond",
+      "title_slug": "anyscene-towards-highly-controllable-driving-scene",
+      "filename": "2026-05-26-anyscene-towards-highly-controllable-dri.markdown",
+      "score": 8,
+      "generated_at": "2026-05-26T15:07:07.048166",
+      "status": "published"
     }
   ]
 }
