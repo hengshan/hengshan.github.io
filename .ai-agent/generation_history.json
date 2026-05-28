@@ -1892,6 +1892,25 @@
       "score": 8,
       "generated_at": "2026-05-27T11:05:36.576032",
       "status": "published"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/develop-high-performance-gpu-kernels-in-cpp-with-nvidia-cuda-tile",
+      "original_url": "https://developer.nvidia.com/blog/develop-high-performance-gpu-kernels-in-cpp-with-nvidia-cuda-tile/",
+      "title": "Develop High-Performance GPU Kernels in C++ with NVIDIA CUDA Tile",
+      "title_slug": "develop-highperformance-gpu-kernels-in-c-with-nvid",
+      "filename": "2026-05-27-develop-highperformance-gpu-kernels-in-c.markdown",
+      "score": 7,
+      "generated_at": "2026-05-27T15:04:26.473422"
+    },
+    {
+      "url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.19.1",
+      "original_url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.19.1",
+      "title": "v0.19.1",
+      "title_slug": "v0191",
+      "filename": "2026-05-28-v0191.markdown",
+      "score": 8,
+      "generated_at": "2026-05-28T11:04:43.148977",
+      "status": "published"
     }
   ]
 }
