@@ -1911,6 +1911,16 @@
       "score": 8,
       "generated_at": "2026-05-28T11:04:43.148977",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.1",
+      "original_url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.1",
+      "title": "CUTLASS 4.5.1",
+      "title_slug": "cutlass-451",
+      "filename": "2026-05-28-cutlass-451.markdown",
+      "score": 8,
+      "generated_at": "2026-05-28T15:04:27.759416",
+      "status": "published"
     }
   ]
 }
