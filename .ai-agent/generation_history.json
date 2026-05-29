@@ -1921,6 +1921,16 @@
       "score": 8,
       "generated_at": "2026-05-28T15:04:27.759416",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/nerfstudio-project/nerfstudio/releases/tag/v1.1.5",
+      "original_url": "https://github.com/nerfstudio-project/nerfstudio/releases/tag/v1.1.5",
+      "title": "v1.1.5",
+      "title_slug": "v115",
+      "filename": "2026-05-29-v115.markdown",
+      "score": 8,
+      "generated_at": "2026-05-29T11:04:40.951041",
+      "status": "published"
     }
   ]
 }
