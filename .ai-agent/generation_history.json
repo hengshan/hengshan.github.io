@@ -1931,6 +1931,16 @@
       "score": 8,
       "generated_at": "2026-05-29T11:04:40.951041",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/PointCloudLibrary/pcl/releases/tag/pcl-1.15.1",
+      "original_url": "https://github.com/PointCloudLibrary/pcl/releases/tag/pcl-1.15.1",
+      "title": "PCL 1.15.1",
+      "title_slug": "pcl-1151",
+      "filename": "2026-05-29-pcl-1151.markdown",
+      "score": 8,
+      "generated_at": "2026-05-29T15:04:47.496341",
+      "status": "published"
     }
   ]
 }
