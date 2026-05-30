@@ -1951,6 +1951,16 @@
       "score": 8,
       "generated_at": "2026-05-30T11:03:24.983118",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30342",
+      "original_url": "https://arxiv.org/abs/2605.30342v1",
+      "title": "Uncertainty-driven 3D Gaussian Splatting Active Mapping via Anisotropic Visibility Field",
+      "title_slug": "uncertaintydriven-3d-gaussian-splatting-active-map",
+      "filename": "2026-05-30-uncertaintydriven-3d-gaussian-splatting-.markdown",
+      "score": 8,
+      "generated_at": "2026-05-30T15:07:30.001276",
+      "status": "published"
     }
   ]
 }
