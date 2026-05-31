@@ -1971,6 +1971,16 @@
       "score": 8,
       "generated_at": "2026-05-31T11:04:03.809502",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.29295",
+      "original_url": "https://arxiv.org/abs/2605.29295v1",
+      "title": "EvoGM: Learning to Merge LLMs via Evolutionary Generative Optimization",
+      "title_slug": "evogm-learning-to-merge-llms-via-evolutionary-gene",
+      "filename": "2026-05-31-evogm-learning-to-merge-llms-via-evoluti.markdown",
+      "score": 8,
+      "generated_at": "2026-05-31T15:04:08.026282",
+      "status": "published"
     }
   ]
 }
