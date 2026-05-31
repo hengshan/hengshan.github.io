@@ -1961,6 +1961,16 @@
       "score": 8,
       "generated_at": "2026-05-30T15:07:30.001276",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.30337",
+      "original_url": "https://arxiv.org/abs/2605.30337v1",
+      "title": "Efficient Test-Time Finetuning of LLMs via Convex Reconstruction and Gradient Caching",
+      "title_slug": "efficient-testtime-finetuning-of-llms-via-convex-r",
+      "filename": "2026-05-31-efficient-testtime-finetuning-of-llms-vi.markdown",
+      "score": 8,
+      "generated_at": "2026-05-31T11:04:03.809502",
+      "status": "published"
     }
   ]
 }
