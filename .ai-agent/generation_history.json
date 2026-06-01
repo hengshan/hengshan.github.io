@@ -1981,6 +1981,25 @@
       "score": 8,
       "generated_at": "2026-05-31T15:04:08.026282",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.31547",
+      "original_url": "https://arxiv.org/abs/2605.31547v1",
+      "title": "The Dynamic-Probabilistic Consistency Gap in Chaotic Surrogate Modeling",
+      "title_slug": "the-dynamicprobabilistic-consistency-gap-in-chaoti",
+      "filename": "2026-06-01-the-dynamicprobabilistic-consistency-gap.markdown",
+      "score": 7,
+      "generated_at": "2026-06-01T11:06:41.966456"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.31564",
+      "original_url": "https://arxiv.org/abs/2605.31564v1",
+      "title": "What Gets Unmasked First? Trajectory Analysis of Diffusion Models for Graph-to-Text Generation",
+      "title_slug": "what-gets-unmasked-first-trajectory-analysis-of-di",
+      "filename": "2026-06-01-what-gets-unmasked-first-trajectory-anal.markdown",
+      "score": 8,
+      "generated_at": "2026-06-01T15:05:19.780745",
+      "status": "published"
     }
   ]
 }
