@@ -2019,6 +2019,16 @@
       "score": 8,
       "generated_at": "2026-06-03T11:05:20.069878",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.03965",
+      "original_url": "https://arxiv.org/abs/2606.03965v1",
+      "title": "Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning",
+      "title_slug": "agentic-chainofthought-steering-for-efficient-and-",
+      "filename": "2026-06-03-agentic-chainofthought-steering-for-effi.markdown",
+      "score": 8,
+      "generated_at": "2026-06-03T15:06:06.872947",
+      "status": "published"
     }
   ]
 }
