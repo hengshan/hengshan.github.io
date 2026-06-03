@@ -2000,6 +2000,25 @@
       "score": 8,
       "generated_at": "2026-06-01T15:05:19.780745",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.02507",
+      "original_url": "https://arxiv.org/abs/2606.02507v1",
+      "title": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+      "title_slug": "towards-automated-discovery-a-review-of-generative",
+      "filename": "2026-06-02-towards-automated-discovery-a-review-of-.markdown",
+      "score": 7,
+      "generated_at": "2026-06-02T15:04:49.657782"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.03979",
+      "original_url": "https://arxiv.org/abs/2606.03979v1",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "title_slug": "language-models-need-sleep-learning-to-selfmodify-",
+      "filename": "2026-06-03-language-models-need-sleep-learning-to-s.markdown",
+      "score": 8,
+      "generated_at": "2026-06-03T11:05:20.069878",
+      "status": "published"
     }
   ]
 }
