@@ -2039,6 +2039,25 @@
       "score": 8,
       "generated_at": "2026-06-04T11:05:35.523574",
       "status": "published"
+    },
+    {
+      "url": "https://medium.com/google-earth/scaling-transparency-annual-pan-tropical-commodity-maps-powered-by-alphaearth-foundations-5f4066b5dd13?source=rss----a747a9e16c1c---4",
+      "original_url": "https://medium.com/google-earth/scaling-transparency-annual-pan-tropical-commodity-maps-powered-by-alphaearth-foundations-5f4066b5dd13?source=rss----a747a9e16c1c---4",
+      "title": "Scaling Transparency: Annual, Pan-Tropical Commodity Maps Powered by AlphaEarth Foundations",
+      "title_slug": "scaling-transparency-annual-pantropical-commodity-",
+      "filename": "2026-06-04-scaling-transparency-annual-pantropical-.markdown",
+      "score": 7,
+      "generated_at": "2026-06-04T15:06:13.051936"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06255",
+      "original_url": "https://arxiv.org/abs/2606.06255v1",
+      "title": "RadiusFPS: Efficient Farthest Point Sampling on CPUs and GPUs via Spherical Voxel Pruning",
+      "title_slug": "radiusfps-efficient-farthest-point-sampling-on-cpu",
+      "filename": "2026-06-05-radiusfps-efficient-farthest-point-sampl.markdown",
+      "score": 8,
+      "generated_at": "2026-06-05T15:06:31.094516",
+      "status": "published"
     }
   ]
 }
