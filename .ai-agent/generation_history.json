@@ -2058,6 +2058,25 @@
       "score": 8,
       "generated_at": "2026-06-05T15:06:31.094516",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.05369",
+      "original_url": "https://arxiv.org/abs/2606.05369v1",
+      "title": "Anti-Hyperspectral Anomaly Detection: A First Study on Stealthy Lipschitz-Forcing Perturbations Against Unknown Detectors",
+      "title_slug": "antihyperspectral-anomaly-detection-a-first-study-",
+      "filename": "2026-06-06-antihyperspectral-anomaly-detection-a-fi.markdown",
+      "score": 7,
+      "generated_at": "2026-06-06T11:05:20.416757"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06312",
+      "original_url": "https://arxiv.org/abs/2606.06312v1",
+      "title": "Meridian: Metric-Semantic Primitive Matching for Cross-View Geo-Localization Beyond Urban Environments",
+      "title_slug": "meridian-metricsemantic-primitive-matching-for-cro",
+      "filename": "2026-06-06-meridian-metricsemantic-primitive-matchi.markdown",
+      "score": 8,
+      "generated_at": "2026-06-06T15:04:40.650483",
+      "status": "published"
     }
   ]
 }
