@@ -2077,6 +2077,25 @@
       "score": 8,
       "generated_at": "2026-06-06T15:04:40.650483",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06351",
+      "original_url": "https://arxiv.org/abs/2606.06351v1",
+      "title": "Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction",
+      "title_slug": "functionspace-priors-for-bayesian-neural-odes-with",
+      "filename": "2026-06-07-functionspace-priors-for-bayesian-neural.markdown",
+      "score": 7,
+      "generated_at": "2026-06-07T11:03:23.480073"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06477",
+      "original_url": "https://arxiv.org/abs/2606.06477v1",
+      "title": "Complexity-Balanced Diffusion Splitting",
+      "title_slug": "complexitybalanced-diffusion-splitting",
+      "filename": "2026-06-07-complexitybalanced-diffusion-splitting.markdown",
+      "score": 8,
+      "generated_at": "2026-06-07T15:03:30.809601",
+      "status": "published"
     }
   ]
 }
