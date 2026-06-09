@@ -2116,6 +2116,25 @@
       "score": 8,
       "generated_at": "2026-06-08T15:05:28.688746",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.09634",
+      "original_url": "https://arxiv.org/abs/2606.09634v1",
+      "title": "ATN3D: Density-Aware LiDAR-Radar Early 3D Object Detection Under Extreme Sparsity",
+      "title_slug": "atn3d-densityaware-lidarradar-early-3d-object-dete",
+      "filename": "2026-06-09-atn3d-densityaware-lidarradar-early-3d-o.markdown",
+      "score": 7,
+      "generated_at": "2026-06-09T11:03:31.190318"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.08749",
+      "original_url": "https://arxiv.org/abs/2606.08749v1",
+      "title": "Active Source-free Domain Adaptation in Open-set Medical Image Segmentation via Decomposed Uncertainty and Prototype Discrepancy",
+      "title_slug": "active-sourcefree-domain-adaptation-in-openset-med",
+      "filename": "2026-06-09-active-sourcefree-domain-adaptation-in-o.markdown",
+      "score": 8,
+      "generated_at": "2026-06-09T15:04:27.682649",
+      "status": "published"
     }
   ]
 }
