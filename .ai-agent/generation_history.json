@@ -2145,6 +2145,16 @@
       "score": 8,
       "generated_at": "2026-06-10T11:03:54.827698",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.10540",
+      "original_url": "https://arxiv.org/abs/2606.10540v1",
+      "title": "Complex VAE with Heavy-Tailed Likelihood for Radar Target Detection in Sea Clutter",
+      "title_slug": "complex-vae-with-heavytailed-likelihood-for-radar-",
+      "filename": "2026-06-10-complex-vae-with-heavytailed-likelihood-.markdown",
+      "score": 8,
+      "generated_at": "2026-06-10T15:05:24.168175",
+      "status": "published"
     }
   ]
 }
