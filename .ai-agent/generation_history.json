@@ -2135,6 +2135,16 @@
       "score": 8,
       "generated_at": "2026-06-09T15:04:27.682649",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.11088",
+      "original_url": "https://arxiv.org/abs/2606.11088v1",
+      "title": "A Distributed Multi-UGV Exploration Framework With Loop-Aware Planning and Descriptor-Aided Localization in Resource-Limited Environments",
+      "title_slug": "a-distributed-multiugv-exploration-framework-with-",
+      "filename": "2026-06-10-a-distributed-multiugv-exploration-frame.markdown",
+      "score": 8,
+      "generated_at": "2026-06-10T11:03:54.827698",
+      "status": "published"
     }
   ]
 }
