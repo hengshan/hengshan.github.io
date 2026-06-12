@@ -2184,6 +2184,16 @@
       "score": 8,
       "generated_at": "2026-06-12T11:03:24.189479",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13655",
+      "original_url": "https://arxiv.org/abs/2606.13655v1",
+      "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction",
+      "title_slug": "flex4dhuman-flexible-multiview-video-diffusion-for",
+      "filename": "2026-06-12-flex4dhuman-flexible-multiview-video-dif.markdown",
+      "score": 8,
+      "generated_at": "2026-06-12T15:03:48.975451",
+      "status": "published"
     }
   ]
 }
