@@ -2194,6 +2194,16 @@
       "score": 8,
       "generated_at": "2026-06-12T15:03:48.975451",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13416",
+      "original_url": "https://arxiv.org/abs/2606.13416v1",
+      "title": "Towards Standardizing Affine Frequency Division Multiplexing (AFDM) for Future Wireless Networks",
+      "title_slug": "towards-standardizing-affine-frequency-division-mu",
+      "filename": "2026-06-13-towards-standardizing-affine-frequency-d.markdown",
+      "score": 9,
+      "generated_at": "2026-06-13T11:05:53.141249",
+      "status": "published"
     }
   ]
 }
