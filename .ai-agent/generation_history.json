@@ -2224,6 +2224,16 @@
       "score": 8,
       "generated_at": "2026-06-14T11:02:58.538588",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13629",
+      "original_url": "https://arxiv.org/abs/2606.13629v1",
+      "title": "Valid Inference with Synthetic Data via Task Exchangeability",
+      "title_slug": "valid-inference-with-synthetic-data-via-task-excha",
+      "filename": "2026-06-14-valid-inference-with-synthetic-data-via-.markdown",
+      "score": 9,
+      "generated_at": "2026-06-14T15:04:40.882140",
+      "status": "published"
     }
   ]
 }
