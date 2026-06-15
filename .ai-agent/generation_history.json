@@ -2234,6 +2234,25 @@
       "score": 9,
       "generated_at": "2026-06-14T15:04:40.882140",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.14248",
+      "original_url": "https://arxiv.org/abs/2606.14248v1",
+      "title": "Spectrum Aware Illumination Estimation Using Multispectral Image",
+      "title_slug": "spectrum-aware-illumination-estimation-using-multi",
+      "filename": "2026-06-15-spectrum-aware-illumination-estimation-u.markdown",
+      "score": 7,
+      "generated_at": "2026-06-15T11:07:24.694852"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.13985",
+      "original_url": "https://arxiv.org/abs/2606.13985v1",
+      "title": "Co-Evolved Spiking Neural Network Ensembles via Marginal Contribution Fitness",
+      "title_slug": "coevolved-spiking-neural-network-ensembles-via-mar",
+      "filename": "2026-06-15-coevolved-spiking-neural-network-ensembl.markdown",
+      "score": 8,
+      "generated_at": "2026-06-15T15:08:01.199541",
+      "status": "published"
     }
   ]
 }
