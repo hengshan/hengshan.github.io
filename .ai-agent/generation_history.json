@@ -2263,6 +2263,16 @@
       "score": 8,
       "generated_at": "2026-06-16T11:05:09.936419",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.16186",
+      "original_url": "https://arxiv.org/abs/2606.16186v1",
+      "title": "MOSAIC: Mobile Object Segmentation under Adverse Imaging Conditions for Rapid L-PBF Keyhole Behavior Characterization",
+      "title_slug": "mosaic-mobile-object-segmentation-under-adverse-im",
+      "filename": "2026-06-16-mosaic-mobile-object-segmentation-under-.markdown",
+      "score": 8,
+      "generated_at": "2026-06-16T15:07:16.280013",
+      "status": "published"
     }
   ]
 }
