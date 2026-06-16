@@ -2253,6 +2253,16 @@
       "score": 8,
       "generated_at": "2026-06-15T15:08:01.199541",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.16881",
+      "original_url": "https://arxiv.org/abs/2606.16881v1",
+      "title": "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM",
+      "title_slug": "sgmslam-scene-graph-matching-for-dataefficient-dis",
+      "filename": "2026-06-16-sgmslam-scene-graph-matching-for-dataeff.markdown",
+      "score": 8,
+      "generated_at": "2026-06-16T11:05:09.936419",
+      "status": "published"
     }
   ]
 }
