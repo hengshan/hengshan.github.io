@@ -2303,6 +2303,16 @@
       "score": 8,
       "generated_at": "2026-06-18T11:05:10.928738",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.18582",
+      "original_url": "https://arxiv.org/abs/2606.18582v1",
+      "title": "Technical Report for ICRA 2026 GOOSE 2D Fine-Grained Semantic Segmentation Challenge: Leveraging DINOv3 for Robust Outdoor Scene Understanding in Field Robotics",
+      "title_slug": "technical-report-for-icra-2026-goose-2d-finegraine",
+      "filename": "2026-06-18-technical-report-for-icra-2026-goose-2d-.markdown",
+      "score": 8,
+      "generated_at": "2026-06-18T15:03:23.370465",
+      "status": "published"
     }
   ]
 }
