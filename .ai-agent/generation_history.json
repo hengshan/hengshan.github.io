@@ -2293,6 +2293,16 @@
       "score": 9,
       "generated_at": "2026-06-17T15:10:40.821143",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19279",
+      "original_url": "https://arxiv.org/abs/2606.19279v1",
+      "title": "NeSyCat Torch: A Differentiable Tensor Implementation of Categorical Semantics for Neurosymbolic Learning",
+      "title_slug": "nesycat-torch-a-differentiable-tensor-implementati",
+      "filename": "2026-06-18-nesycat-torch-a-differentiable-tensor-im.markdown",
+      "score": 8,
+      "generated_at": "2026-06-18T11:05:10.928738",
+      "status": "published"
     }
   ]
 }
