@@ -2313,6 +2313,25 @@
       "score": 8,
       "generated_at": "2026-06-18T15:03:23.370465",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19574",
+      "original_url": "https://arxiv.org/abs/2606.19574v1",
+      "title": "FrequencyFormer: A Co-Designed Sensor-to-Processor Pipeline for Frequency-Domain Vision Transformer Inference",
+      "title_slug": "frequencyformer-a-codesigned-sensortoprocessor-pip",
+      "filename": "2026-06-19-frequencyformer-a-codesigned-sensortopro.markdown",
+      "score": 7,
+      "generated_at": "2026-06-19T11:03:50.943917"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.19943",
+      "original_url": "https://arxiv.org/abs/2606.19943v1",
+      "title": "SIMBA: ABidirectional Retrieval Forward Simulation Framework for Modeling FY-4A GIIRS Hyperspectral Infrared Radiances Toward NWP Applications",
+      "title_slug": "simba-abidirectional-retrieval-forward-simulation-",
+      "filename": "2026-06-19-simba-abidirectional-retrieval-forward-s.markdown",
+      "score": 9,
+      "generated_at": "2026-06-19T15:07:22.537323",
+      "status": "published"
     }
   ]
 }
