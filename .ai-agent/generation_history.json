@@ -2332,6 +2332,16 @@
       "score": 9,
       "generated_at": "2026-06-19T15:07:22.537323",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.20538",
+      "original_url": "https://arxiv.org/abs/2606.20538v1",
+      "title": "Multi-Task Bayesian In-Context Learning",
+      "title_slug": "multitask-bayesian-incontext-learning",
+      "filename": "2026-06-20-multitask-bayesian-incontext-learning.markdown",
+      "score": 8,
+      "generated_at": "2026-06-20T11:06:12.073968",
+      "status": "published"
     }
   ]
 }
