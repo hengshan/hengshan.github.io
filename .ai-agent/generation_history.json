@@ -2342,6 +2342,16 @@
       "score": 8,
       "generated_at": "2026-06-20T11:06:12.073968",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.26991",
+      "original_url": "https://arxiv.org/abs/2606.26991v1",
+      "title": "Enabling self-supervised learned primal dual with Noise2Inverse",
+      "title_slug": "enabling-selfsupervised-learned-primal-dual-with-n",
+      "filename": "2026-06-26-enabling-selfsupervised-learned-primal-d.markdown",
+      "score": 8,
+      "generated_at": "2026-06-26T15:05:13.258185",
+      "status": "published"
     }
   ]
 }
