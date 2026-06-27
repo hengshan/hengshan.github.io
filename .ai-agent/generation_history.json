@@ -2352,6 +2352,16 @@
       "score": 8,
       "generated_at": "2026-06-26T15:05:13.258185",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27361",
+      "original_url": "https://arxiv.org/abs/2606.27361v1",
+      "title": "Autoregressive Boltzmann Generators",
+      "title_slug": "autoregressive-boltzmann-generators",
+      "filename": "2026-06-27-autoregressive-boltzmann-generators.markdown",
+      "score": 8,
+      "generated_at": "2026-06-27T11:04:37.146706",
+      "status": "published"
     }
   ]
 }
