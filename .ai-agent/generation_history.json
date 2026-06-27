@@ -2362,6 +2362,16 @@
       "score": 8,
       "generated_at": "2026-06-27T11:04:37.146706",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.27354",
+      "original_url": "https://arxiv.org/abs/2606.27354v1",
+      "title": "Error-Conditioned Neural Solvers",
+      "title_slug": "errorconditioned-neural-solvers",
+      "filename": "2026-06-27-errorconditioned-neural-solvers.markdown",
+      "score": 8,
+      "generated_at": "2026-06-27T15:04:55.728171",
+      "status": "published"
     }
   ]
 }
