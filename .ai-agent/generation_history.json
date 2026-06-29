@@ -2391,6 +2391,16 @@
       "score": 8,
       "generated_at": "2026-06-28T15:04:31.086053",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.28266",
+      "original_url": "https://arxiv.org/abs/2606.28266v1",
+      "title": "RSICCLLM: A Multimodal Large Language Model for Remote Sensing Image Change Captioning",
+      "title_slug": "rsiccllm-a-multimodal-large-language-model-for-rem",
+      "filename": "2026-06-29-rsiccllm-a-multimodal-large-language-mod.markdown",
+      "score": 8,
+      "generated_at": "2026-06-29T11:02:53.923770",
+      "status": "published"
     }
   ]
 }
