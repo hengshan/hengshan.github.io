@@ -2401,6 +2401,16 @@
       "score": 8,
       "generated_at": "2026-06-29T11:02:53.923770",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.28182",
+      "original_url": "https://arxiv.org/abs/2606.28182v1",
+      "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
+      "title_slug": "llawco-learning-laws-of-cooperation-for-modeling-e",
+      "filename": "2026-06-29-llawco-learning-laws-of-cooperation-for-.markdown",
+      "score": 8,
+      "generated_at": "2026-06-29T15:03:45.874696",
+      "status": "published"
     }
   ]
 }
