@@ -2411,6 +2411,25 @@
       "score": 8,
       "generated_at": "2026-06-29T15:03:45.874696",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.30179",
+      "original_url": "https://arxiv.org/abs/2606.30179v1",
+      "title": "HiRes: A Hierarchical Cascaded Method for Resistor Value Identification",
+      "title_slug": "hires-a-hierarchical-cascaded-method-for-resistor-",
+      "filename": "2026-06-30-hires-a-hierarchical-cascaded-method-for.markdown",
+      "score": 1,
+      "generated_at": "2026-06-30T11:01:45.186201"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.30638",
+      "original_url": "https://arxiv.org/abs/2606.30638v1",
+      "title": "Open-Vocabulary and Referring Segmentation for 3D Gaussians Using 2D Detectors",
+      "title_slug": "openvocabulary-and-referring-segmentation-for-3d-g",
+      "filename": "2026-06-30-openvocabulary-and-referring-segmentatio.markdown",
+      "score": 8,
+      "generated_at": "2026-06-30T15:04:11.778892",
+      "status": "published"
     }
   ]
 }
