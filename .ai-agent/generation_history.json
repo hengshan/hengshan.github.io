@@ -2430,6 +2430,25 @@
       "score": 8,
       "generated_at": "2026-06-30T15:04:11.778892",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.32023",
+      "original_url": "https://arxiv.org/abs/2606.32023v1",
+      "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data",
+      "title_slug": "flora-a-deep-learning-approach-to-predict-forest-a",
+      "filename": "2026-07-01-flora-a-deep-learning-approach-to-predic.markdown",
+      "score": 7,
+      "generated_at": "2026-07-01T11:06:00.690129"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.32036",
+      "original_url": "https://arxiv.org/abs/2606.32036v1",
+      "title": "PointSplat: Compact Gaussian Splatting via Human-Centric Prediction",
+      "title_slug": "pointsplat-compact-gaussian-splatting-via-humancen",
+      "filename": "2026-07-01-pointsplat-compact-gaussian-splatting-vi.markdown",
+      "score": 8,
+      "generated_at": "2026-07-01T15:04:33.333883",
+      "status": "published"
     }
   ]
 }
