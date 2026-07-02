@@ -2449,6 +2449,16 @@
       "score": 8,
       "generated_at": "2026-07-01T15:04:33.333883",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00294",
+      "original_url": "https://arxiv.org/abs/2607.00294v1",
+      "title": "Polarimetric SAR Model Fitting for Soil Moisture Retrieval: Study of PALSAR-2 data over a Heterogeneous Mine Environment in Finland",
+      "title_slug": "polarimetric-sar-model-fitting-for-soil-moisture-r",
+      "filename": "2026-07-02-polarimetric-sar-model-fitting-for-soil-.markdown",
+      "score": 8,
+      "generated_at": "2026-07-02T11:06:43.005156",
+      "status": "published"
     }
   ]
 }
