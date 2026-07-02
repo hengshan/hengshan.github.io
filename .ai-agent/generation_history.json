@@ -2459,6 +2459,16 @@
       "score": 8,
       "generated_at": "2026-07-02T11:06:43.005156",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.00912",
+      "original_url": "https://arxiv.org/abs/2607.00912v1",
+      "title": "Fundamental Limits of Random Downlink Integrated Sensing and Communication over Rician Channels",
+      "title_slug": "fundamental-limits-of-random-downlink-integrated-s",
+      "filename": "2026-07-02-fundamental-limits-of-random-downlink-in.markdown",
+      "score": 8,
+      "generated_at": "2026-07-02T15:05:41.571618",
+      "status": "published"
     }
   ]
 }
