@@ -2498,6 +2498,16 @@
       "score": 8,
       "generated_at": "2026-07-04T11:05:45.397497",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.1",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.1",
+      "title": "PyTorch 2.12.1 Release, bug fix release",
+      "title_slug": "pytorch-2121-release-bug-fix-release",
+      "filename": "2026-07-04-pytorch-2121-release-bug-fix-release.markdown",
+      "score": 8,
+      "generated_at": "2026-07-04T15:05:02.772449",
+      "status": "published"
     }
   ]
 }
