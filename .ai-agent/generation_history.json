@@ -2479,6 +2479,25 @@
       "score": 8,
       "generated_at": "2026-07-03T11:03:30.790286",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02515",
+      "original_url": "https://arxiv.org/abs/2607.02515v1",
+      "title": "PointDiT: Pixel-Space Diffusion for Monocular Geometry Estimation",
+      "title_slug": "pointdit-pixelspace-diffusion-for-monocular-geomet",
+      "filename": "2026-07-03-pointdit-pixelspace-diffusion-for-monocu.markdown",
+      "score": 7,
+      "generated_at": "2026-07-03T15:05:12.148006"
+    },
+    {
+      "url": "https://medium.com/google-earth/empowering-the-google-earth-engine-community-with-example-adk-agents-4afa22dab855?source=rss----a747a9e16c1c---4",
+      "original_url": "https://medium.com/google-earth/empowering-the-google-earth-engine-community-with-example-adk-agents-4afa22dab855?source=rss----a747a9e16c1c---4",
+      "title": "Empowering the Google Earth Engine Community with Example ADK Agents",
+      "title_slug": "empowering-the-google-earth-engine-community-with-",
+      "filename": "2026-07-04-empowering-the-google-earth-engine-commu.markdown",
+      "score": 8,
+      "generated_at": "2026-07-04T11:05:45.397497",
+      "status": "published"
     }
   ]
 }
