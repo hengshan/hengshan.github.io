@@ -2508,6 +2508,16 @@
       "score": 8,
       "generated_at": "2026-07-04T15:05:02.772449",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02507",
+      "original_url": "https://arxiv.org/abs/2607.02507v1",
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Debates",
+      "title_slug": "what-llm-agents-say-when-no-one-is-watching-social",
+      "filename": "2026-07-05-what-llm-agents-say-when-no-one-is-watch.markdown",
+      "score": 8,
+      "generated_at": "2026-07-05T11:04:33.552312",
+      "status": "published"
     }
   ]
 }
