@@ -2518,6 +2518,16 @@
       "score": 8,
       "generated_at": "2026-07-05T11:04:33.552312",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02127",
+      "original_url": "https://arxiv.org/abs/2607.02127v1",
+      "title": "Population-Scale Segmentation of Penile Tissue in DIXON MRI using Deep Learning for Quantitative Phenotyping in Male Reproductive Health",
+      "title_slug": "populationscale-segmentation-of-penile-tissue-in-d",
+      "filename": "2026-07-05-populationscale-segmentation-of-penile-t.markdown",
+      "score": 8,
+      "generated_at": "2026-07-05T15:02:27.761497",
+      "status": "published"
     }
   ]
 }
