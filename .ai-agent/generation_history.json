@@ -2538,6 +2538,16 @@
       "score": 8,
       "generated_at": "2026-07-06T11:04:24.509830",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02190",
+      "original_url": "https://arxiv.org/abs/2607.02190v1",
+      "title": "Complexity-Scalable Direct Geolocation and Cancellation of Terrestrial GNSS Jammers: Single-Satellite and Multi-Antenna Experiments in Low Earth Orbit",
+      "title_slug": "complexityscalable-direct-geolocation-and-cancella",
+      "filename": "2026-07-06-complexityscalable-direct-geolocation-an.markdown",
+      "score": 8,
+      "generated_at": "2026-07-06T15:05:33.738956",
+      "status": "published"
     }
   ]
 }
