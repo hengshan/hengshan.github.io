@@ -2528,6 +2528,16 @@
       "score": 8,
       "generated_at": "2026-07-05T15:02:27.761497",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.02509",
+      "original_url": "https://arxiv.org/abs/2607.02509v1",
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "title_slug": "recontext-recursive-evidence-replay-as-llm-harness",
+      "filename": "2026-07-06-recontext-recursive-evidence-replay-as-l.markdown",
+      "score": 8,
+      "generated_at": "2026-07-06T11:04:24.509830",
+      "status": "published"
     }
   ]
 }
