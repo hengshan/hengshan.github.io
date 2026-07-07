@@ -2548,6 +2548,16 @@
       "score": 8,
       "generated_at": "2026-07-06T15:05:33.738956",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.05376",
+      "original_url": "https://arxiv.org/abs/2607.05376v1",
+      "title": "MV-Forcing: Long Multi-View Video Generation via 4D-Grounded Spatio-Temporal Self-Forcing",
+      "title_slug": "mvforcing-long-multiview-video-generation-via-4dgr",
+      "filename": "2026-07-07-mvforcing-long-multiview-video-generatio.markdown",
+      "score": 8,
+      "generated_at": "2026-07-07T15:04:55.510203",
+      "status": "published"
     }
   ]
 }
