@@ -2558,6 +2558,16 @@
       "score": 8,
       "generated_at": "2026-07-07T15:04:55.510203",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06564",
+      "original_url": "https://arxiv.org/abs/2607.06564v1",
+      "title": "Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation",
+      "title_slug": "lift3dvla-lifting-vla-models-to-3d-geometry-and-dy",
+      "filename": "2026-07-08-lift3dvla-lifting-vla-models-to-3d-geome.markdown",
+      "score": 8,
+      "generated_at": "2026-07-08T11:07:29.012670",
+      "status": "published"
     }
   ]
 }
