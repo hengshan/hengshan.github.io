@@ -2568,6 +2568,16 @@
       "score": 8,
       "generated_at": "2026-07-08T11:07:29.012670",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06356",
+      "original_url": "https://arxiv.org/abs/2607.06356v1",
+      "title": "TMF-RSE: Tri-Modal Fusion with Regional Semantics and Evidential Uncertainty for Lung Severity Scoring",
+      "title_slug": "tmfrse-trimodal-fusion-with-regional-semantics-and",
+      "filename": "2026-07-08-tmfrse-trimodal-fusion-with-regional-sem.markdown",
+      "score": 8,
+      "generated_at": "2026-07-08T15:03:10.723941",
+      "status": "published"
     }
   ]
 }
