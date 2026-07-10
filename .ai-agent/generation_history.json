@@ -2578,6 +2578,34 @@
       "score": 8,
       "generated_at": "2026-07-08T15:03:10.723941",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07177",
+      "original_url": "https://arxiv.org/abs/2607.07177v1",
+      "title": "Towards Accurate and Fast Clinical Body Composition: A Resource-Efficient Hierarchical Segmentation Framework for Multi-Source CT",
+      "title_slug": "towards-accurate-and-fast-clinical-body-compositio",
+      "filename": "2026-07-09-towards-accurate-and-fast-clinical-body-.markdown",
+      "score": 7,
+      "generated_at": "2026-07-09T11:04:13.770588"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.06456",
+      "original_url": "https://arxiv.org/abs/2607.06456v1",
+      "title": "A Hardware-Aware Open-Source Framework for Design Space Exploration of Mixed-Signal Spiking Neural Networks",
+      "title_slug": "a-hardwareaware-opensource-framework-for-design-sp",
+      "filename": "2026-07-09-a-hardwareaware-opensource-framework-for.markdown",
+      "score": 7,
+      "generated_at": "2026-07-09T15:03:00.243459"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.13.0",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.13.0",
+      "title": "PyTorch 2.13.0 Release",
+      "title_slug": "pytorch-2130-release",
+      "filename": "2026-07-10-pytorch-2130-release.markdown",
+      "score": 8,
+      "generated_at": "2026-07-10T11:03:26.102184",
+      "status": "published"
     }
   ]
 }
