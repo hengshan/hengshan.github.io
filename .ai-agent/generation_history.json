@@ -2606,6 +2606,16 @@
       "score": 8,
       "generated_at": "2026-07-10T11:03:26.102184",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08771",
+      "original_url": "https://arxiv.org/abs/2607.08771v1",
+      "title": "ZipDepth: Bringing Lightweight Zero-Shot Monocular Depth Anywhere, on Any Device",
+      "title_slug": "zipdepth-bringing-lightweight-zeroshot-monocular-d",
+      "filename": "2026-07-10-zipdepth-bringing-lightweight-zeroshot-m.markdown",
+      "score": 8,
+      "generated_at": "2026-07-10T15:04:24.258377",
+      "status": "published"
     }
   ]
 }
