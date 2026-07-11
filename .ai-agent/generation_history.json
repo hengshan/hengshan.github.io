@@ -2616,6 +2616,16 @@
       "score": 8,
       "generated_at": "2026-07-10T15:04:24.258377",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.3",
+      "original_url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.5.3",
+      "title": "CUTLASS 4.5.3",
+      "title_slug": "cutlass-453",
+      "filename": "2026-07-11-cutlass-453.markdown",
+      "score": 8,
+      "generated_at": "2026-07-11T11:03:40.935731",
+      "status": "published"
     }
   ]
 }
