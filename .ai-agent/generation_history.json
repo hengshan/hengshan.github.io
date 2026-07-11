@@ -2626,6 +2626,16 @@
       "score": 8,
       "generated_at": "2026-07-11T11:03:40.935731",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08733",
+      "original_url": "https://arxiv.org/abs/2607.08733v1",
+      "title": "Super Weights in LLMs and the Failure of Selective Training",
+      "title_slug": "super-weights-in-llms-and-the-failure-of-selective",
+      "filename": "2026-07-11-super-weights-in-llms-and-the-failure-of.markdown",
+      "score": 8,
+      "generated_at": "2026-07-11T15:02:34.285944",
+      "status": "published"
     }
   ]
 }
