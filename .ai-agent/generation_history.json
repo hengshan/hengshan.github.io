@@ -2636,6 +2636,16 @@
       "score": 8,
       "generated_at": "2026-07-11T15:02:34.285944",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.08734",
+      "original_url": "https://arxiv.org/abs/2607.08734v1",
+      "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+      "title_slug": "the-illusion-of-equivalency-statistical-characteri",
+      "filename": "2026-07-12-the-illusion-of-equivalency-statistical-.markdown",
+      "score": 8,
+      "generated_at": "2026-07-12T11:04:07.849002",
+      "status": "published"
     }
   ]
 }
