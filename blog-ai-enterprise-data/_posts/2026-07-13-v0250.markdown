@@ -1,0 +1,269 @@
+---
+layout: post-wide
+title: "vLLM v0.25.0 深度解析：Model Runner V2 正式成为默认路径"
+date: 2026-07-13 08:03:47 +0800
+category: AI
+author: Hank Li
+use_math: true
+source_url: https://github.com/vllm-project/vllm/releases/tag/v0.25.0
+generated_by: Claude Code CLI
+---
+
+## 一句话总结
+
+vLLM v0.25.0 将 Model Runner V2（MRv2）设为所有 dense 模型的默认执行引擎，同时带来动态推测解码、Mamba 混合模型 prefix caching 等重要特性——这不是一次小版本迭代，而是 vLLM 执行层架构的一次正式交接。
+
+---
+
+## 为什么这次发布值得深入研究？
+
+如果你关注 vLLM 的演进，你会发现 v0.25.0 的 558 个 commit 背后有一个清晰的意图：**统一执行路径，为未来的高级特性铺路**。
+
+Model Runner V1 是 vLLM 早期为了快速迭代而设计的"临时方案"，在量化模型、推测解码、多模态输入等场景下维护了大量条件分支。MRv2 的核心洞见是：**模型准备（token embedding、attention mask 构建）和模型执行应该彻底解耦**。这让 vLLM 能在同一个执行路径上支持越来越多的模型变体，而不是每种模型写一套特殊逻辑。
+
+---
+
+## 核心架构变化：理解 Model Runner V2
+
+### 直觉理解
+
+想象一个餐厅（推理引擎）：
+- **V1 厨房**：每来一种食材（模型类型）都要重新布置操作台，量化模型、多模态输入、推测解码各用一套流程
+- **V2 厨房**：统一的备料台（输入准备）→ 统一的炉灶（执行）→ 统一的出餐口（输出）
+
+MRv2 把请求调度、KV cache 管理、模型执行分成了清晰的三层，每层只做自己的事。
+
+### 执行流程对比
+
+```
+MRv1（简化）:
+Request → [条件判断: 是否量化?是否推测解码?] → 分叉执行路径 → Output
+
+MRv2（简化）:
+Request → InputPreparer → ModelExecutor → OutputProcessor → Output
+              ↑                  ↑
+          统一接口            统一调用
+```
+
+### 对使用者最直接的影响
+
+```python
+from vllm import LLM, SamplingParams
+
+# v0.25.0 之前：量化 + 推测解码需要手动指定 runner
+# v0.25.0：MRv2 自动处理，无需额外配置
+llm = LLM(
+    model="meta-llama/Llama-3.1-8B-Instruct",
+    quantization="fp8",          # 量化
+    speculative_model="[ngram]", # 推测解码
+    num_speculative_tokens=5,
+    # 不再需要 use_v2_block_manager=True 等额外标志
+)
+
+sampling_params = SamplingParams(temperature=0.7, max_tokens=512)
+outputs = llm.generate(["解释一下量子纠缠的原理"], sampling_params)
+print(outputs[0].outputs[0].text)
+```
+
+---
+
+## 特性深度解析
+
+### 1. 动态推测解码（Dynamic Speculative Decoding）
+
+推测解码（Speculative Decoding）的核心思路：用小模型（draft model）快速猜测接下来的 $k$ 个 token，再用大模型一次性验证。
+
+$$
+\text{Acceptance Rate} = P(\text{draft}_i \text{ accepted}) = \min\left(1, \frac{p_{\text{target}}(x_i)}{p_{\text{draft}}(x_i)}\right)
+$$
+
+**静态推测解码的问题**：固定 $k=5$，但实际上不同请求的接受率差异极大——数学推导可能只有 20% 接受率，而重复性文本生成可能有 80%。
+
+**动态推测解码的洞见**：在运行时根据历史接受率自适应调整 $k$，让每批请求都在"猜测成本"和"验证收益"之间找到最优点。
+
+```python
+from vllm import LLM, SamplingParams
+
+# 动态推测解码：vLLM 自动调整推测 token 数量
+llm = LLM(
+    model="meta-llama/Llama-3.1-70B-Instruct",
+    speculative_model="meta-llama/Llama-3.2-1B-Instruct",
+    num_speculative_tokens=5,       # 初始值
+    speculative_token_bonus_prob=0.0,  # 动态模式
+)
+
+# 高接受率场景（代码补全）：vLLM 会提高 k
+code_prompt = "def fibonacci(n):\n    # 使用递归实现"
+# 低接受率场景（创意写作）：vLLM 会降低 k  
+creative_prompt = "写一首关于宇宙的现代诗"
+
+outputs = llm.generate([code_prompt, creative_prompt], 
+                        SamplingParams(max_tokens=200))
+```
+
+**什么时候不该用推测解码**：输出高度随机（temperature > 1.0）、batch size 很大（GPU 利用率已经很高时，推测验证反而增加延迟）。
+
+---
+
+### 2. Mamba 混合模型的 Prefix Caching
+
+这是 v0.25.0 里最有技术含量的特性之一，因为 Mamba 根本不是 Transformer。
+
+**问题所在**：Transformer 有 KV cache，prefix caching 很自然——相同前缀的 KV 直接复用。但 Mamba 用的是**循环状态（recurrent state）**，状态会随着每个 token 更新，看起来不可能缓存。
+
+**Mamba Hybrid 模型的特殊性**：像 Jamba 这类混合模型同时包含 Mamba 层和 Attention 层。
+
+```
+输入序列: [system_prompt(512 tokens)] [user_query(50 tokens)]
+           ↑________________________↑
+                可被缓存的部分
+
+Attention 层: 缓存 KV → 标准操作
+Mamba 层:    缓存运行到 token 512 时的 SSM 状态 → v0.25.0 新增
+```
+
+这意味着系统 prompt 的 Mamba 状态只需要计算一次，后续请求直接从缓存状态继续——对 system prompt 很长的生产场景有显著收益。
+
+```python
+# Mamba 混合模型的 prefix caching（需要支持的模型，如 Jamba）
+llm = LLM(
+    model="ai21labs/Jamba-1.5-Mini",
+    enable_prefix_caching=True,   # 对 Mamba 层也生效
+    max_model_len=100000,
+)
+
+long_system_prompt = "你是一个专业的法律助手..." + "# " * 400  # 模拟长 system prompt
+
+# 第一次请求：计算并缓存 system prompt 的完整状态（包括 Mamba SSM 状态）
+r1 = llm.generate([long_system_prompt + "\n问题：合同违约的定义是什么？"])
+
+# 第二次请求：Mamba 状态命中缓存，只计算新增部分
+r2 = llm.generate([long_system_prompt + "\n问题：著作权保护期限是多久？"])
+```
+
+---
+
+### 3. 实时 Embeddings（Realtime Embeddings）
+
+vLLM 现在支持在推理的同时流式获取中间层 embedding，无需等到生成结束。
+
+```python
+from vllm import LLM
+
+llm = LLM(
+    model="Qwen/Qwen2.5-7B-Instruct",
+    task="embed",           # embedding 模式
+)
+
+# 批量获取 embeddings，适合 RAG 场景的实时索引
+texts = [
+    "量子计算的基本原理",
+    "机器学习中的过拟合问题",
+    "分布式系统的 CAP 定理",
+]
+outputs = llm.encode(texts)
+embeddings = [o.outputs.embedding for o in outputs]
+print(f"Embedding 维度: {len(embeddings[0])}")  # 例如 4096
+```
+
+**实际意义**：之前如果你想在同一个 vLLM 实例里同时做 generation 和 embedding，需要启动两个进程。现在可以在单个服务里混合处理两类请求，对资源利用率有显著改善。
+
+---
+
+## 性能基准与实际期望
+
+vLLM 官方在 MRv2 上的 benchmark 数据通常来自受控环境。以下是更现实的参考框架：
+
+| 场景 | MRv1 vs MRv2 | 说明 |
+|------|-------------|------|
+| 纯 dense 模型推理 | 持平或微弱提升 | MRv2 主要降低 overhead |
+| 量化模型（fp8/int4） | MRv2 提升 5-15% | 统一路径减少类型转换开销 |
+| 推测解码 + 量化组合 | MRv2 明显更优 | V1 下此组合有额外 bug 和开销 |
+| Mamba 混合模型 | MRv2 才支持 prefix caching | V1 不支持 |
+
+### 快速验证你的场景是否受益
+
+```python
+import time
+from vllm import LLM, SamplingParams
+
+def benchmark(model_path, prompts, **kwargs):
+    llm = LLM(model=model_path, **kwargs)
+    params = SamplingParams(max_tokens=200, temperature=0.0)
+    
+    # 预热
+    llm.generate(prompts[:1], params)
+    
+    start = time.perf_counter()
+    outputs = llm.generate(prompts * 10, params)
+    elapsed = time.perf_counter() - start
+    
+    total_tokens = sum(len(o.outputs[0].token_ids) for o in outputs)
+    print(f"Throughput: {total_tokens / elapsed:.1f} tokens/s")
+    return total_tokens / elapsed
+
+prompts = ["介绍一下 Transformer 架构的注意力机制"] * 8
+# v0.25.0 默认就是 MRv2，无需额外配置
+benchmark("Qwen/Qwen2.5-7B-Instruct", prompts)
+```
+
+---
+
+## 升级注意事项和已知坑
+
+### 坑 1：旧的 `use_v2_block_manager` 参数
+
+```python
+# v0.24.x 之前：
+llm = LLM(model="...", use_v2_block_manager=True)  # 手动开启
+
+# v0.25.0：此参数已废弃，MRv2 是默认行为
+# 但参数还存在（向后兼容），传入会触发 DeprecationWarning
+llm = LLM(model="...")  # 直接用，无需额外参数
+```
+
+### 坑 2：自定义 Model Runner 的迁移
+
+如果你基于 V1 实现了自定义 runner（常见于研究代码），需要适配新接口：
+
+```python
+# v0.24.x 的自定义 runner 模式（已过时）
+from vllm.worker.model_runner import ModelRunner  # V1 接口
+
+# v0.25.0 迁移到：
+from vllm.worker.model_runner_v2 import GPUModelRunnerV2  # V2 接口
+# 核心方法签名有变化，主要是 prepare_model_input() 的参数结构
+```
+
+### 坑 3：speculative decoding 与 chunked prefill 的交互
+
+```python
+# 这个组合在 v0.25.0 之前有已知问题，现在才稳定支持
+llm = LLM(
+    model="meta-llama/Llama-3.1-70B-Instruct",
+    speculative_model="[ngram]",
+    enable_chunked_prefill=True,   # v0.25.0 前与推测解码不兼容
+    num_speculative_tokens=5,
+)
+```
+
+---
+
+## 什么时候升级，什么时候等等
+
+| 适合立即升级 | 建议观望 |
+|------------|---------|
+| 使用量化模型（fp8/int4/awq） | 依赖自定义 V1 ModelRunner 的研究代码 |
+| 需要推测解码 + chunked prefill 组合 | 生产环境对稳定性要求极高且无测试资源 |
+| 使用 Mamba 混合模型且有长 system prompt | 使用了非主流的 vLLM 内部 API |
+| 需要同一服务同时处理 generation 和 embedding | 旧代码大量使用了 `use_v2_block_manager` 等废弃参数 |
+
+---
+
+## 我的判断
+
+MRv2 成为默认这件事本身比任何单个新特性都重要。vLLM 早期的技术债主要集中在执行层的碎片化，每次加新特性都要在多个执行路径里分别适配。MRv2 的统一让后续的开发速度会显著加快。
+
+但有一点值得注意：v0.25.0 的 558 个 commit 里有相当部分是 MRv2 的回归修复（regression fixes）。如果你在上一个版本里没遇到问题，升级前建议先在暂存环境跑一轮你的核心 workload。**架构统一通常意味着边缘案例集中暴露**，而不是立刻消失。
+
+动态推测解码是我认为被低估的特性。大多数人在调 `num_speculative_tokens` 时凭感觉选一个固定值，但不同场景（代码生成 vs 对话 vs 文档翻译）的最优 k 可以相差 3 倍以上。让 vLLM 自己决定这个值，在混合负载场景下收益会比你预期的更大。
