@@ -2685,6 +2685,16 @@
       "score": 8,
       "generated_at": "2026-07-14T11:05:48.524443",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11838",
+      "original_url": "https://arxiv.org/abs/2607.11838v1",
+      "title": "HASTE: A Platform for Rapid Post-Disaster Building Damage Assessment",
+      "title_slug": "haste-a-platform-for-rapid-postdisaster-building-d",
+      "filename": "2026-07-14-haste-a-platform-for-rapid-postdisaster-.markdown",
+      "score": 8,
+      "generated_at": "2026-07-14T15:03:02.953393",
+      "status": "published"
     }
   ]
 }
