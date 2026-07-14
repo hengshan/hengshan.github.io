@@ -2675,6 +2675,16 @@
       "score": 8,
       "generated_at": "2026-07-13T15:05:50.424911",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.11385",
+      "original_url": "https://arxiv.org/abs/2607.11385v1",
+      "title": "Diffusion MRI preprocessing affects ADC estimation and automatic PI-RADS v2.1 classification in bi-parametric prostate MRI",
+      "title_slug": "diffusion-mri-preprocessing-affects-adc-estimation",
+      "filename": "2026-07-14-diffusion-mri-preprocessing-affects-adc-.markdown",
+      "score": 8,
+      "generated_at": "2026-07-14T11:05:48.524443",
+      "status": "published"
     }
   ]
 }
