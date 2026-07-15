@@ -2695,6 +2695,16 @@
       "score": 8,
       "generated_at": "2026-07-14T15:03:02.953393",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12993",
+      "original_url": "https://arxiv.org/abs/2607.12993v1",
+      "title": "X-Lens: Real-Time Metric Depth Estimation with Heterogeneous Cameras",
+      "title_slug": "xlens-realtime-metric-depth-estimation-with-hetero",
+      "filename": "2026-07-15-xlens-realtime-metric-depth-estimation-w.markdown",
+      "score": 9,
+      "generated_at": "2026-07-15T11:05:43.764721",
+      "status": "published"
     }
   ]
 }
