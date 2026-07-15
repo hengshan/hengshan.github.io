@@ -2705,6 +2705,16 @@
       "score": 9,
       "generated_at": "2026-07-15T11:05:43.764721",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12593",
+      "original_url": "https://arxiv.org/abs/2607.12593v1",
+      "title": "Improving Autonomous Nano-drones Performance via Automated End-to-End Optimization and Deployment of DNNs",
+      "title_slug": "improving-autonomous-nanodrones-performance-via-au",
+      "filename": "2026-07-15-improving-autonomous-nanodrones-performa.markdown",
+      "score": 8,
+      "generated_at": "2026-07-15T15:03:52.250994",
+      "status": "published"
     }
   ]
 }
