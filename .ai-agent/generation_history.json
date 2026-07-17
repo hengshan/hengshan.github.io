@@ -2715,6 +2715,34 @@
       "score": 8,
       "generated_at": "2026-07-15T15:03:52.250994",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.13891",
+      "original_url": "https://arxiv.org/abs/2607.13891v1",
+      "title": "PiVoT: A Variational Solution for Real-time Large-scale Multi-object Detection and Tracking under Heavy Clutter",
+      "title_slug": "pivot-a-variational-solution-for-realtime-largesca",
+      "filename": "2026-07-16-pivot-a-variational-solution-for-realtim.markdown",
+      "score": 7,
+      "generated_at": "2026-07-16T11:05:15.865502"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12641",
+      "original_url": "https://arxiv.org/abs/2607.12641v1",
+      "title": "GeoFovea-GS: Geometry-Aware Cross-Layer Gaussian Splatting for Wireless Aerial VR",
+      "title_slug": "geofoveags-geometryaware-crosslayer-gaussian-splat",
+      "filename": "2026-07-16-geofoveags-geometryaware-crosslayer-gaus.markdown",
+      "score": 7,
+      "generated_at": "2026-07-16T15:04:30.697628"
+    },
+    {
+      "url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.6.1",
+      "original_url": "https://github.com/NVIDIA/cutlass/releases/tag/v4.6.1",
+      "title": "CUTLASS 4.6.1",
+      "title_slug": "cutlass-461",
+      "filename": "2026-07-17-cutlass-461.markdown",
+      "score": 8,
+      "generated_at": "2026-07-17T11:06:30.318587",
+      "status": "published"
     }
   ]
 }
