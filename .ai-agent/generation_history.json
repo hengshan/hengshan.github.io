@@ -2743,6 +2743,16 @@
       "score": 8,
       "generated_at": "2026-07-17T11:06:30.318587",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15246",
+      "original_url": "https://arxiv.org/abs/2607.15246v1",
+      "title": "ARMOR++: Agentic Orchestration of a Multi-Domain Primitive Set for Transferable Attacks on Deepfake Detectors",
+      "title_slug": "armor-agentic-orchestration-of-a-multidomain-primi",
+      "filename": "2026-07-17-armor-agentic-orchestration-of-a-multido.markdown",
+      "score": 8,
+      "generated_at": "2026-07-17T15:04:52.694892",
+      "status": "published"
     }
   ]
 }
