@@ -2753,6 +2753,52 @@
       "score": 8,
       "generated_at": "2026-07-17T15:04:52.694892",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15271",
+      "original_url": "https://arxiv.org/abs/2607.15271v1",
+      "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+      "title_slug": "online-neural-space-time-memory-for-dynamic-novel-",
+      "filename": "2026-07-18-online-neural-space-time-memory-for-dyna.markdown",
+      "score": 7,
+      "generated_at": "2026-07-18T11:05:39.156998"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15255",
+      "original_url": "https://arxiv.org/abs/2607.15255v1",
+      "title": "HoloGeo: Mitigating Landmark Bias in Geo-localization via Evidence-Driven Reasoning",
+      "title_slug": "hologeo-mitigating-landmark-bias-in-geolocalizatio",
+      "filename": "2026-07-18-hologeo-mitigating-landmark-bias-in-geol.markdown",
+      "score": 7,
+      "generated_at": "2026-07-18T15:05:38.143948"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.14894",
+      "original_url": "https://arxiv.org/abs/2607.14894v1",
+      "title": "Domain Adaptation of Mismatched Proximal Denoiser for Plug-and-Play Image Reconstruction",
+      "title_slug": "domain-adaptation-of-mismatched-proximal-denoiser-",
+      "filename": "2026-07-19-domain-adaptation-of-mismatched-proximal.markdown",
+      "score": 7,
+      "generated_at": "2026-07-19T15:07:08.625655"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16080",
+      "original_url": "https://arxiv.org/abs/2607.16080v1",
+      "title": "Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable U-Net for High-Resolution Precipitation Forecasting",
+      "title_slug": "physicsbased-deep-spatiotemporal-hyperlocal-radar-",
+      "filename": "2026-07-20-physicsbased-deep-spatiotemporal-hyperlo.markdown",
+      "score": 7,
+      "generated_at": "2026-07-20T11:06:42.810206"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.16193",
+      "original_url": "https://arxiv.org/abs/2607.16193v1",
+      "title": "Knowing the Self, Understanding the World: A Dual-Cognition Benchmark for UAV Spatio-temporal Reasoning with MLLMs",
+      "title_slug": "knowing-the-self-understanding-the-world-a-dualcog",
+      "filename": "2026-07-20-knowing-the-self-understanding-the-world.markdown",
+      "score": 8,
+      "generated_at": "2026-07-20T15:04:39.887067",
+      "status": "published"
     }
   ]
 }
