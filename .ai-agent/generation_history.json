@@ -2799,6 +2799,25 @@
       "score": 8,
       "generated_at": "2026-07-20T15:04:39.887067",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.17862",
+      "original_url": "https://arxiv.org/abs/2607.17862v1",
+      "title": "Massive MIMO-OFDM ISAC for Sparse ISAR Imaging: Joint Power and Subcarrier Allocation",
+      "title_slug": "massive-mimoofdm-isac-for-sparse-isar-imaging-join",
+      "filename": "2026-07-21-massive-mimoofdm-isac-for-sparse-isar-im.markdown",
+      "score": 7,
+      "generated_at": "2026-07-21T11:10:49.670712"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.1",
+      "title": "v0.25.1",
+      "title_slug": "v0251",
+      "filename": "2026-07-21-v0251.markdown",
+      "score": 8,
+      "generated_at": "2026-07-21T15:03:25.018596",
+      "status": "published"
     }
   ]
 }
