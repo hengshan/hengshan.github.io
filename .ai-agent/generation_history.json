@@ -2818,6 +2818,16 @@
       "score": 8,
       "generated_at": "2026-07-21T15:03:25.018596",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19064",
+      "original_url": "https://arxiv.org/abs/2607.19064v1",
+      "title": "Mage-Flow: An Efficient Native-Resolution Foundation Model for Image Generation and Editing",
+      "title_slug": "mageflow-an-efficient-nativeresolution-foundation-",
+      "filename": "2026-07-22-mageflow-an-efficient-nativeresolution-f.markdown",
+      "score": 9,
+      "generated_at": "2026-07-22T11:04:38.445212",
+      "status": "published"
     }
   ]
 }
