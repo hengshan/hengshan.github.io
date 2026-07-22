@@ -2828,6 +2828,16 @@
       "score": 9,
       "generated_at": "2026-07-22T11:04:38.445212",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.19332",
+      "original_url": "https://arxiv.org/abs/2607.19332v1",
+      "title": "ROMS-IMLE: A Minimalist Approach to Competitive Single-Step Generative Modelling",
+      "title_slug": "romsimle-a-minimalist-approach-to-competitive-sing",
+      "filename": "2026-07-22-romsimle-a-minimalist-approach-to-compet.markdown",
+      "score": 8,
+      "generated_at": "2026-07-22T15:03:50.462351",
+      "status": "published"
     }
   ]
 }
