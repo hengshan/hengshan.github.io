@@ -2848,6 +2848,16 @@
       "score": 8,
       "generated_at": "2026-07-23T11:03:55.167008",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.20232",
+      "original_url": "https://arxiv.org/abs/2607.20232v1",
+      "title": "DINS-IO: Learned Inertial Odometry via Differentiable INS Consistency",
+      "title_slug": "dinsio-learned-inertial-odometry-via-differentiabl",
+      "filename": "2026-07-23-dinsio-learned-inertial-odometry-via-dif.markdown",
+      "score": 8,
+      "generated_at": "2026-07-23T15:06:49.522950",
+      "status": "published"
     }
   ]
 }
