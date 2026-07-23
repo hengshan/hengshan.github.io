@@ -2838,6 +2838,16 @@
       "score": 8,
       "generated_at": "2026-07-22T15:03:50.462351",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.19.3",
+      "original_url": "https://github.com/deepspeedai/DeepSpeed/releases/tag/v0.19.3",
+      "title": "v0.19.3 Patch Release",
+      "title_slug": "v0193-patch-release",
+      "filename": "2026-07-23-v0193-patch-release.markdown",
+      "score": 8,
+      "generated_at": "2026-07-23T11:03:55.167008",
+      "status": "published"
     }
   ]
 }
