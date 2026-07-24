@@ -2868,6 +2868,16 @@
       "score": 8,
       "generated_at": "2026-07-24T11:05:26.745901",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21592",
+      "original_url": "https://arxiv.org/abs/2607.21592v1",
+      "title": "Unified Video Dense Prediction from Disjoint Data",
+      "title_slug": "unified-video-dense-prediction-from-disjoint-data",
+      "filename": "2026-07-24-unified-video-dense-prediction-from-disj.markdown",
+      "score": 8,
+      "generated_at": "2026-07-24T15:04:33.493517",
+      "status": "published"
     }
   ]
 }
