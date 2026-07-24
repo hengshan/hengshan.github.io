@@ -2858,6 +2858,16 @@
       "score": 8,
       "generated_at": "2026-07-23T15:06:49.522950",
       "status": "published"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c",
+      "original_url": "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c/",
+      "title": "Make Long-Running NVIDIA TensorRT Engine Builds Observable and Cancelable in Python or C++",
+      "title_slug": "make-longrunning-nvidia-tensorrt-engine-builds-obs",
+      "filename": "2026-07-24-make-longrunning-nvidia-tensorrt-engine-.markdown",
+      "score": 8,
+      "generated_at": "2026-07-24T11:05:26.745901",
+      "status": "published"
     }
   ]
 }
