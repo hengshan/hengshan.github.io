@@ -2878,6 +2878,25 @@
       "score": 8,
       "generated_at": "2026-07-24T15:04:33.493517",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.20598",
+      "original_url": "https://arxiv.org/abs/2607.20598v1",
+      "title": "MedDiT4SR: Tri-Stream Joint Adaptation of Pre-Trained Diffusion Transformers for Medical Image Super-Resolution",
+      "title_slug": "meddit4sr-tristream-joint-adaptation-of-pretrained",
+      "filename": "2026-07-25-meddit4sr-tristream-joint-adaptation-of-.markdown",
+      "score": 7,
+      "generated_at": "2026-07-25T15:05:18.331679"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
+      "title": "v0.26.0",
+      "title_slug": "v0260",
+      "filename": "2026-07-26-v0260.markdown",
+      "score": 8,
+      "generated_at": "2026-07-26T11:05:33.053591",
+      "status": "published"
     }
   ]
 }
