@@ -2897,6 +2897,25 @@
       "score": 8,
       "generated_at": "2026-07-26T11:05:33.053591",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.21416",
+      "original_url": "https://arxiv.org/abs/2607.21416v1",
+      "title": "GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition",
+      "title_slug": "glamslam-realtime-gaussian-largescale-mapping-via-",
+      "filename": "2026-07-26-glamslam-realtime-gaussian-largescale-ma.markdown",
+      "score": 7,
+      "generated_at": "2026-07-26T15:03:35.572792"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.22471",
+      "original_url": "https://arxiv.org/abs/2607.22471v1",
+      "title": "MineValiCoder: Reliable Code Generation with Test Case Quality Mining and Bipartite Graph-Based Mutual Validation",
+      "title_slug": "minevalicoder-reliable-code-generation-with-test-c",
+      "filename": "2026-07-27-minevalicoder-reliable-code-generation-w.markdown",
+      "score": 8,
+      "generated_at": "2026-07-27T15:03:43.181958",
+      "status": "published"
     }
   ]
 }
