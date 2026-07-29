@@ -2916,6 +2916,25 @@
       "score": 8,
       "generated_at": "2026-07-27T15:03:43.181958",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.23464",
+      "original_url": "https://arxiv.org/abs/2607.23464v1",
+      "title": "Direction-adaptive Mamba: Spatial-Frequency Dual-Domain Collaborative Learning for PolSAR Image Classification",
+      "title_slug": "directionadaptive-mamba-spatialfrequency-dualdomai",
+      "filename": "2026-07-28-directionadaptive-mamba-spatialfrequency.markdown",
+      "score": 7,
+      "generated_at": "2026-07-28T15:06:44.642843"
+    },
+    {
+      "url": "https://github.com/OpenDroneMap/ODM/releases/tag/v3.6.1",
+      "original_url": "https://github.com/OpenDroneMap/ODM/releases/tag/v3.6.1",
+      "title": "3.6.1",
+      "title_slug": "361",
+      "filename": "2026-07-29-361.markdown",
+      "score": 8,
+      "generated_at": "2026-07-29T15:05:24.427246",
+      "status": "published"
     }
   ]
 }
