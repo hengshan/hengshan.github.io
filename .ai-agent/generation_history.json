@@ -2935,6 +2935,25 @@
       "score": 8,
       "generated_at": "2026-07-29T15:05:24.427246",
       "status": "published"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python",
+      "original_url": "https://developer.nvidia.com/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/",
+      "title": "Run High-Performance Core Math at Scale with NVIDIA nvmath-python",
+      "title_slug": "run-highperformance-core-math-at-scale-with-nvidia",
+      "filename": "2026-07-31-run-highperformance-core-math-at-scale-w.markdown",
+      "score": 7,
+      "generated_at": "2026-07-31T11:02:48.404041"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28595",
+      "original_url": "https://arxiv.org/abs/2607.28595v1",
+      "title": "Beacon: Knowing When and How to Perform Agentic Visual Reasoning",
+      "title_slug": "beacon-knowing-when-and-how-to-perform-agentic-vis",
+      "filename": "2026-07-31-beacon-knowing-when-and-how-to-perform-a.markdown",
+      "score": 8,
+      "generated_at": "2026-07-31T15:04:03.450132",
+      "status": "published"
     }
   ]
 }
