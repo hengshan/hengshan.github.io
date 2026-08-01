@@ -2954,6 +2954,16 @@
       "score": 8,
       "generated_at": "2026-07-31T15:04:03.450132",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.28080",
+      "original_url": "https://arxiv.org/abs/2607.28080v1",
+      "title": "On a joint simultaneous learning of relevant feature subsets and subspaces in regression-like problems",
+      "title_slug": "on-a-joint-simultaneous-learning-of-relevant-featu",
+      "filename": "2026-08-01-on-a-joint-simultaneous-learning-of-rele.markdown",
+      "score": 8,
+      "generated_at": "2026-08-01T15:06:55.688421",
+      "status": "published"
     }
   ]
 }
