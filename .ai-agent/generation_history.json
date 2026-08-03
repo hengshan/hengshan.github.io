@@ -2974,6 +2974,16 @@
       "score": 8,
       "generated_at": "2026-08-02T15:05:17.668691",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.29659",
+      "original_url": "https://arxiv.org/abs/2607.29659v1",
+      "title": "GQ-FSL: Green Quantized Federated Split Learning",
+      "title_slug": "gqfsl-green-quantized-federated-split-learning",
+      "filename": "2026-08-03-gqfsl-green-quantized-federated-split-le.markdown",
+      "score": 8,
+      "generated_at": "2026-08-03T15:04:39.664307",
+      "status": "published"
     }
   ]
 }
