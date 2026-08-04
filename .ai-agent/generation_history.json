@@ -2984,6 +2984,16 @@
       "score": 8,
       "generated_at": "2026-08-03T15:04:39.664307",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02248",
+      "original_url": "https://arxiv.org/abs/2608.02248v1",
+      "title": "An Accessible Solution for Deformable Image Registration Compared with Learning-Based Approaches",
+      "title_slug": "an-accessible-solution-for-deformable-image-regist",
+      "filename": "2026-08-04-an-accessible-solution-for-deformable-im.markdown",
+      "score": 8,
+      "generated_at": "2026-08-04T15:02:39.893044",
+      "status": "published"
     }
   ]
 }
