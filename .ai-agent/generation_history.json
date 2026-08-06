@@ -3023,6 +3023,16 @@
       "score": 9,
       "generated_at": "2026-08-06T11:06:38.165476",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04915",
+      "original_url": "https://arxiv.org/abs/2608.04915v1",
+      "title": "DefoEye: Python-Based Software for Facilitating Time-Series InSAR Analysis of Sentinel-1 Remote-Sensing Data",
+      "title_slug": "defoeye-pythonbased-software-for-facilitating-time",
+      "filename": "2026-08-06-defoeye-pythonbased-software-for-facilit.markdown",
+      "score": 8,
+      "generated_at": "2026-08-06T15:03:07.437379",
+      "status": "published"
     }
   ]
 }
