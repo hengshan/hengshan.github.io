@@ -3043,6 +3043,16 @@
       "score": 8,
       "generated_at": "2026-08-07T11:04:17.209672",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.06307",
+      "original_url": "https://arxiv.org/abs/2608.06307v1",
+      "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression",
+      "title_slug": "uqloc-uncertaintyaware-lidar-scene-coordinate-regr",
+      "filename": "2026-08-07-uqloc-uncertaintyaware-lidar-scene-coord.markdown",
+      "score": 8,
+      "generated_at": "2026-08-07T15:03:14.546648",
+      "status": "published"
     }
   ]
 }
