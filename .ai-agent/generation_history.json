@@ -3081,6 +3081,16 @@
       "score": 8,
       "generated_at": "2026-08-09T11:05:25.047760",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05786",
+      "original_url": "https://arxiv.org/abs/2608.05786v1",
+      "title": "Fuzzy network jump models for soft dynamic clustering of graph-structured data",
+      "title_slug": "fuzzy-network-jump-models-for-soft-dynamic-cluster",
+      "filename": "2026-08-09-fuzzy-network-jump-models-for-soft-dynam.markdown",
+      "score": 8,
+      "generated_at": "2026-08-09T15:07:25.763639",
+      "status": "published"
     }
   ]
 }
