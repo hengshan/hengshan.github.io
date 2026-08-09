@@ -3053,6 +3053,34 @@
       "score": 8,
       "generated_at": "2026-08-07T15:03:14.546648",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.06028",
+      "original_url": "https://arxiv.org/abs/2608.06028v1",
+      "title": "Hyperspectral Calibration Detection: A Novel Concept For Change Detection With Unsupervised Incremental Safe Pseudo-Labeling Implementation",
+      "title_slug": "hyperspectral-calibration-detection-a-novel-concep",
+      "filename": "2026-08-08-hyperspectral-calibration-detection-a-no.markdown",
+      "score": 7,
+      "generated_at": "2026-08-08T11:05:26.524830"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.05793",
+      "original_url": "https://arxiv.org/abs/2608.05793v1",
+      "title": "Radio-FM: A Foundation Model for Radio Signal Representation Learning and Its Applications",
+      "title_slug": "radiofm-a-foundation-model-for-radio-signal-repres",
+      "filename": "2026-08-08-radiofm-a-foundation-model-for-radio-sig.markdown",
+      "score": 7,
+      "generated_at": "2026-08-08T15:02:54.700903"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.06188",
+      "original_url": "https://arxiv.org/abs/2608.06188v1",
+      "title": "Routing LLM Inference to the Cleanest Grid in Real Time",
+      "title_slug": "routing-llm-inference-to-the-cleanest-grid-in-real",
+      "filename": "2026-08-09-routing-llm-inference-to-the-cleanest-gr.markdown",
+      "score": 8,
+      "generated_at": "2026-08-09T11:05:25.047760",
+      "status": "published"
     }
   ]
 }
