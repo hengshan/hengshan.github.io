@@ -3091,6 +3091,25 @@
       "score": 8,
       "generated_at": "2026-08-09T15:07:25.763639",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07106",
+      "original_url": "https://arxiv.org/abs/2608.07106v1",
+      "title": "Synthetic LiDAR Data Generation and Deterministic Downsampling for Point Cloud Classification on the Edge",
+      "title_slug": "synthetic-lidar-data-generation-and-deterministic-",
+      "filename": "2026-08-10-synthetic-lidar-data-generation-and-dete.markdown",
+      "score": 7,
+      "generated_at": "2026-08-10T11:05:33.430623"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.07405",
+      "original_url": "https://arxiv.org/abs/2608.07405v1",
+      "title": "GeoDistill-Refine: Silhouette-First Geometry Distillation for Annotation-Free Spacecraft Segmentation",
+      "title_slug": "geodistillrefine-silhouettefirst-geometry-distilla",
+      "filename": "2026-08-10-geodistillrefine-silhouettefirst-geometr.markdown",
+      "score": 8,
+      "generated_at": "2026-08-10T15:06:21.343820",
+      "status": "published"
     }
   ]
 }
