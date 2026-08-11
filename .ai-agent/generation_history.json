@@ -3110,6 +3110,16 @@
       "score": 8,
       "generated_at": "2026-08-10T15:06:21.343820",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09360",
+      "original_url": "https://arxiv.org/abs/2608.09360v1",
+      "title": "Deep Learning based Detection of Fishing Vessels and Fishing Monitoring using Nightlight Images",
+      "title_slug": "deep-learning-based-detection-of-fishing-vessels-a",
+      "filename": "2026-08-11-deep-learning-based-detection-of-fishing.markdown",
+      "score": 8,
+      "generated_at": "2026-08-11T11:04:36.317330",
+      "status": "published"
     }
   ]
 }
