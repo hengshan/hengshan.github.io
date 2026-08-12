@@ -3120,6 +3120,34 @@
       "score": 8,
       "generated_at": "2026-08-11T11:04:36.317330",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09137",
+      "original_url": "https://arxiv.org/abs/2608.09137v1",
+      "title": "Bright-Channel Retinex Enhancement with a Conditional Overdispered-Noise Analysis",
+      "title_slug": "brightchannel-retinex-enhancement-with-a-condition",
+      "filename": "2026-08-11-brightchannel-retinex-enhancement-with-a.markdown",
+      "score": 7,
+      "generated_at": "2026-08-11T15:04:51.577860"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.11150",
+      "original_url": "https://arxiv.org/abs/2608.11150v1",
+      "title": "CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting",
+      "title_slug": "causalsplat-towards-comprehensive-hierarchical-rea",
+      "filename": "2026-08-12-causalsplat-towards-comprehensive-hierar.markdown",
+      "score": 7,
+      "generated_at": "2026-08-12T11:03:48.842375"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.11205",
+      "original_url": "https://arxiv.org/abs/2608.11205v1",
+      "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
+      "title_slug": "advfd-boosting-visual-generation-via-adversarial-f",
+      "filename": "2026-08-12-advfd-boosting-visual-generation-via-adv.markdown",
+      "score": 8,
+      "generated_at": "2026-08-12T15:04:24.845869",
+      "status": "published"
     }
   ]
 }
