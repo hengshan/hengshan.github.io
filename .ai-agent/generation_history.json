@@ -3148,6 +3148,16 @@
       "score": 8,
       "generated_at": "2026-08-12T15:04:24.845869",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/OpenDroneMap/ODM/releases/tag/v3.6.2",
+      "original_url": "https://github.com/OpenDroneMap/ODM/releases/tag/v3.6.2",
+      "title": "3.6.2",
+      "title_slug": "362",
+      "filename": "2026-08-13-362.markdown",
+      "score": 8,
+      "generated_at": "2026-08-13T11:03:54.897099",
+      "status": "published"
     }
   ]
 }
