@@ -3178,6 +3178,16 @@
       "score": 8,
       "generated_at": "2026-08-14T11:05:03.116247",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.10795",
+      "original_url": "https://arxiv.org/abs/2608.10795v1",
+      "title": "EvoMem: Memory-Augmented Evolution for Code Optimization",
+      "title_slug": "evomem-memoryaugmented-evolution-for-code-optimiza",
+      "filename": "2026-08-14-evomem-memoryaugmented-evolution-for-cod.markdown",
+      "score": 8,
+      "generated_at": "2026-08-14T15:05:02.645146",
+      "status": "published"
     }
   ]
 }
