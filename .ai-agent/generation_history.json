@@ -3168,6 +3168,16 @@
       "score": 8,
       "generated_at": "2026-08-13T15:04:53.525516",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.12227",
+      "original_url": "https://arxiv.org/abs/2608.12227v1",
+      "title": "Domain-Aware Lightweight Spectral-Grouped Convolutions for Hyperspectral Fish Freshness Classification",
+      "title_slug": "domainaware-lightweight-spectralgrouped-convolutio",
+      "filename": "2026-08-14-domainaware-lightweight-spectralgrouped-.markdown",
+      "score": 8,
+      "generated_at": "2026-08-14T11:05:03.116247",
+      "status": "published"
     }
   ]
 }
