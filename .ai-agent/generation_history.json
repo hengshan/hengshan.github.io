@@ -3198,6 +3198,25 @@
       "score": 8,
       "generated_at": "2026-08-15T11:03:29.215118",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.12773",
+      "original_url": "https://arxiv.org/abs/2608.12773v1",
+      "title": "CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers",
+      "title_slug": "cwbass-v2-saturationaware-pseudolabel-selection-fo",
+      "filename": "2026-08-16-cwbass-v2-saturationaware-pseudolabel-se.markdown",
+      "score": 7,
+      "generated_at": "2026-08-16T11:02:36.445438"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.13352",
+      "original_url": "https://arxiv.org/abs/2608.13352v1",
+      "title": "Recursive Multiple Change Point Detection of Nonstationary Time Series: Instability Tests, Estimation and Confidence Intervals",
+      "title_slug": "recursive-multiple-change-point-detection-of-nonst",
+      "filename": "2026-08-16-recursive-multiple-change-point-detectio.markdown",
+      "score": 8,
+      "generated_at": "2026-08-16T15:04:20.294914",
+      "status": "published"
     }
   ]
 }
