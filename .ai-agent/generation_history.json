@@ -3217,6 +3217,16 @@
       "score": 8,
       "generated_at": "2026-08-16T15:04:20.294914",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.14332",
+      "original_url": "https://arxiv.org/abs/2608.14332v1",
+      "title": "CORAL: Curriculum-Optimized Reward Adaptation for LiDAR-Based Goal-Directed Urban Driving",
+      "title_slug": "coral-curriculumoptimized-reward-adaptation-for-li",
+      "filename": "2026-08-17-coral-curriculumoptimized-reward-adaptat.markdown",
+      "score": 8,
+      "generated_at": "2026-08-17T11:04:19.924698",
+      "status": "published"
     }
   ]
 }
