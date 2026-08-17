@@ -3227,6 +3227,16 @@
       "score": 8,
       "generated_at": "2026-08-17T11:04:19.924698",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.13897",
+      "original_url": "https://arxiv.org/abs/2608.13897v1",
+      "title": "Practical Lossless Volumetric Medical Image Compression via Tri-plane Context Tree Learning",
+      "title_slug": "practical-lossless-volumetric-medical-image-compre",
+      "filename": "2026-08-17-practical-lossless-volumetric-medical-im.markdown",
+      "score": 8,
+      "generated_at": "2026-08-17T15:05:18.007452",
+      "status": "published"
     }
   ]
 }
