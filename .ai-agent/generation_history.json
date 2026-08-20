@@ -3237,6 +3237,43 @@
       "score": 8,
       "generated_at": "2026-08-17T15:05:18.007452",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16404",
+      "original_url": "https://arxiv.org/abs/2608.16404v1",
+      "title": "Convergence Analysis of Statistical Inverse Problems on Reproducing Kernel Banach Spaces",
+      "title_slug": "convergence-analysis-of-statistical-inverse-proble",
+      "filename": "2026-08-18-convergence-analysis-of-statistical-inve.markdown",
+      "score": 7,
+      "generated_at": "2026-08-18T11:06:39.768118"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.16308",
+      "original_url": "https://arxiv.org/abs/2608.16308v1",
+      "title": "DB-SpMSpV: Dual-View Blocked Sparse Matrix-Sparse Vector Multiplication for Dynamic GPU Workloads",
+      "title_slug": "dbspmspv-dualview-blocked-sparse-matrixsparse-vect",
+      "filename": "2026-08-18-dbspmspv-dualview-blocked-sparse-matrixs.markdown",
+      "score": 7,
+      "generated_at": "2026-08-18T15:04:35.584328"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.18028",
+      "original_url": "https://arxiv.org/abs/2608.18028v1",
+      "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study",
+      "title_slug": "initializationfree-bundle-adjustment-revisited-a-c",
+      "filename": "2026-08-19-initializationfree-bundle-adjustment-rev.markdown",
+      "score": 7,
+      "generated_at": "2026-08-19T15:06:43.900678"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19059",
+      "original_url": "https://arxiv.org/abs/2608.19059v1",
+      "title": "LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding",
+      "title_slug": "ltmem-volatilityaware-spatiotemporal-memory-for-li",
+      "filename": "2026-08-20-ltmem-volatilityaware-spatiotemporal-mem.markdown",
+      "score": 8,
+      "generated_at": "2026-08-20T11:04:34.565733",
+      "status": "published"
     }
   ]
 }
