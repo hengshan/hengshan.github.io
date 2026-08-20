@@ -3274,6 +3274,16 @@
       "score": 8,
       "generated_at": "2026-08-20T11:04:34.565733",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19004",
+      "original_url": "https://arxiv.org/abs/2608.19004v1",
+      "title": "Autonomous Agricultural Tractor: Integrated Weed Detection and LiDAR Navigation for Precision Paddy Farming",
+      "title_slug": "autonomous-agricultural-tractor-integrated-weed-de",
+      "filename": "2026-08-20-autonomous-agricultural-tractor-integrat.markdown",
+      "score": 8,
+      "generated_at": "2026-08-20T15:03:48.506663",
+      "status": "published"
     }
   ]
 }
