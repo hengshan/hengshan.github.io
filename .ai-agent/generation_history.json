@@ -3312,6 +3312,16 @@
       "score": 8,
       "generated_at": "2026-08-22T11:04:31.061718",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20326",
+      "original_url": "https://arxiv.org/abs/2608.20326v1",
+      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "title_slug": "tcp-margincontrolled-confidence-estimation-for-rel",
+      "filename": "2026-08-22-tcpα-margincontrolled-confidence-estimat.markdown",
+      "score": 8,
+      "generated_at": "2026-08-22T15:04:02.419950",
+      "status": "published"
     }
   ]
 }
