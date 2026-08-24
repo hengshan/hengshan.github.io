@@ -3322,6 +3322,25 @@
       "score": 8,
       "generated_at": "2026-08-22T15:04:02.419950",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.20183",
+      "original_url": "https://arxiv.org/abs/2608.20183v1",
+      "title": "Exact Algebraic Computation of Learning Coefficients for Two-Dimensional Singular Models",
+      "title_slug": "exact-algebraic-computation-of-learning-coefficien",
+      "filename": "2026-08-23-exact-algebraic-computation-of-learning-.markdown",
+      "score": 7,
+      "generated_at": "2026-08-23T15:10:23.959483"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21286",
+      "original_url": "https://arxiv.org/abs/2608.21286v1",
+      "title": "Difficulty-Calibrated Interpolation Paths for Conditional Flow Matching",
+      "title_slug": "difficultycalibrated-interpolation-paths-for-condi",
+      "filename": "2026-08-24-difficultycalibrated-interpolation-paths.markdown",
+      "score": 8,
+      "generated_at": "2026-08-24T11:04:51.232187",
+      "status": "published"
     }
   ]
 }
