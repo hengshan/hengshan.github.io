@@ -3360,6 +3360,16 @@
       "score": 8,
       "generated_at": "2026-08-25T11:05:35.337997",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23486",
+      "original_url": "https://arxiv.org/abs/2608.23486v1",
+      "title": "GeoWAM: Visual Geometry World Action Models for Autonomous Driving",
+      "title_slug": "geowam-visual-geometry-world-action-models-for-aut",
+      "filename": "2026-08-25-geowam-visual-geometry-world-action-mode.markdown",
+      "score": 8,
+      "generated_at": "2026-08-25T15:07:07.764131",
+      "status": "published"
     }
   ]
 }
