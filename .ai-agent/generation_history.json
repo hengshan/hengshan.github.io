@@ -3341,6 +3341,25 @@
       "score": 8,
       "generated_at": "2026-08-24T11:04:51.232187",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.21276",
+      "original_url": "https://arxiv.org/abs/2608.21276v1",
+      "title": "The Coastline as a Structural Constraint: Harnessing Scene Geometry for Autonomous Surface Vessel Localization",
+      "title_slug": "the-coastline-as-a-structural-constraint-harnessin",
+      "filename": "2026-08-24-the-coastline-as-a-structural-constraint.markdown",
+      "score": 7,
+      "generated_at": "2026-08-24T15:07:57.767396"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23549",
+      "original_url": "https://arxiv.org/abs/2608.23549v1",
+      "title": "FixAnything: 3D-Consistent Rendering Refinement via Video Generative Priors",
+      "title_slug": "fixanything-3dconsistent-rendering-refinement-via-",
+      "filename": "2026-08-25-fixanything-3dconsistent-rendering-refin.markdown",
+      "score": 8,
+      "generated_at": "2026-08-25T11:05:35.337997",
+      "status": "published"
     }
   ]
 }
