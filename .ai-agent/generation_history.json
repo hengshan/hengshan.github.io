@@ -3370,6 +3370,25 @@
       "score": 8,
       "generated_at": "2026-08-25T15:07:07.764131",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.24768",
+      "original_url": "https://arxiv.org/abs/2608.24768v1",
+      "title": "Score-Based Ideal Observer Approximation via Denoising Score Matching for Signal-Known-Exactly Detection Tasks",
+      "title_slug": "scorebased-ideal-observer-approximation-via-denois",
+      "filename": "2026-08-26-scorebased-ideal-observer-approximation-.markdown",
+      "score": 7,
+      "generated_at": "2026-08-26T11:05:10.318634"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.24858",
+      "original_url": "https://arxiv.org/abs/2608.24858v1",
+      "title": "Bellman Calibration for Marginalized Importance Weighting in Offline Reinforcement Learning",
+      "title_slug": "bellman-calibration-for-marginalized-importance-we",
+      "filename": "2026-08-26-bellman-calibration-for-marginalized-imp.markdown",
+      "score": 8,
+      "generated_at": "2026-08-26T15:05:18.578185",
+      "status": "published"
     }
   ]
 }
