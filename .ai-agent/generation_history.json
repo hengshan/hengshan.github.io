@@ -3399,6 +3399,16 @@
       "score": 8,
       "generated_at": "2026-08-27T11:08:39.815827",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23882",
+      "original_url": "https://arxiv.org/abs/2608.23882v1",
+      "title": "Native-Space 3D CarveMix for Multi-Site T1w Stroke Segmentation",
+      "title_slug": "nativespace-3d-carvemix-for-multisite-t1w-stroke-s",
+      "filename": "2026-08-27-nativespace-3d-carvemix-for-multisite-t1.markdown",
+      "score": 8,
+      "generated_at": "2026-08-27T15:05:31.110212",
+      "status": "published"
     }
   ]
 }
