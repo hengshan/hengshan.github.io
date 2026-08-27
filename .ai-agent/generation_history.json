@@ -3389,6 +3389,16 @@
       "score": 8,
       "generated_at": "2026-08-26T15:05:18.578185",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.25127",
+      "original_url": "https://arxiv.org/abs/2608.25127v1",
+      "title": "Learning spatially varying regularisation parameters of low regularity for image reconstruction",
+      "title_slug": "learning-spatially-varying-regularisation-paramete",
+      "filename": "2026-08-27-learning-spatially-varying-regularisatio.markdown",
+      "score": 8,
+      "generated_at": "2026-08-27T11:08:39.815827",
+      "status": "published"
     }
   ]
 }
