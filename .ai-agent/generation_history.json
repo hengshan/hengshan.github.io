@@ -3409,6 +3409,16 @@
       "score": 8,
       "generated_at": "2026-08-27T15:05:31.110212",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.27456",
+      "original_url": "https://arxiv.org/abs/2608.27456v1",
+      "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "title_slug": "urbanground-from-local-perception-to-spatial-agenc",
+      "filename": "2026-08-28-urbanground-from-local-perception-to-spa.markdown",
+      "score": 8,
+      "generated_at": "2026-08-28T11:02:51.330619",
+      "status": "published"
     }
   ]
 }
