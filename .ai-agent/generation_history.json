@@ -3419,6 +3419,16 @@
       "score": 8,
       "generated_at": "2026-08-28T11:02:51.330619",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.27354",
+      "original_url": "https://arxiv.org/abs/2608.27354v1",
+      "title": "Super-Resolution of Range-Doppler Maps: A Case Study with Chirp-Sequence Radar and Transformer",
+      "title_slug": "superresolution-of-rangedoppler-maps-a-case-study-",
+      "filename": "2026-08-28-superresolution-of-rangedoppler-maps-a-c.markdown",
+      "score": 8,
+      "generated_at": "2026-08-28T15:06:11.070336",
+      "status": "published"
     }
   ]
 }
