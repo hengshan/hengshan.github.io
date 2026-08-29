@@ -3429,6 +3429,16 @@
       "score": 8,
       "generated_at": "2026-08-28T15:06:11.070336",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.27051",
+      "original_url": "https://arxiv.org/abs/2608.27051v1",
+      "title": "Anatomy-Guided Foundation Model Adaptation with Within-Case Prototype Supervision for Standard Plane Detection in Fetal Ultrasound Blind Sweeps",
+      "title_slug": "anatomyguided-foundation-model-adaptation-with-wit",
+      "filename": "2026-08-29-anatomyguided-foundation-model-adaptatio.markdown",
+      "score": 8,
+      "generated_at": "2026-08-29T11:03:42.986994",
+      "status": "published"
     }
   ]
 }
