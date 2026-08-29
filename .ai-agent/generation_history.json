@@ -3439,6 +3439,16 @@
       "score": 8,
       "generated_at": "2026-08-29T11:03:42.986994",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26605",
+      "original_url": "https://arxiv.org/abs/2608.26605v1",
+      "title": "DP-JMRNet: A Deep Unfolding Network for Differential Phase Preservation in Sparse Bitemporal SAR Reconstruction",
+      "title_slug": "dpjmrnet-a-deep-unfolding-network-for-differential",
+      "filename": "2026-08-29-dpjmrnet-a-deep-unfolding-network-for-di.markdown",
+      "score": 8,
+      "generated_at": "2026-08-29T15:03:52.517619",
+      "status": "published"
     }
   ]
 }
