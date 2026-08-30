@@ -3449,6 +3449,16 @@
       "score": 8,
       "generated_at": "2026-08-29T15:03:52.517619",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.27370",
+      "original_url": "https://arxiv.org/abs/2608.27370v1",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "title_slug": "puro2b-poor-labs-qwen215b-trained-on-rtx-5090-with",
+      "filename": "2026-08-30-puro2b-poor-labs-qwen215b-trained-on-rtx.markdown",
+      "score": 8,
+      "generated_at": "2026-08-30T11:06:22.637682",
+      "status": "published"
     }
   ]
 }
