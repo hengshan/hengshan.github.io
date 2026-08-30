@@ -3459,6 +3459,16 @@
       "score": 8,
       "generated_at": "2026-08-30T11:06:22.637682",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.27229",
+      "original_url": "https://arxiv.org/abs/2608.27229v1",
+      "title": "On the approximation of posterior laws in compound loss models by conditional Wasserstein GANs",
+      "title_slug": "on-the-approximation-of-posterior-laws-in-compound",
+      "filename": "2026-08-30-on-the-approximation-of-posterior-laws-i.markdown",
+      "score": 8,
+      "generated_at": "2026-08-30T15:03:53.123837",
+      "status": "published"
     }
   ]
 }
