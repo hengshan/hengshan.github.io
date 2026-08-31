@@ -3469,6 +3469,16 @@
       "score": 8,
       "generated_at": "2026-08-30T15:03:53.123837",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.28589",
+      "original_url": "https://arxiv.org/abs/2608.28589v1",
+      "title": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
+      "title_slug": "qgpinns-a-physicsinformed-neural-network-framework",
+      "filename": "2026-08-31-qgpinns-a-physicsinformed-neural-network.markdown",
+      "score": 8,
+      "generated_at": "2026-08-31T11:05:58.956540",
+      "status": "published"
     }
   ]
 }
