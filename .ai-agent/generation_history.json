@@ -3498,6 +3498,16 @@
       "score": 8,
       "generated_at": "2026-09-01T11:04:24.695447",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.31159",
+      "original_url": "https://arxiv.org/abs/2608.31159v1",
+      "title": "BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting",
+      "title_slug": "brfgs-hyperspectral-bidirectional-reflectance-fact",
+      "filename": "2026-09-01-brfgs-hyperspectral-bidirectional-reflec.markdown",
+      "score": 8,
+      "generated_at": "2026-09-01T15:04:41.310946",
+      "status": "published"
     }
   ]
 }
