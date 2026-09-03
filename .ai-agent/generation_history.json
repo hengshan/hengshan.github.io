@@ -3508,6 +3508,34 @@
       "score": 8,
       "generated_at": "2026-09-01T15:04:41.310946",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "title": "v0.28.0",
+      "title_slug": "v0280",
+      "filename": "2026-09-02-v0280.markdown",
+      "score": 7,
+      "generated_at": "2026-09-02T11:07:00.892931"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.01598",
+      "original_url": "https://arxiv.org/abs/2609.01598v1",
+      "title": "UI-VISA: U-Net Initialized Vascular Image Segmentation Architecture",
+      "title_slug": "uivisa-unet-initialized-vascular-image-segmentatio",
+      "filename": "2026-09-02-uivisa-unet-initialized-vascular-image-s.markdown",
+      "score": 7,
+      "generated_at": "2026-09-02T15:05:03.604872"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough",
+      "original_url": "https://developer.nvidia.com/blog/the-modern-cuda-toolbox-in-practice-a-step-by-step-optimization-walkthrough/",
+      "title": "The Modern CUDA Toolbox in Practice: A Step-by-Step Optimization Walkthrough",
+      "title_slug": "the-modern-cuda-toolbox-in-practice-a-stepbystep-o",
+      "filename": "2026-09-03-the-modern-cuda-toolbox-in-practice-a-st.markdown",
+      "score": 8,
+      "generated_at": "2026-09-03T11:03:01.651104",
+      "status": "published"
     }
   ]
 }
