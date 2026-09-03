@@ -3536,6 +3536,16 @@
       "score": 8,
       "generated_at": "2026-09-03T11:03:01.651104",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02846",
+      "original_url": "https://arxiv.org/abs/2609.02846v1",
+      "title": "UE5M3 FP4 Block Scaling for Stable Language Model Pretraining",
+      "title_slug": "ue5m3-fp4-block-scaling-for-stable-language-model-",
+      "filename": "2026-09-03-ue5m3-fp4-block-scaling-for-stable-langu.markdown",
+      "score": 8,
+      "generated_at": "2026-09-03T15:03:55.492826",
+      "status": "published"
     }
   ]
 }
