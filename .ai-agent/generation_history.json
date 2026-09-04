@@ -3556,6 +3556,16 @@
       "score": 8,
       "generated_at": "2026-09-04T11:03:26.991307",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.04201",
+      "original_url": "https://arxiv.org/abs/2609.04201v1",
+      "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+      "title_slug": "scal3r-learning-efficient-multirelative-pose-query",
+      "filename": "2026-09-04-scal3r-learning-efficient-multirelative-.markdown",
+      "score": 8,
+      "generated_at": "2026-09-04T15:02:40.306655",
+      "status": "published"
     }
   ]
 }
