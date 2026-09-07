@@ -3566,6 +3566,52 @@
       "score": 8,
       "generated_at": "2026-09-04T15:02:40.306655",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.04194",
+      "original_url": "https://arxiv.org/abs/2609.04194v1",
+      "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+      "title_slug": "legibility-is-not-interpretability-comparing-judge",
+      "filename": "2026-09-05-legibility-is-not-interpretability-compa.markdown",
+      "score": 7,
+      "generated_at": "2026-09-05T11:04:34.330767"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.04174",
+      "original_url": "https://arxiv.org/abs/2609.04174v1",
+      "title": "Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations",
+      "title_slug": "zeroshot-novel-depth-synthesis-using-3d-foundation",
+      "filename": "2026-09-05-zeroshot-novel-depth-synthesis-using-3d-.markdown",
+      "score": 1,
+      "generated_at": "2026-09-05T15:00:56.344058"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.0",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.0",
+      "title": "PyTorch 2.14.0 Release",
+      "title_slug": "pytorch-2140-release",
+      "filename": "2026-09-06-pytorch-2140-release.markdown",
+      "score": 3,
+      "generated_at": "2026-09-06T11:03:58.323637"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05396",
+      "original_url": "https://arxiv.org/abs/2609.05396v1",
+      "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+      "title_slug": "a-deep-generative-model-for-synthesizing-labeled-w",
+      "filename": "2026-09-07-a-deep-generative-model-for-synthesizing.markdown",
+      "score": 7,
+      "generated_at": "2026-09-07T11:05:23.712004"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.05397",
+      "original_url": "https://arxiv.org/abs/2609.05397v1",
+      "title": "CrossDepth: Geometry-Constrained Attention for Generalizable Multi-View Surround Depth Estimation",
+      "title_slug": "crossdepth-geometryconstrained-attention-for-gener",
+      "filename": "2026-09-07-crossdepth-geometryconstrained-attention.markdown",
+      "score": 8,
+      "generated_at": "2026-09-07T15:03:28.327484",
+      "status": "published"
     }
   ]
 }
