@@ -3622,6 +3622,25 @@
       "score": 8,
       "generated_at": "2026-09-08T15:03:14.153734",
       "status": "published"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "original_url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels",
+      "title_slug": "introducing-cuda-rust-two-tracks-for-writing-gpu-k",
+      "filename": "2026-09-09-introducing-cuda-rust-two-tracks-for-wri.markdown",
+      "score": 1,
+      "generated_at": "2026-09-09T11:02:28.945085"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.09116",
+      "original_url": "https://arxiv.org/abs/2609.09116v1",
+      "title": "When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay",
+      "title_slug": "when-does-scaleinvariant-optimization-become-unsta",
+      "filename": "2026-09-09-when-does-scaleinvariant-optimization-be.markdown",
+      "score": 8,
+      "generated_at": "2026-09-09T15:03:49.367939",
+      "status": "published"
     }
   ]
 }
