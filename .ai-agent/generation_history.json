@@ -3641,6 +3641,16 @@
       "score": 8,
       "generated_at": "2026-09-09T15:03:49.367939",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10419",
+      "original_url": "https://arxiv.org/abs/2609.10419v1",
+      "title": "Robust Continuous Human Activity Recognition Using Deep Learning and Distributed Radar Sensors",
+      "title_slug": "robust-continuous-human-activity-recognition-using",
+      "filename": "2026-09-10-robust-continuous-human-activity-recogni.markdown",
+      "score": 8,
+      "generated_at": "2026-09-10T11:05:16.545298",
+      "status": "published"
     }
   ]
 }
