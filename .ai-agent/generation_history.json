@@ -3651,6 +3651,52 @@
       "score": 8,
       "generated_at": "2026-09-10T11:05:16.545298",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.10490",
+      "original_url": "https://arxiv.org/abs/2609.10490v1",
+      "title": "Learning with Covariance Matrices: Principal Component Analysis Meets Learning with Graphs",
+      "title_slug": "learning-with-covariance-matrices-principal-compon",
+      "filename": "2026-09-10-learning-with-covariance-matrices-princi.markdown",
+      "score": 1,
+      "generated_at": "2026-09-10T15:02:24.789759"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus",
+      "original_url": "https://developer.nvidia.com/blog/cuda-toolkit-13-4-adds-windows-on-arm-support-and-greater-control-over-shared-gpus/",
+      "title": "CUDA Toolkit 13.4 Adds Windows on Arm Support and Greater Control over Shared GPUs",
+      "title_slug": "cuda-toolkit-134-adds-windows-on-arm-support-and-g",
+      "filename": "2026-09-11-cuda-toolkit-134-adds-windows-on-arm-sup.markdown",
+      "score": 7,
+      "generated_at": "2026-09-11T11:03:14.570320"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.11894",
+      "original_url": "https://arxiv.org/abs/2609.11894v1",
+      "title": "3D Point Splatting for mmWave Radar Novel View Synthesis",
+      "title_slug": "3d-point-splatting-for-mmwave-radar-novel-view-syn",
+      "filename": "2026-09-11-3d-point-splatting-for-mmwave-radar-nove.markdown",
+      "score": 1,
+      "generated_at": "2026-09-11T15:00:51.443693"
+    },
+    {
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "original_url": "https://github.com/vllm-project/vllm/releases/tag/v0.29.0",
+      "title": "v0.29.0",
+      "title_slug": "v0290",
+      "filename": "2026-09-12-v0290.markdown",
+      "score": 1,
+      "generated_at": "2026-09-12T11:01:27.818417"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.11878",
+      "original_url": "https://arxiv.org/abs/2609.11878v1",
+      "title": "Domain-Specific Hallucination Detection in Large Language Models",
+      "title_slug": "domainspecific-hallucination-detection-in-large-la",
+      "filename": "2026-09-12-domainspecific-hallucination-detection-i.markdown",
+      "score": 8,
+      "generated_at": "2026-09-12T15:02:50.285000",
+      "status": "published"
     }
   ]
 }
