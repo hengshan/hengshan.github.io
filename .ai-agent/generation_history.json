@@ -3707,6 +3707,16 @@
       "score": 8,
       "generated_at": "2026-09-13T11:03:30.125353",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.13125",
+      "original_url": "https://arxiv.org/abs/2609.13125v1",
+      "title": "A Hybrid LSTM-XGBoost Framework for Multi-Horizon Stock Return Prediction Across Diversified Equity Portfolios",
+      "title_slug": "a-hybrid-lstmxgboost-framework-for-multihorizon-st",
+      "filename": "2026-09-14-a-hybrid-lstmxgboost-framework-for-multi.markdown",
+      "score": 8,
+      "generated_at": "2026-09-14T11:04:35.240644",
+      "status": "published"
     }
   ]
 }
