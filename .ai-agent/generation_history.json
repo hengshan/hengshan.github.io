@@ -3717,6 +3717,43 @@
       "score": 8,
       "generated_at": "2026-09-14T11:04:35.240644",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.13057",
+      "original_url": "https://arxiv.org/abs/2609.13057v1",
+      "title": "Benign Loss Landscapes Can Coexist with Worst-Case Hardness",
+      "title_slug": "benign-loss-landscapes-can-coexist-with-worstcase-",
+      "filename": "2026-09-14-benign-loss-landscapes-can-coexist-with-.markdown",
+      "score": 1,
+      "generated_at": "2026-09-14T15:02:32.687355"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.15981",
+      "original_url": "https://arxiv.org/abs/2609.15981v1",
+      "title": "Acoustic Image Source Interpolation with Optimal Transport Barycenter",
+      "title_slug": "acoustic-image-source-interpolation-with-optimal-t",
+      "filename": "2026-09-15-acoustic-image-source-interpolation-with.markdown",
+      "score": 1,
+      "generated_at": "2026-09-15T15:01:55.951233"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17474",
+      "original_url": "https://arxiv.org/abs/2609.17474v1",
+      "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
+      "title_slug": "coupled-calibration-and-learning-mitigating-teache",
+      "filename": "2026-09-16-coupled-calibration-and-learning-mitigat.markdown",
+      "score": 1,
+      "generated_at": "2026-09-16T11:02:39.627731"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.17138",
+      "original_url": "https://arxiv.org/abs/2609.17138v1",
+      "title": "From Foundation Embeddings to Cropland Maps: Label Efficiency, Temporal Transferability and Independent Human Validation",
+      "title_slug": "from-foundation-embeddings-to-cropland-maps-label-",
+      "filename": "2026-09-16-from-foundation-embeddings-to-cropland-m.markdown",
+      "score": 8,
+      "generated_at": "2026-09-16T15:03:01.099971",
+      "status": "published"
     }
   ]
 }
