@@ -3754,6 +3754,43 @@
       "score": 8,
       "generated_at": "2026-09-16T15:03:01.099971",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/isl-org/Open3D/releases/tag/v0.20.0",
+      "original_url": "https://github.com/isl-org/Open3D/releases/tag/v0.20.0",
+      "title": "v0.20 release",
+      "title_slug": "v020-release",
+      "filename": "2026-09-17-v020-release.markdown",
+      "score": 7,
+      "generated_at": "2026-09-17T11:03:49.966225"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16788",
+      "original_url": "https://arxiv.org/abs/2609.16788v1",
+      "title": "Noise2Noise Revisited: Training Pair Distributions Dominate Loss Choice in Self-Supervised Denoising",
+      "title_slug": "noise2noise-revisited-training-pair-distributions-",
+      "filename": "2026-09-17-noise2noise-revisited-training-pair-dist.markdown",
+      "score": 1,
+      "generated_at": "2026-09-17T15:01:08.694311"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+      "original_url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+      "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+      "title_slug": "tensorrt-edgellm-completes-the-mlperf-edge-agentic",
+      "filename": "2026-09-18-tensorrt-edgellm-completes-the-mlperf-ed.markdown",
+      "score": 1,
+      "generated_at": "2026-09-18T11:02:47.998666"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20818",
+      "original_url": "https://arxiv.org/abs/2609.20818v1",
+      "title": "SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos",
+      "title_slug": "splashsplat-reconstructing-splashing-liquids-from-",
+      "filename": "2026-09-18-splashsplat-reconstructing-splashing-liq.markdown",
+      "score": 8,
+      "generated_at": "2026-09-18T15:02:57.205276",
+      "status": "published"
     }
   ]
 }
