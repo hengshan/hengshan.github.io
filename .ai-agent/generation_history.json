@@ -3791,6 +3791,16 @@
       "score": 8,
       "generated_at": "2026-09-18T15:02:57.205276",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20822",
+      "original_url": "https://arxiv.org/abs/2609.20822v1",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "title_slug": "coding-agents-with-an-obstacleaware-harness-for-sa",
+      "filename": "2026-09-19-coding-agents-with-an-obstacleaware-harn.markdown",
+      "score": 8,
+      "generated_at": "2026-09-19T11:04:28.501539",
+      "status": "published"
     }
   ]
 }
