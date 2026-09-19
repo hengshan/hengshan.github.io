@@ -3801,6 +3801,16 @@
       "score": 8,
       "generated_at": "2026-09-19T11:04:28.501539",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20758",
+      "original_url": "https://arxiv.org/abs/2609.20758v1",
+      "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+      "title_slug": "predictionpowered-smoothing-and-validation-for-dis",
+      "filename": "2026-09-19-predictionpowered-smoothing-and-validati.markdown",
+      "score": 8,
+      "generated_at": "2026-09-19T15:03:54.489360",
+      "status": "published"
     }
   ]
 }
