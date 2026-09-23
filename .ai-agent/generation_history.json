@@ -3811,6 +3811,70 @@
       "score": 8,
       "generated_at": "2026-09-19T15:03:54.489360",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20812",
+      "original_url": "https://arxiv.org/abs/2609.20812v1",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "title_slug": "quantifying-overclaiming-propensity-in-frontier-ll",
+      "filename": "2026-09-20-quantifying-overclaiming-propensity-in-f.markdown",
+      "score": 1,
+      "generated_at": "2026-09-20T11:02:10.766710"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.20817",
+      "original_url": "https://arxiv.org/abs/2609.20817v1",
+      "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+      "title_slug": "famos-feedforward-3d-articulation-modeling-from-sp",
+      "filename": "2026-09-20-famos-feedforward-3d-articulation-modeli.markdown",
+      "score": 1,
+      "generated_at": "2026-09-20T15:00:47.103374"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.21938",
+      "original_url": "https://arxiv.org/abs/2609.21938v1",
+      "title": "Info3R: Information-Adaptive Test-Time Training for 3D Reconstruction",
+      "title_slug": "info3r-informationadaptive-testtime-training-for-3",
+      "filename": "2026-09-21-info3r-informationadaptive-testtime-trai.markdown",
+      "score": 1,
+      "generated_at": "2026-09-21T11:02:58.462000"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.21948",
+      "original_url": "https://arxiv.org/abs/2609.21948v1",
+      "title": "GALA: Geometry-Aware Latent Action Modeling for Vision-Language-Action Model Pretraining across Embodiments",
+      "title_slug": "gala-geometryaware-latent-action-modeling-for-visi",
+      "filename": "2026-09-21-gala-geometryaware-latent-action-modelin.markdown",
+      "score": 7,
+      "generated_at": "2026-09-21T15:03:19.281551"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24489",
+      "original_url": "https://arxiv.org/abs/2609.24489v1",
+      "title": "Lifted Bellman Linear Programming for Offline Reinforcement Learning",
+      "title_slug": "lifted-bellman-linear-programming-for-offline-rein",
+      "filename": "2026-09-22-lifted-bellman-linear-programming-for-of.markdown",
+      "score": 1,
+      "generated_at": "2026-09-22T11:02:57.069188"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.24422",
+      "original_url": "https://arxiv.org/abs/2609.24422v1",
+      "title": "Prior-Amortized In-Context Bayesian Inference for Generalized Linear Mixed-Effects Models",
+      "title_slug": "prioramortized-incontext-bayesian-inference-for-ge",
+      "filename": "2026-09-22-prioramortized-incontext-bayesian-infere.markdown",
+      "score": 7,
+      "generated_at": "2026-09-22T15:04:08.540515"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.26494",
+      "original_url": "https://arxiv.org/abs/2609.26494v1",
+      "title": "A Stochastic Doppler Sensing Framework for Range-Resolved Bidirectional Particle Dynamics in a Bubbling Fluidized Bed at 60 GHz",
+      "title_slug": "a-stochastic-doppler-sensing-framework-for-rangere",
+      "filename": "2026-09-23-a-stochastic-doppler-sensing-framework-f.markdown",
+      "score": 8,
+      "generated_at": "2026-09-23T15:03:04.030730",
+      "status": "published"
     }
   ]
 }
