@@ -3875,6 +3875,16 @@
       "score": 8,
       "generated_at": "2026-09-23T15:03:04.030730",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.28470",
+      "original_url": "https://arxiv.org/abs/2609.28470v1",
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "title_slug": "studentbench-ai-and-human-tutoring-yield-equivalen",
+      "filename": "2026-09-24-studentbench-ai-and-human-tutoring-yield.markdown",
+      "score": 9,
+      "generated_at": "2026-09-24T11:03:57.372835",
+      "status": "published"
     }
   ]
 }
