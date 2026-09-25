@@ -3904,6 +3904,16 @@
       "score": 8,
       "generated_at": "2026-09-25T11:05:32.198319",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30245",
+      "original_url": "https://arxiv.org/abs/2609.30245v1",
+      "title": "Towards Practical Compression of 3D Gaussian Splatting",
+      "title_slug": "towards-practical-compression-of-3d-gaussian-splat",
+      "filename": "2026-09-25-towards-practical-compression-of-3d-gaus.markdown",
+      "score": 8,
+      "generated_at": "2026-09-25T15:03:19.200566",
+      "status": "published"
     }
   ]
 }
