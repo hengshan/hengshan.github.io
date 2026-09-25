@@ -3885,6 +3885,25 @@
       "score": 9,
       "generated_at": "2026-09-24T11:03:57.372835",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27442",
+      "original_url": "https://arxiv.org/abs/2609.27442v1",
+      "title": "SatUnreal: A High-Precision Synthetic Dataset for Satellite Stereo Matching via Unreal Engine",
+      "title_slug": "satunreal-a-highprecision-synthetic-dataset-for-sa",
+      "filename": "2026-09-24-satunreal-a-highprecision-synthetic-data.markdown",
+      "score": 1,
+      "generated_at": "2026-09-24T15:02:20.402368"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30059",
+      "original_url": "https://arxiv.org/abs/2609.30059v1",
+      "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+      "title_slug": "kernelopt-dispatchaware-agentic-search-for-gpu-ker",
+      "filename": "2026-09-25-kernelopt-dispatchaware-agentic-search-f.markdown",
+      "score": 8,
+      "generated_at": "2026-09-25T11:05:32.198319",
+      "status": "published"
     }
   ]
 }
