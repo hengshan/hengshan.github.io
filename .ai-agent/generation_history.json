@@ -3914,6 +3914,52 @@
       "score": 8,
       "generated_at": "2026-09-25T15:03:19.200566",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.29367",
+      "original_url": "https://arxiv.org/abs/2609.29367v1",
+      "title": "Graph-Based Semi-Supervised Hyperspectral Image Classification with Distance-Aware Spatial Measure",
+      "title_slug": "graphbased-semisupervised-hyperspectral-image-clas",
+      "filename": "2026-09-26-graphbased-semisupervised-hyperspectral-.markdown",
+      "score": 1,
+      "generated_at": "2026-09-26T11:03:21.626518"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30057",
+      "original_url": "https://arxiv.org/abs/2609.30057v1",
+      "title": "KREX: Concurrent Kernel Benchmarking on Shared GPUs via Region-Granular Exclusivity",
+      "title_slug": "krex-concurrent-kernel-benchmarking-on-shared-gpus",
+      "filename": "2026-09-26-krex-concurrent-kernel-benchmarking-on-s.markdown",
+      "score": 1,
+      "generated_at": "2026-09-26T15:00:55.753939"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30249",
+      "original_url": "https://arxiv.org/abs/2609.30249v1",
+      "title": "RAPID: Robot Agentic Programming from Demonstrations",
+      "title_slug": "rapid-robot-agentic-programming-from-demonstration",
+      "filename": "2026-09-27-rapid-robot-agentic-programming-from-dem.markdown",
+      "score": 7,
+      "generated_at": "2026-09-27T11:04:48.067974"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30223",
+      "original_url": "https://arxiv.org/abs/2609.30223v1",
+      "title": "BiCC: Bidirectional Connected-Component Loss for Instance-Aware Segmentation",
+      "title_slug": "bicc-bidirectional-connectedcomponent-loss-for-ins",
+      "filename": "2026-09-27-bicc-bidirectional-connectedcomponent-lo.markdown",
+      "score": 2,
+      "generated_at": "2026-09-27T15:01:04.637414"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.31551",
+      "original_url": "https://arxiv.org/abs/2609.31551v1",
+      "title": "EAServe: Encode-Aware Disaggregated Serving for Multimodal Large Language Models",
+      "title_slug": "easerve-encodeaware-disaggregated-serving-for-mult",
+      "filename": "2026-09-28-easerve-encodeaware-disaggregated-servin.markdown",
+      "score": 8,
+      "generated_at": "2026-09-28T11:06:06.803006",
+      "status": "published"
     }
   ]
 }
