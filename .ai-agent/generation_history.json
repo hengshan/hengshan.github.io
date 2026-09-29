@@ -3960,6 +3960,25 @@
       "score": 8,
       "generated_at": "2026-09-28T11:06:06.803006",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.31595",
+      "original_url": "https://arxiv.org/abs/2609.31595v1",
+      "title": "GraphWrit3R: End-to-End 3D Scene Graph Writing",
+      "title_slug": "graphwrit3r-endtoend-3d-scene-graph-writing",
+      "filename": "2026-09-28-graphwrit3r-endtoend-3d-scene-graph-writ.markdown",
+      "score": 1,
+      "generated_at": "2026-09-28T15:00:53.485921"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.32742",
+      "original_url": "https://arxiv.org/abs/2609.32742v1",
+      "title": "LoCoVSR: Local Context Diffusion Posterior Sampling for Video Super-Resolution",
+      "title_slug": "locovsr-local-context-diffusion-posterior-sampling",
+      "filename": "2026-09-29-locovsr-local-context-diffusion-posterio.markdown",
+      "score": 8,
+      "generated_at": "2026-09-29T11:02:58.017238",
+      "status": "published"
     }
   ]
 }
