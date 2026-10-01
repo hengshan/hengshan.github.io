@@ -3979,6 +3979,34 @@
       "score": 8,
       "generated_at": "2026-09-29T11:02:58.017238",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.32252",
+      "original_url": "https://arxiv.org/abs/2609.32252v1",
+      "title": "Active Data Acquisition with Side Information via Discrete Diffusion Priors",
+      "title_slug": "active-data-acquisition-with-side-information-via-",
+      "filename": "2026-09-29-active-data-acquisition-with-side-inform.markdown",
+      "score": 7,
+      "generated_at": "2026-09-29T15:03:04.815191"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.38757",
+      "original_url": "https://arxiv.org/abs/2609.38757v1",
+      "title": "Self-Evolving Algorithm-Design Agents: Escaping In-Context Evolutionary Stagnation via Population-Curated Policy Optimization",
+      "title_slug": "selfevolving-algorithmdesign-agents-escaping-incon",
+      "filename": "2026-10-01-selfevolving-algorithmdesign-agents-esca.markdown",
+      "score": 1,
+      "generated_at": "2026-10-01T11:03:03.065222"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.39843",
+      "original_url": "https://arxiv.org/abs/2609.39843v1",
+      "title": "BayesNDE: Bayesian Generative Modeling for Neural Density Estimation",
+      "title_slug": "bayesnde-bayesian-generative-modeling-for-neural-d",
+      "filename": "2026-10-01-bayesnde-bayesian-generative-modeling-fo.markdown",
+      "score": 8,
+      "generated_at": "2026-10-01T15:06:04.819529",
+      "status": "published"
     }
   ]
 }
