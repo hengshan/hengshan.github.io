@@ -4007,6 +4007,43 @@
       "score": 8,
       "generated_at": "2026-10-01T15:06:04.819529",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02207",
+      "original_url": "https://arxiv.org/abs/2610.02207v1",
+      "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+      "title_slug": "one-basis-to-animate-them-all-gaussian-blendshape-",
+      "filename": "2026-10-02-one-basis-to-animate-them-all-gaussian-b.markdown",
+      "score": 7,
+      "generated_at": "2026-10-02T11:03:25.532903"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02199",
+      "original_url": "https://arxiv.org/abs/2610.02199v1",
+      "title": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+      "title_slug": "taco-ternary-absolutemax-columnwise-onesparse-opti",
+      "filename": "2026-10-02-taco-ternary-absolutemax-columnwise-ones.markdown",
+      "score": 1,
+      "generated_at": "2026-10-02T15:01:27.168300"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01655",
+      "original_url": "https://arxiv.org/abs/2610.01655v1",
+      "title": "MDIRNET: Multi-Degradation Image Restoration Network via Deep Unfolding",
+      "title_slug": "mdirnet-multidegradation-image-restoration-network",
+      "filename": "2026-10-03-mdirnet-multidegradation-image-restorati.markdown",
+      "score": 7,
+      "generated_at": "2026-10-03T11:02:38.883833"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02110",
+      "original_url": "https://arxiv.org/abs/2610.02110v1",
+      "title": "GlassGuard: Verified Glass Plane Mapping for Robot Navigation",
+      "title_slug": "glassguard-verified-glass-plane-mapping-for-robot-",
+      "filename": "2026-10-03-glassguard-verified-glass-plane-mapping-.markdown",
+      "score": 8,
+      "generated_at": "2026-10-03T15:03:31.907732",
+      "status": "published"
     }
   ]
 }
