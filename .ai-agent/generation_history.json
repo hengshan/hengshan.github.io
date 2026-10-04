@@ -4044,6 +4044,16 @@
       "score": 8,
       "generated_at": "2026-10-03T15:03:31.907732",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01935",
+      "original_url": "https://arxiv.org/abs/2610.01935v1",
+      "title": "Pragmatic DML with AI-Learned Representations",
+      "title_slug": "pragmatic-dml-with-ailearned-representations",
+      "filename": "2026-10-04-pragmatic-dml-with-ailearned-representat.markdown",
+      "score": 8,
+      "generated_at": "2026-10-04T11:02:24.877610",
+      "status": "published"
     }
   ]
 }
