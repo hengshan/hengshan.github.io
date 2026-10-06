@@ -4054,6 +4054,43 @@
       "score": 8,
       "generated_at": "2026-10-04T11:02:24.877610",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01784",
+      "original_url": "https://arxiv.org/abs/2610.01784v1",
+      "title": "ePACT: Energy-Performance-Aware Commitment Tracking for LLM Serving",
+      "title_slug": "epact-energyperformanceaware-commitment-tracking-f",
+      "filename": "2026-10-04-epact-energyperformanceaware-commitment-.markdown",
+      "score": 1,
+      "generated_at": "2026-10-04T15:00:54.048503"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.03394",
+      "original_url": "https://arxiv.org/abs/2610.03394v1",
+      "title": "EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures",
+      "title_slug": "edgeagent-orchestrating-ondevice-llm-inference-for",
+      "filename": "2026-10-05-edgeagent-orchestrating-ondevice-llm-inf.markdown",
+      "score": 1,
+      "generated_at": "2026-10-05T11:03:23.585581"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.03643",
+      "original_url": "https://arxiv.org/abs/2610.03643v1",
+      "title": "SAC-Controlled RIS-Assisted Monopulse Radar for Multipath-Robust Vital-Sign Localization",
+      "title_slug": "saccontrolled-risassisted-monopulse-radar-for-mult",
+      "filename": "2026-10-05-saccontrolled-risassisted-monopulse-rada.markdown",
+      "score": 7,
+      "generated_at": "2026-10-05T15:02:28.904768"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.05790",
+      "original_url": "https://arxiv.org/abs/2610.05790v1",
+      "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
+      "title_slug": "fairrsfm-a-biomeaware-benchmark-and-debiasing-fram",
+      "filename": "2026-10-06-fairrsfm-a-biomeaware-benchmark-and-debi.markdown",
+      "score": 8,
+      "generated_at": "2026-10-06T11:02:29.194039",
+      "status": "published"
     }
   ]
 }
