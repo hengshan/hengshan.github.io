@@ -4091,6 +4091,124 @@
       "score": 8,
       "generated_at": "2026-10-06T11:02:29.194039",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.06107",
+      "original_url": "https://arxiv.org/abs/2610.06107v1",
+      "title": "Diffusion Meets Unrolling: Compressive SAR Image Reconstruction with Interleaved Learned Corrections",
+      "title_slug": "diffusion-meets-unrolling-compressive-sar-image-re",
+      "filename": "2026-10-06-diffusion-meets-unrolling-compressive-sa.markdown",
+      "score": 1,
+      "generated_at": "2026-10-06T15:01:45.371713"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.07576",
+      "original_url": "https://arxiv.org/abs/2610.07576v1",
+      "title": "CETUS: How Far Do Representations Trained on Earth Transfer to Cassini SAR of Titan?",
+      "title_slug": "cetus-how-far-do-representations-trained-on-earth-",
+      "filename": "2026-10-07-cetus-how-far-do-representations-trained.markdown",
+      "score": 2,
+      "generated_at": "2026-10-07T11:00:57.706776"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.06602",
+      "original_url": "https://arxiv.org/abs/2610.06602v2",
+      "title": "Multitask Conditional Generative Adversarial Network Enables Automatic Whole Knee Cartilage and Menisci Segmentation and Reliable $T_{1ρ}$ and $T_2$ Quantification Without High-Resolution Morphological Images",
+      "title_slug": "multitask-conditional-generative-adversarial-netwo",
+      "filename": "2026-10-07-multitask-conditional-generative-adversa.markdown",
+      "score": 1,
+      "generated_at": "2026-10-07T15:01:19.067763"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.08892",
+      "original_url": "https://arxiv.org/abs/2610.08892v1",
+      "title": "Hybrid++: The Bridge between PDE Models and Deep Learning for Gamma Noise Removal",
+      "title_slug": "hybrid-the-bridge-between-pde-models-and-deep-lear",
+      "filename": "2026-10-08-hybrid-the-bridge-between-pde-models-and.markdown",
+      "score": 7,
+      "generated_at": "2026-10-08T11:04:43.989895"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09766",
+      "original_url": "https://arxiv.org/abs/2610.09766v1",
+      "title": "Performance Portable $\\mathrm{SU}(N)$ Lattice Gauge Theory Simulation with Kokkos",
+      "title_slug": "performance-portable-mathrmsun-lattice-gauge-theor",
+      "filename": "2026-10-08-performance-portable-mathrmsun-lattice-g.markdown",
+      "score": 7,
+      "generated_at": "2026-10-08T15:03:48.268392"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11149",
+      "original_url": "https://arxiv.org/abs/2610.11149v1",
+      "title": "A Unified Score Matching Paradigm for Video Anomaly Detection and Anticipation",
+      "title_slug": "a-unified-score-matching-paradigm-for-video-anomal",
+      "filename": "2026-10-09-a-unified-score-matching-paradigm-for-vi.markdown",
+      "score": 1,
+      "generated_at": "2026-10-09T11:01:06.135286"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.12461",
+      "original_url": "https://arxiv.org/abs/2610.12461v1",
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "title_slug": "ouroworld-bringing-any-3d-world-alive-as-diverse-e",
+      "filename": "2026-10-09-ouroworld-bringing-any-3d-world-alive-as.markdown",
+      "score": 7,
+      "generated_at": "2026-10-09T15:04:30.822863"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11201",
+      "original_url": "https://arxiv.org/abs/2610.11201v1",
+      "title": "PageWeaver: KV-Guided Query Unions for Sparse Attention",
+      "title_slug": "pageweaver-kvguided-query-unions-for-sparse-attent",
+      "filename": "2026-10-10-pageweaver-kvguided-query-unions-for-spa.markdown",
+      "score": 7,
+      "generated_at": "2026-10-10T11:01:09.912306"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.11104",
+      "original_url": "https://arxiv.org/abs/2610.11104v1",
+      "title": "Skeleton-Guided Progressive Test-Time Adaptation for Thin Curvilinear Structures",
+      "title_slug": "skeletonguided-progressive-testtime-adaptation-for",
+      "filename": "2026-10-10-skeletonguided-progressive-testtime-adap.markdown",
+      "score": 1,
+      "generated_at": "2026-10-10T15:00:42.866783"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.12448",
+      "original_url": "https://arxiv.org/abs/2610.12448v1",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "title_slug": "one-block-multiple-depths-recurrent-vision-transfo",
+      "filename": "2026-10-11-one-block-multiple-depths-recurrent-visi.markdown",
+      "score": 7,
+      "generated_at": "2026-10-11T11:04:59.829643"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.12213",
+      "original_url": "https://arxiv.org/abs/2610.12213v1",
+      "title": "ISBO: Scalable Spatio-Temporal Bayesian Optimization with Log Gaussian Cox Process Models via the INLA-SPDE Approach",
+      "title_slug": "isbo-scalable-spatiotemporal-bayesian-optimization",
+      "filename": "2026-10-11-isbo-scalable-spatiotemporal-bayesian-op.markdown",
+      "score": 7,
+      "generated_at": "2026-10-11T15:08:17.381887"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13406",
+      "original_url": "https://arxiv.org/abs/2610.13406v1",
+      "title": "Desertification Forecasting in Semi-Arid Regions: Using Deep Learning to Probe the Observability Limits of Land Degradation Dynamics",
+      "title_slug": "desertification-forecasting-in-semiarid-regions-us",
+      "filename": "2026-10-12-desertification-forecasting-in-semiarid-.markdown",
+      "score": 7,
+      "generated_at": "2026-10-12T11:03:51.680996"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13935",
+      "original_url": "https://arxiv.org/abs/2610.13935v1",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "title_slug": "hide-and-seek-hide-concepts-to-seek-explanations-f",
+      "filename": "2026-10-12-hide-and-seek-hide-concepts-to-seek-expl.markdown",
+      "score": 8,
+      "generated_at": "2026-10-12T15:03:59.141023",
+      "status": "published"
     }
   ]
 }
