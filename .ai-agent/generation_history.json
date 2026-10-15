@@ -4209,6 +4209,61 @@
       "score": 8,
       "generated_at": "2026-10-12T15:03:59.141023",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.13945",
+      "original_url": "https://arxiv.org/abs/2610.13945v1",
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "title_slug": "splat2act-from-captured-scenes-to-personalized-vla",
+      "filename": "2026-10-13-splat2act-from-captured-scenes-to-person.markdown",
+      "score": 7,
+      "generated_at": "2026-10-13T11:03:08.301161"
+    },
+    {
+      "url": "https://github.com/Dao-AILab/flash-attention/releases/tag/v2.8.3.post2",
+      "original_url": "https://github.com/Dao-AILab/flash-attention/releases/tag/v2.8.3.post2",
+      "title": "v2.8.3.post2",
+      "title_slug": "v283post2",
+      "filename": "2026-10-13-v283post2.markdown",
+      "score": 1,
+      "generated_at": "2026-10-13T15:01:16.119518"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.16177",
+      "original_url": "https://arxiv.org/abs/2610.16177v1",
+      "title": "DIGS: Distribution-Informed Gaussian Splatting for Training-Free Open-Vocabulary 3D Segmentation",
+      "title_slug": "digs-distributioninformed-gaussian-splatting-for-t",
+      "filename": "2026-10-14-digs-distributioninformed-gaussian-splat.markdown",
+      "score": 7,
+      "generated_at": "2026-10-14T11:01:05.516572"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18472",
+      "original_url": "https://arxiv.org/abs/2610.18472v1",
+      "title": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
+      "title_slug": "simplifying-and-improving-onpolicy-distillation-fo",
+      "filename": "2026-10-14-simplifying-and-improving-onpolicy-disti.markdown",
+      "score": 1,
+      "generated_at": "2026-10-14T15:02:09.711404"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.19822",
+      "original_url": "https://arxiv.org/abs/2610.19822v1",
+      "title": "JointServe: Serving Multi-Model Agents on Memory-Constrained GPUs",
+      "title_slug": "jointserve-serving-multimodel-agents-on-memorycons",
+      "filename": "2026-10-15-jointserve-serving-multimodel-agents-on-.markdown",
+      "score": 6,
+      "generated_at": "2026-10-15T11:03:02.518409"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.20590",
+      "original_url": "https://arxiv.org/abs/2610.20590v1",
+      "title": "Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting",
+      "title_slug": "feedforward-multiview-feature-coding-for-3d-gaussi",
+      "filename": "2026-10-15-feedforward-multiview-feature-coding-for.markdown",
+      "score": 8,
+      "generated_at": "2026-10-15T15:04:11.653891",
+      "status": "published"
     }
   ]
 }
