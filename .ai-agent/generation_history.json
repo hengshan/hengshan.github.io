@@ -4264,6 +4264,16 @@
       "score": 8,
       "generated_at": "2026-10-15T15:04:11.653891",
       "status": "published"
+    },
+    {
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.1",
+      "original_url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.1",
+      "title": "PyTorch 2.14.1 Release",
+      "title_slug": "pytorch-2141-release",
+      "filename": "2026-10-16-pytorch-2141-release.markdown",
+      "score": 8,
+      "generated_at": "2026-10-16T11:04:16.392574",
+      "status": "published"
     }
   ]
 }
