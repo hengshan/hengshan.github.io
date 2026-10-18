@@ -4274,6 +4274,43 @@
       "score": 8,
       "generated_at": "2026-10-16T11:04:16.392574",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.21888",
+      "original_url": "https://arxiv.org/abs/2610.21888v1",
+      "title": "Statistical Ambiguity-Function-Aware Joint Beamforming and Subcarrier Allocation for MIMO-OFDM ISAC under Random Symbols",
+      "title_slug": "statistical-ambiguityfunctionaware-joint-beamformi",
+      "filename": "2026-10-16-statistical-ambiguityfunctionaware-joint.markdown",
+      "score": 1,
+      "generated_at": "2026-10-16T15:01:13.827764"
+    },
+    {
+      "url": "https://github.com/torchgeo/torchgeo/releases/tag/v0.10.1",
+      "original_url": "https://github.com/torchgeo/torchgeo/releases/tag/v0.10.1",
+      "title": "v0.10.1",
+      "title_slug": "v0101",
+      "filename": "2026-10-17-v0101.markdown",
+      "score": 7,
+      "generated_at": "2026-10-17T11:02:41.644368"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22356",
+      "original_url": "https://arxiv.org/abs/2610.22356v1",
+      "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+      "title_slug": "dkvlm-geometry-as-position-for-spatial-reasoning-i",
+      "filename": "2026-10-17-dkvlm-geometry-as-position-for-spatial-r.markdown",
+      "score": 1,
+      "generated_at": "2026-10-17T15:02:28.592015"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22258",
+      "original_url": "https://arxiv.org/abs/2610.22258v1",
+      "title": "Denoising Textures is a Different Ballgame Altogether!",
+      "title_slug": "denoising-textures-is-a-different-ballgame-altoget",
+      "filename": "2026-10-18-denoising-textures-is-a-different-ballga.markdown",
+      "score": 8,
+      "generated_at": "2026-10-18T15:02:37.060011",
+      "status": "published"
     }
   ]
 }
