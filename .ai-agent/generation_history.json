@@ -4311,6 +4311,25 @@
       "score": 8,
       "generated_at": "2026-10-18T15:02:37.060011",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.23821",
+      "original_url": "https://arxiv.org/abs/2610.23821v1",
+      "title": "Learning without relearning physical symmetry: an SO(3)-equivariant convolutional network (CNN) on the sphere",
+      "title_slug": "learning-without-relearning-physical-symmetry-an-s",
+      "filename": "2026-10-19-learning-without-relearning-physical-sym.markdown",
+      "score": 1,
+      "generated_at": "2026-10-19T11:01:37.457197"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.23795",
+      "original_url": "https://arxiv.org/abs/2610.23795v1",
+      "title": "Persistent Planar Memory for Video World Models",
+      "title_slug": "persistent-planar-memory-for-video-world-models",
+      "filename": "2026-10-19-persistent-planar-memory-for-video-world.markdown",
+      "score": 8,
+      "generated_at": "2026-10-19T15:04:37.606415",
+      "status": "published"
     }
   ]
 }
