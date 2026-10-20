@@ -4330,6 +4330,25 @@
       "score": 8,
       "generated_at": "2026-10-19T15:04:37.606415",
       "status": "published"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile",
+      "original_url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+      "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+      "title_slug": "accelerating-mamba2-with-highperformance-forward-p",
+      "filename": "2026-10-20-accelerating-mamba2-with-highperformance.markdown",
+      "score": 1,
+      "generated_at": "2026-10-20T11:02:23.386980"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.25460",
+      "original_url": "https://arxiv.org/abs/2610.25460v1",
+      "title": "Reliability-Preserving Compression for Deployable Medical Image Segmentation",
+      "title_slug": "reliabilitypreserving-compression-for-deployable-m",
+      "filename": "2026-10-20-reliabilitypreserving-compression-for-de.markdown",
+      "score": 8,
+      "generated_at": "2026-10-20T15:03:41.160808",
+      "status": "published"
     }
   ]
 }
