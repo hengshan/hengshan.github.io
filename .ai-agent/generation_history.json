@@ -4349,6 +4349,43 @@
       "score": 8,
       "generated_at": "2026-10-20T15:03:41.160808",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.26863",
+      "original_url": "https://arxiv.org/abs/2610.26863v1",
+      "title": "Text-to-Image Generative Modeling Without Language Pretraining",
+      "title_slug": "texttoimage-generative-modeling-without-language-p",
+      "filename": "2026-10-21-texttoimage-generative-modeling-without-.markdown",
+      "score": 7,
+      "generated_at": "2026-10-21T11:03:17.913383"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28615",
+      "original_url": "https://arxiv.org/abs/2610.28615v1",
+      "title": "KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting",
+      "title_slug": "koalags-complexityaware-continuous-level-of-detail",
+      "filename": "2026-10-21-koalags-complexityaware-continuous-level.markdown",
+      "score": 1,
+      "generated_at": "2026-10-21T15:01:02.449514"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30118",
+      "original_url": "https://arxiv.org/abs/2610.30118v1",
+      "title": "The role of locality and weight sharing in convolutional neural networks",
+      "title_slug": "the-role-of-locality-and-weight-sharing-in-convolu",
+      "filename": "2026-10-22-the-role-of-locality-and-weight-sharing-.markdown",
+      "score": 1,
+      "generated_at": "2026-10-22T11:02:30.378160"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.29398",
+      "original_url": "https://arxiv.org/abs/2610.29398v1",
+      "title": "Region-Aware Multi-View Inspection Using Deep Learning and Domain-Informed Decision Fusion",
+      "title_slug": "regionaware-multiview-inspection-using-deep-learni",
+      "filename": "2026-10-22-regionaware-multiview-inspection-using-d.markdown",
+      "score": 8,
+      "generated_at": "2026-10-22T15:02:36.067314",
+      "status": "published"
     }
   ]
 }
