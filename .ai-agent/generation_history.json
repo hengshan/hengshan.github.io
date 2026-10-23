@@ -4386,6 +4386,16 @@
       "score": 8,
       "generated_at": "2026-10-22T15:02:36.067314",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30940",
+      "original_url": "https://arxiv.org/abs/2610.30940v1",
+      "title": "Vision Transformers for Estimating Irradiance Using Data Scarce Sky Images",
+      "title_slug": "vision-transformers-for-estimating-irradiance-usin",
+      "filename": "2026-10-23-vision-transformers-for-estimating-irrad.markdown",
+      "score": 8,
+      "generated_at": "2026-10-23T11:03:36.128080",
+      "status": "published"
     }
   ]
 }
