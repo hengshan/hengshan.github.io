@@ -4396,6 +4396,16 @@
       "score": 8,
       "generated_at": "2026-10-23T11:03:36.128080",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.31659",
+      "original_url": "https://arxiv.org/abs/2610.31659v1",
+      "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+      "title_slug": "spectralcanary-embarrassingly-simple-lowfrequency-",
+      "filename": "2026-10-23-spectralcanary-embarrassingly-simple-low.markdown",
+      "score": 8,
+      "generated_at": "2026-10-23T15:02:16.030449",
+      "status": "published"
     }
   ]
 }
