@@ -4406,6 +4406,304 @@
       "score": 8,
       "generated_at": "2026-10-23T15:02:16.030449",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.31479",
+      "original_url": "https://arxiv.org/abs/2610.31479v1",
+      "title": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
+      "title_slug": "evaluating-the-applicability-of-llm-inference-opti",
+      "filename": "2026-10-24-evaluating-the-applicability-of-llm-infe.markdown",
+      "score": 1,
+      "generated_at": "2026-10-24T11:01:43.619583"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30672",
+      "original_url": "https://arxiv.org/abs/2610.30672v1",
+      "title": "CVP-BAA: Efficiently Adapting Segment Anything Model for Medical Image Segmentation",
+      "title_slug": "cvpbaa-efficiently-adapting-segment-anything-model",
+      "filename": "2026-10-24-cvpbaa-efficiently-adapting-segment-anyt.markdown",
+      "score": 7,
+      "generated_at": "2026-10-24T15:02:32.596503"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1",
+      "original_url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
+      "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+      "title_slug": "scaling-nvidia-tensorrt-performance-optimization-b",
+      "filename": "2026-10-25-scaling-nvidia-tensorrt-performance-opti.markdown",
+      "score": 7,
+      "generated_at": "2026-10-25T11:02:34.494458"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.31645",
+      "original_url": "https://arxiv.org/abs/2610.31645v1",
+      "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields",
+      "title_slug": "omniray-cameraagnostic-monocular-3d-reconstruction",
+      "filename": "2026-10-25-omniray-cameraagnostic-monocular-3d-reco.markdown",
+      "score": 7,
+      "generated_at": "2026-10-25T15:00:44.626501"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32638",
+      "original_url": "https://arxiv.org/abs/2610.32638v1",
+      "title": "InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network",
+      "title_slug": "inferslice-a-reference-architecture-for-slodriven-",
+      "filename": "2026-10-26-inferslice-a-reference-architecture-for-.markdown",
+      "score": 7,
+      "generated_at": "2026-10-26T11:05:07.422329"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32753",
+      "original_url": "https://arxiv.org/abs/2610.32753v1",
+      "title": "Sparse Bayesian Neural Networks via Sticky Piecewise Deterministic Markov Processes",
+      "title_slug": "sparse-bayesian-neural-networks-via-sticky-piecewi",
+      "filename": "2026-10-26-sparse-bayesian-neural-networks-via-stic.markdown",
+      "score": 1,
+      "generated_at": "2026-10-26T15:03:44.384176"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34904",
+      "original_url": "https://arxiv.org/abs/2610.34904v1",
+      "title": "Accuracy and efficiency of compact foundation models for surface-water mapping during floods",
+      "title_slug": "accuracy-and-efficiency-of-compact-foundation-mode",
+      "filename": "2026-10-27-accuracy-and-efficiency-of-compact-found.markdown",
+      "score": 1,
+      "generated_at": "2026-10-27T11:02:25.287676"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35856",
+      "original_url": "https://arxiv.org/abs/2610.35856v1",
+      "title": "On the stability of learning",
+      "title_slug": "on-the-stability-of-learning",
+      "filename": "2026-10-27-on-the-stability-of-learning.markdown",
+      "score": 7,
+      "generated_at": "2026-10-27T15:04:21.275762"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37626",
+      "original_url": "https://arxiv.org/abs/2610.37626v1",
+      "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
+      "title_slug": "know-then-draw-a-new-learning-paradigm-for-visual-",
+      "filename": "2026-10-28-know-then-draw-a-new-learning-paradigm-f.markdown",
+      "score": 7,
+      "generated_at": "2026-10-28T11:05:30.307465"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36646",
+      "original_url": "https://arxiv.org/abs/2610.36646v1",
+      "title": "Image Modeling: From Handcrafted Priors to Foundation Image Models",
+      "title_slug": "image-modeling-from-handcrafted-priors-to-foundati",
+      "filename": "2026-10-28-image-modeling-from-handcrafted-priors-t.markdown",
+      "score": 7,
+      "generated_at": "2026-10-28T15:02:53.196624"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37056",
+      "original_url": "https://arxiv.org/abs/2610.37056v1",
+      "title": "Quantized Edge Inference of a Self-Supervised SAR-Optical Encoder on Commodity x86 Hardware",
+      "title_slug": "quantized-edge-inference-of-a-selfsupervised-sarop",
+      "filename": "2026-10-29-quantized-edge-inference-of-a-selfsuperv.markdown",
+      "score": 2,
+      "generated_at": "2026-10-29T11:01:21.943232"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37403",
+      "original_url": "https://arxiv.org/abs/2610.37403v1",
+      "title": "AuRaSim: A Ray-Tracing Based Automotive FMCW Radar Simulator for Dynamic Scenarios",
+      "title_slug": "aurasim-a-raytracing-based-automotive-fmcw-radar-s",
+      "filename": "2026-10-29-aurasim-a-raytracing-based-automotive-fm.markdown",
+      "score": 1,
+      "generated_at": "2026-10-29T15:01:10.918630"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.38212",
+      "original_url": "https://arxiv.org/abs/2610.38212v1",
+      "title": "Scalable Bayesian Quadrature via Operator-Adapted Features",
+      "title_slug": "scalable-bayesian-quadrature-via-operatoradapted-f",
+      "filename": "2026-10-30-scalable-bayesian-quadrature-via-operato.markdown",
+      "score": 1,
+      "generated_at": "2026-10-30T11:01:13.888678"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.38953",
+      "original_url": "https://arxiv.org/abs/2610.38953v1",
+      "title": "Guidance-Coupled Nullspace Drifting for One-Step Medical Image Reconstruction",
+      "title_slug": "guidancecoupled-nullspace-drifting-for-onestep-med",
+      "filename": "2026-10-30-guidancecoupled-nullspace-drifting-for-o.markdown",
+      "score": 6,
+      "generated_at": "2026-10-30T15:03:36.316244"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40649",
+      "original_url": "https://arxiv.org/abs/2610.40649v1",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "title_slug": "rethinking-neural-thickets-without-weight-perturba",
+      "filename": "2026-10-31-rethinking-neural-thickets-without-weigh.markdown",
+      "score": 7,
+      "generated_at": "2026-10-31T11:02:37.463979"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.38516",
+      "original_url": "https://arxiv.org/abs/2610.38516v1",
+      "title": "The Power Watershed as a Differentiable Segmentation Layer",
+      "title_slug": "the-power-watershed-as-a-differentiable-segmentati",
+      "filename": "2026-10-31-the-power-watershed-as-a-differentiable-.markdown",
+      "score": 7,
+      "generated_at": "2026-10-31T15:00:54.089137"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40253",
+      "original_url": "https://arxiv.org/abs/2610.40253v1",
+      "title": "Confidence-Aware Speed-over-Ground Estimation from Doppler Spectra via Reconstruction-Based Representation Learning",
+      "title_slug": "confidenceaware-speedoverground-estimation-from-do",
+      "filename": "2026-11-01-confidenceaware-speedoverground-estimati.markdown",
+      "score": 7,
+      "generated_at": "2026-11-01T11:01:03.992608"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40630",
+      "original_url": "https://arxiv.org/abs/2610.40630v1",
+      "title": "Central Limit Theorems and Network-Free Inference for Heterogeneous Spatial Autoregressions on Sparse Graphons",
+      "title_slug": "central-limit-theorems-and-networkfree-inference-f",
+      "filename": "2026-11-01-central-limit-theorems-and-networkfree-i.markdown",
+      "score": 1,
+      "generated_at": "2026-11-01T15:01:07.154228"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41257",
+      "original_url": "https://arxiv.org/abs/2610.41257v1",
+      "title": "ReVEAL: Eliciting Role-Aware Latent Visual Evidence from MLLMs for Reasoning Video Object Segmentation",
+      "title_slug": "reveal-eliciting-roleaware-latent-visual-evidence-",
+      "filename": "2026-11-02-reveal-eliciting-roleaware-latent-visual.markdown",
+      "score": 1,
+      "generated_at": "2026-11-02T11:00:57.195976"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41652",
+      "original_url": "https://arxiv.org/abs/2610.41652v1",
+      "title": "Enhancing Medical Lesion Segmentation via Several Simple Modules",
+      "title_slug": "enhancing-medical-lesion-segmentation-via-several-",
+      "filename": "2026-11-02-enhancing-medical-lesion-segmentation-vi.markdown",
+      "score": 1,
+      "generated_at": "2026-11-02T15:01:03.393762"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00527",
+      "original_url": "https://arxiv.org/abs/2611.00527v1",
+      "title": "3D Neural Rendering for Automated Ultrasonic Laser Scans",
+      "title_slug": "3d-neural-rendering-for-automated-ultrasonic-laser",
+      "filename": "2026-11-03-3d-neural-rendering-for-automated-ultras.markdown",
+      "score": 1,
+      "generated_at": "2026-11-03T11:01:00.831662"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.03106",
+      "original_url": "https://arxiv.org/abs/2611.03106v1",
+      "title": "A Tightly Coupled Magnetic-Inertial SLAM System for Field Robots",
+      "title_slug": "a-tightly-coupled-magneticinertial-slam-system-for",
+      "filename": "2026-11-03-a-tightly-coupled-magneticinertial-slam-.markdown",
+      "score": 7,
+      "generated_at": "2026-11-03T15:00:54.585015"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.04268",
+      "original_url": "https://arxiv.org/abs/2611.04268v1",
+      "title": "Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop",
+      "title_slug": "weightspace-programming-for-improving-imagerestora",
+      "filename": "2026-11-04-weightspace-programming-for-improving-im.markdown",
+      "score": 1,
+      "generated_at": "2026-11-04T11:00:59.848508"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.05106",
+      "original_url": "https://arxiv.org/abs/2611.05106v1",
+      "title": "Label-Preserving Fourier Domain Adaptation with Generative-AI and Real Style Donors for 3D Mitral Valve Segmentation",
+      "title_slug": "labelpreserving-fourier-domain-adaptation-with-gen",
+      "filename": "2026-11-04-labelpreserving-fourier-domain-adaptatio.markdown",
+      "score": 1,
+      "generated_at": "2026-11-04T15:01:15.500228"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.05945",
+      "original_url": "https://arxiv.org/abs/2611.05945v1",
+      "title": "FLINT: Coupling Proximal Initialization and Bounded Stochasticity for Flow-Matching Inverse Problems",
+      "title_slug": "flint-coupling-proximal-initialization-and-bounded",
+      "filename": "2026-11-05-flint-coupling-proximal-initialization-a.markdown",
+      "score": 7,
+      "generated_at": "2026-11-05T11:05:42.956642"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.05983",
+      "original_url": "https://arxiv.org/abs/2611.05983v1",
+      "title": "Perturbation-Based Reconstruction of Depth-Resolved OCT Attenuation without Requiring a Fully Decayed Signal Tail",
+      "title_slug": "perturbationbased-reconstruction-of-depthresolved-",
+      "filename": "2026-11-05-perturbationbased-reconstruction-of-dept.markdown",
+      "score": 1,
+      "generated_at": "2026-11-05T15:01:28.606316"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07443",
+      "original_url": "https://arxiv.org/abs/2611.07443v1",
+      "title": "VIPA: View-Invariant Projector-Based Adversarial Attack",
+      "title_slug": "vipa-viewinvariant-projectorbased-adversarial-atta",
+      "filename": "2026-11-06-vipa-viewinvariant-projectorbased-advers.markdown",
+      "score": 7,
+      "generated_at": "2026-11-06T11:02:39.391469"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08342",
+      "original_url": "https://arxiv.org/abs/2611.08342v1",
+      "title": "4D Point Splatting for mmWave Radar Micro-Doppler Differentiable Rendering",
+      "title_slug": "4d-point-splatting-for-mmwave-radar-microdoppler-d",
+      "filename": "2026-11-07-4d-point-splatting-for-mmwave-radar-micr.markdown",
+      "score": 1,
+      "generated_at": "2026-11-07T11:00:51.909880"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08363",
+      "original_url": "https://arxiv.org/abs/2611.08363v1",
+      "title": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+      "title_slug": "strataflux-memoryhierarchynative-lowbit-llm-infere",
+      "filename": "2026-11-07-strataflux-memoryhierarchynative-lowbit-.markdown",
+      "score": 1,
+      "generated_at": "2026-11-07T15:01:05.023538"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08023",
+      "original_url": "https://arxiv.org/abs/2611.08023v1",
+      "title": "Precision - Preserving Subtensor Inference for a 22B Joint Audio - Video Generator under a Fixed GPU Working Set",
+      "title_slug": "precision-preserving-subtensor-inference-for-a-22b",
+      "filename": "2026-11-08-precision-preserving-subtensor-inference.markdown",
+      "score": 7,
+      "generated_at": "2026-11-08T11:04:57.921403"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08457",
+      "original_url": "https://arxiv.org/abs/2611.08457v1",
+      "title": "Adversarial Training with Large Step Sizes: Implicit Bias, Optimization, and Sharpness",
+      "title_slug": "adversarial-training-with-large-step-sizes-implici",
+      "filename": "2026-11-08-adversarial-training-with-large-step-siz.markdown",
+      "score": 1,
+      "generated_at": "2026-11-08T15:01:08.712916"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08928",
+      "original_url": "https://arxiv.org/abs/2611.08928v1",
+      "title": "UAV-Based Computer Vision for Cattle Detection and Feed Bunk Spatial Analysis",
+      "title_slug": "uavbased-computer-vision-for-cattle-detection-and-",
+      "filename": "2026-11-09-uavbased-computer-vision-for-cattle-dete.markdown",
+      "score": 4,
+      "generated_at": "2026-11-09T11:02:58.188307"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.09854",
+      "original_url": "https://arxiv.org/abs/2611.09854v1",
+      "title": "Super-resolved digital terrain models for GEDI geolocation correction: agreement with airborne LiDAR DTM-based corrections at the beam level, not the footprint level",
+      "title_slug": "superresolved-digital-terrain-models-for-gedi-geol",
+      "filename": "2026-11-09-superresolved-digital-terrain-models-for.markdown",
+      "score": 8,
+      "generated_at": "2026-11-09T15:03:50.234235",
+      "status": "published"
     }
   ]
 }
