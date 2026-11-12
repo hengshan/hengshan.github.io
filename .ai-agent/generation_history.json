@@ -4704,6 +4704,61 @@
       "score": 8,
       "generated_at": "2026-11-09T15:03:50.234235",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.10501",
+      "original_url": "https://arxiv.org/abs/2611.10501v1",
+      "title": "Sampling Is Not Curiosity: Why LLM Agents Should Investigate",
+      "title_slug": "sampling-is-not-curiosity-why-llm-agents-should-in",
+      "filename": "2026-11-10-sampling-is-not-curiosity-why-llm-agents.markdown",
+      "score": 7,
+      "generated_at": "2026-11-10T11:04:14.903098"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12319",
+      "original_url": "https://arxiv.org/abs/2611.12319v1",
+      "title": "Mitigating SM-Level Load Imbalance in 3D Gaussian Splatting on GPUs",
+      "title_slug": "mitigating-smlevel-load-imbalance-in-3d-gaussian-s",
+      "filename": "2026-11-10-mitigating-smlevel-load-imbalance-in-3d-.markdown",
+      "score": 1,
+      "generated_at": "2026-11-10T15:01:02.747818"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13490",
+      "original_url": "https://arxiv.org/abs/2611.13490v1",
+      "title": "Design and Over-the-Air Evaluation of a Digital Twin-Driven Site-Specific Neural Receiver for 5G NR on NVIDIA DGX Spark",
+      "title_slug": "design-and-overtheair-evaluation-of-a-digital-twin",
+      "filename": "2026-11-11-design-and-overtheair-evaluation-of-a-di.markdown",
+      "score": 1,
+      "generated_at": "2026-11-11T11:01:20.321152"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.14498",
+      "original_url": "https://arxiv.org/abs/2611.14498v1",
+      "title": "Measuring Robustness and Efficiency in a Connectome-Constrained Fly Visual System Model: Linking an Adversarial and a Perceptual Illusion",
+      "title_slug": "measuring-robustness-and-efficiency-in-a-connectom",
+      "filename": "2026-11-11-measuring-robustness-and-efficiency-in-a.markdown",
+      "score": 7,
+      "generated_at": "2026-11-11T15:01:12.622354"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.14496",
+      "original_url": "https://arxiv.org/abs/2611.14496v1",
+      "title": "RS-JEPA: Remote Sensing Joint-Embedding Predictive Architecture with Scan-Path Views for Cross-Sensor Image Retrieval",
+      "title_slug": "rsjepa-remote-sensing-jointembedding-predictive-ar",
+      "filename": "2026-11-12-rsjepa-remote-sensing-jointembedding-pre.markdown",
+      "score": 1,
+      "generated_at": "2026-11-12T11:01:07.787257"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13510",
+      "original_url": "https://arxiv.org/abs/2611.13510v1",
+      "title": "Distribution Shift Detection in Remote Sensing Imagery using Machine Learning Models",
+      "title_slug": "distribution-shift-detection-in-remote-sensing-ima",
+      "filename": "2026-11-12-distribution-shift-detection-in-remote-s.markdown",
+      "score": 8,
+      "generated_at": "2026-11-12T15:02:09.962196",
+      "status": "published"
     }
   ]
 }
