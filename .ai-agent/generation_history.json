@@ -4759,6 +4759,16 @@
       "score": 8,
       "generated_at": "2026-11-12T15:02:09.962196",
       "status": "published"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.14904",
+      "original_url": "https://arxiv.org/abs/2611.14904v1",
+      "title": "SubGPU Pipelining: Intra-GPU Fine-Grained Spatial Parallelism for LLM Inference",
+      "title_slug": "subgpu-pipelining-intragpu-finegrained-spatial-par",
+      "filename": "2026-11-13-subgpu-pipelining-intragpu-finegrained-s.markdown",
+      "score": 8,
+      "generated_at": "2026-11-13T11:03:48.831650",
+      "status": "published"
     }
   ]
 }
